@@ -728,6 +728,128 @@ namespace Bestiary
                         , "Novigrad, Skellige, and Toussaint"
                         , "Golden Oriole, and Insectoid Oil"
                         , "Assets\\drones.png");
+
+                    //ENDREGA WARRIORS
+                    Insectoids[4] = new Entry(
+                        "Endrega Warriors"
+                        , "Endless waves of endrega workers are enough to overcome most attackers, but when confronting more dangerous foes, endrega colonies unleash their larger, stronger members – " +
+                        "the so-called warriors. This caste lives only to fight, and gets ample opportunity to do so while defending the colony's borders or conquering new territory. An endrega warrior's " +
+                        "main weapon is its long tail, which is tipped with a club-like growth and spiked with venomous quils. Powerful abdominal muscles allow it to swing this tail with enough force " +
+                        "to kill most lesser opponents in one blow. Endrega warriors also use their mass and strength as a weapon by charging their opponents in an attempted to knock them over. As " +
+                        "invertebrates with sectioned carapaces, endrega warriors do not bleed profusely, yet recoil in great pain when hit with a blade coated in insectoid oil."
+                        , "Chitinous Shell, Endrega Armor Plates, Endrega Heart, Lesser Blue Mutagen, Lesser Green Mutagen, and Venom Extract"
+                        , "Velen, and Skellige"
+                        , "Golden Oriole, and Insectoid Oil"
+                        , "Assets\\warrior.png");
+
+                    //ENDREGA WORKERS
+                    Insectoids[5] = new Entry(
+                        "Endrega Workers"
+                        , "Workers are the most numerous, and thus the most frequently encountered, caste of endrega. Within the colony their duty lies in building nests and cocoons, acquiring food and " +
+                        "caring for eggs and larvae. When threatened they will summon warriors to aid them, yet if forced to defend themselves they will – and do so surprisingly well. Endrega workers " +
+                        "are most often found traveling in groups of half - dozen or more members.They move slowly, yet when attacking, they are capable of covering the distance to their victim in the " +
+                        "blink of an eye.Like all of their kind, endrega workers are highly venomous.Their bite is toxic, as are any wounds dealt by the bony growths on the ends of their limbs.They can " +
+                        "also spew acid to great effect from a distance of several paces.Their usual tactic is to surround their enemy and attack him from several sides at once.Like all insectoids they " +
+                        "do not suffer particularly from bleeding, yet are caused great harm by insectoid oil."
+                        , "Venom Extract, Endrega Embryo, Endrega Heart, Lesser Blue Mutagen, Lesser Green Mutagen, Chitinous Shell, and Monster Saliva"
+                        , "Velen, and Skellige"
+                        , "Golden Oriole, and Insectoid Oil"
+                        , "Assets\\worker.png");
+
+                    //GIANT CENTIPEDES
+                    Insectoids[6] = new Entry(
+                        "Giant Centipede"
+                        , "Giant centipedes are enormous, insect-like monsters which can be found in many places in the world, but are particularly common in the lands (or more precisely, under the lands) of " +
+                        "Toussaint. There they often dwell in close comity with shaelmaars, for a sort of monstrous symbiosis has developed between them: giant centipedes feed on the small creatures which eat " +
+                        "Shaelmaar dung. Hard chitinous armor covers nearly the entire body of a giant centipede.Sticking out from under this carapace are rows of hooked limbs.Giant centipedes are able to burrow " +
+                        "into the ground with shocking speed, only to then appear back on the surface in another place.Once they select a target, they will circle it determinedly, trying to get close enough to " +
+                        "deliver a blow.They attack primarily with their powerful mandibles, but they also possess glands allowing them to spew acid. The greatest obstacle when fighting giant centipedes is their " +
+                        "thick armor, which deflects most blows not only from weapons, but also from magical means – such as those dealt by simple spells or witcher Signs. When attacked with a weapon, they will " +
+                        "often parry the strike, then quickly reply with their own forceful counter.Thus the best method for fighting them is to chatch them in an Yrden trap, keeping them from protecting themselves " +
+                        "with their armor or burrowing into the ground."
+                        , "Giant Centipede Discharge, Giant Centipede Mandible, and Monster Blood"
+                        , "Toussaint"
+                        , "Insectoid Oil, and Yrden"
+                        , "Assets\\GiantCentipede.png");
+
+                    //HARRISI
+                    Insectoids[7] = new Entry(
+                        "Harrisi"
+                        , "Velen's woods and bogs brim with monsters. This fact is well known, and thus when the war drove refugees into this hostile land, certain of their number thought to avoid the dangers of the " +
+                        "lowlands by hiding in an abandoned mine. They were in for an unfortunate surprise. The shaft they chose for their sanctuary was inhabited by a poisonous arachas - a merciless and bloodthirsty " +
+                        "monster. The witcher knew he was in for a tough fight.The arachas had dwelled in the mine for years and had grown large and particularly strong and resilient in that time.Like other members of " +
+                        "its vile species, it would be dangerous both at close quarters and at a distance.What's more, it was almost certainly venomous - he would need to imbibe Swallow or Golden Oriole (or both) before " +
+                        "attacking if he was to stand a chance of surviving. As a small consolation, the witcher knew the monster would be vulnerable to his Signs - especially Igni, Aard and Yrden - as well as to the " +
+                        "Northern Wind bomb. The witcher arrived at the cave too late to save the refugees - but he could still avenge their fate.He slew the powerful arachas and destroyed the eggs bearing its vile offspring."
+                        , "Chitinous Shell, Arachas Eyes, Arachas Mutagen, Arachas Trophy, Arachas Venom, Rotting Flesh, and Mahakaman Trousers"
+                        , null
+                        , "Golden Oriole, and Insectoid Oil"
+                        , "Assets\\Harrisi.png");
+
+                    //KIKIMORE WARRIOR
+                    Insectoids[8] = new Entry(
+                        "Kikimore Warrior"
+                        , "It is unknown how exactly it is kikimores communicate with each other. Autopsies are hampered by the high toxicity of their subjects. Scholars have established that kikimores do not seem to possess " +
+                        "any detectable auricles. One amateur researcher, Count di Salvaress, put forth a theory in his treatise \"A Microscope Among Monsters\" suggesting kikimores have a highly developed since of smell and use " +
+                        "airborne particles undetectable to humans to transmit information. This theory has yet to be proved or disproved. Kikimore warriors defend their nests from attackers.They attack somewhat slower than kikimore" +
+                        " workers.They are able to spew streams of caustic venom a great distance and leap to attack.This venom is highly unique in that it reacts with a witcher's body to raise the level of his potion toxicity. " +
+                        "They are covered with thick, hard armor which easily deflects blows from even the sharpest sword. Kikimore warriors are protected by swarms of workers which obey their orders until they are themselves" +
+                        " eradicated. They are completely immune to the effects of the Axii Sign, but vulnerable to Igni, oils and bombs harming insectoids and blows dealt by a silver sword."
+                        , "Kikimore Discharge"
+                        , "Toussaint"
+                        , "Insectoid Oil, White Honey, and Igni"
+                        , "Assets\\kikiWa.png");
+
+                    //KIKIMORE WORKER
+                    Insectoids[9] = new Entry(
+                        "Kikimore Worker"
+                        , "Kikimores form colonies, making them similar to communal insects such as ants. A kikimore colony is ruled by a queen and organized into something of a social hierarchy. Kikimore workers take care of " +
+                        "hunting food and bringing it back to the nest, while kikimore warriors defend the nest against attackers. A worker on its own can be easily killed by even a weak person or a child.It is rare indeed, however, " +
+                        "to come across an isolated individual, for kikimore workers usual move in groups of a few to a dozen or so members.The only defense against a swarm of kikimores available to a normal person is to flee. " +
+                        "And not even that is guaranteed to work. Kikimore workers listen to orders given by kikimore warriors.On command, a swarm of workers might begin burrowing tunnels near potential prey to allow for a surprise " +
+                        "mass attack.Eliminate the warrior guiding a swarm, however, and the workers will disperse and cease digging. Kikimore workers are nimbler and quicker than warrriors. They show complete immunity to the " +
+                        "Axii Sign, and when they dig tunnels, they are invulnerable to all the other Signs as well.Poison also does them no harm. A good method for fighting them is to use the Igni Sign as well as oils and bombs " +
+                        "meant to damage insectoids."
+                        , "Kikimore Discharge"
+                        , "Toussaint"
+                        , "Insectoid Oil, White Honey, and Igni"
+                        , "Assets\\kikiWo.png");
+
+                    //PALE WIDOWS
+                    Insectoids[10] = new Entry(
+                        "Pale Widows"
+                        , "This rare variety of giant centipede dwells in underground lairs and owes its name to its unusual, pale white coloring. Like the more common giant centipede, its body is covered in hard chitinous armor, " +
+                        "with numerous hooked limbs sticking out from underneath. Some scholars raise these creatures in laboratory conditions for the properties of their albumen, which makes an excellent base for the brewing " +
+                        "of mutagenic potions."
+                        , "Chitinous Shell, Giant Centipede Discharge, Giant Centipede Mandible, Monster Carapace, Monster Stomach, Red Mutagen, and Greater Red Mutagen"
+                        , "Toussaint"
+                        , "Insectoid Oil, and Yrden"
+                        , "Assets\\PaleWidow.png");
+
+                    //SANDCRABS
+                    Insectoids[11] = new Entry(
+                        "Sandcrabs"
+                        , "Sandcrabs have well-developed carapaces, and two pairs of legs and a pair of wings, even though it is unknown whether the creatures are able to fly. A most eye-catching feature is the very long horn on " +
+                        "their heads."
+                        , "Sulfur, Rotting Flesh, Monster Blood, Monster Bone, Monster Saliva, and Monster Brain"
+                        , "Ddiddiwedht Desert"
+                        , "Samum, Northern Wind, Dancing Star, and Grapeshot"
+                        , "Assets\\sandcrab.jpg");
+
+                    //VENOMOUS ARACHASAE
+                    Insectoids[12] = new Entry(
+                        "Venomous Arachasae"
+                        , "Though all arachasae are highly venomous, this breed produces an especially strong toxin. A few drops are enough to kill a grown man – unless that man is a witcher, whose mutations will neutralize small " +
+                        "amounts of this venom. Large quantities, however, will kill anything they touch, with mutations only prolonging an inevitable and painful death in such instances. Venomous arachasae produce colossal amounts " +
+                        "of this toxin and deploy it during combat in many ways.Before striking a venomous arachas will cover its pincers and teeth with a thick coating of the deadly liquid.It will then squirt the venom at its opponent " +
+                        "to weaken it, and once locked in direct combat, will continue spraying the noxious ooze all around itself, meaning every breath brings its victim closer to death.Like other members of this species, venomous " +
+                        "arachasae use prehensile feelers to grab and immobilize their prey.When attempting to fight such a creature a witcher should drink Golden Oriole, which will reduce his body's vulnerability to poison, and then " +
+                        "attack from a safe distance with crossbow or bombs before dealing the finishing blows with a silver sword enhanced with a coating of insectoid oil."
+                        , "Arachas Eyes, Chitinous Shell, and Arachas Venom"
+                        , "Novigrad, and Skellige"
+                        , "Golden Oriole, and Insectoid Oil"
+                        , "Assets\\venochasae.png");
+
                 }
             }
 
