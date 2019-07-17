@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="Bestiary.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Bestiary"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="Bisque"
+    Height="auto" Width="auto">
+
+    <Grid Height="Auto" Width="Auto">
+        <Image x:ConnectionId='2' Name="img_back" HorizontalAlignment="Center" Height="1010" Width="1710" Source="Assets\Background.png" VerticalAlignment="Top" Margin="0,-3,0,0"/>
+        <TextBlock x:ConnectionId='3' Name="txt_Title" Text="The Witcher 3 Bestiary" FontFamily="Faith Collapsing" FontSize="50" VerticalAlignment="Top" Margin="50" HorizontalAlignment="Center" />
+
+    </Grid>
+</Page>
+
