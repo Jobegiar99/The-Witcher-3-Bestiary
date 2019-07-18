@@ -45,6 +45,8 @@ namespace Bestiary
 
 
             //Declaration of all creatures
+
+
             /*Click to expand*/{
 
                 /*CONSTRUCTOR:
@@ -851,6 +853,360 @@ namespace Bestiary
                         , "Assets\\venochasae.png");
 
                 }
+
+                /*--------------Necrophages------------------
+                 
+                Click To Expand*/{
+
+                    //ABAYA
+                    Necrophages[0] = new Entry(
+                        "Abaya"
+                        , "The bay below Kaer Trolde had a pernicious reputation. At times fishermen who chose to cast their nets in its waters would never come home again. " +
+                        "Something would drag oarsmen off their longships or knock the ships themselves over. The locals blamed this on sea devils - the Skelligers' " +
+                        "name for drowners. The truth, however, proved far worse. A water hag had made her lair in the caves beneath the cliffs of Kjerag.An old and " +
+                        "experienced water hag.With powerful claws able to demolish any attempt to block or parry.And the ability to blind opponents from a distance, " +
+                        "then strike with a lightning - quick counterattack.Signs would be needed to best her - Yrden, to slow her, and Quen, to protect from her blows. " +
+                        "Needed most of all, however, would be a great deal of luck. The witcher, though, never was one to count on luck alone.Instead, he pulled a few " +
+                        "tricks from up his sleeve to even the odds.By masking his scent, he managed to catch the monster by surprise... and slay it."
+                        , "Water Hag Mutagen, Water Hag Tooth, and Water Hag Trophy"
+                        , "Underwater cave off Kaer Trolde Harbor"
+                        , "Northern Wind, Necrophage Oil, Quen, and Igni"
+                        , "Assets\\abaya.png");
+
+                    //ALGHOUL
+                    Necrophages[1] = new Entry(
+                        "Elghoul"
+                        , "Alghouls differ from normal ghouls in size, strength, coloring and, most importantly, intelligence. Whereas ghouls and graveirs are primitive " +
+                        "creatures unfit to plan even the simplest ambush, alghouls and their kindred (such as cemetaurs) are capable of forethought, and are thus much " +
+                        "more dangerous. Ghouls seem to possess wits enough to at least know a brighter mind when they see it, and so let alghouls and cemetaurs lead their " +
+                        "packs.A pack so led will terrorize all in its path, attacking not only lone travelers but also caravans and even farmsteads.When encountering such " +
+                        "a pack the alghoul should be eliminated as a first priority, leaving the other beasts for once their leader is gone.One be particularly careful " +
+                        "when fighting alghouls around dusk and at night, when they fight with doubled strength. During combat alghouls and cemetaurs try risky maneuvers " +
+                        "aimed at knocking their opponents to the ground so the others can finish the job by tearing them to shreds. Like a normal ghoul, an injured alghoul " +
+                        "can fall into a frenzy and attack with blind fury. An experienced witcher knows to get out of its way on such occasions and strike from behind, " +
+                        "while for an inexperienced witcher, such a turn of events often marks the end of his Path."
+                        , "Alghoul Bone Marrow, Alghoul Claw, and Alghoul Mutagen"
+                        , "Battlefields and any location where a large number of corpses can be found in shallow graves or left out to rot."
+                        , "Necrophage Oil, and Axii"
+                        , "Assets\\alghoul.png");
+
+                    //DEVOURER
+                    Necrophages[2] = new Entry(
+                        "Devourer"
+                        , "evourers are often called night witches, because they resemble old, ugly women and are famous for their witch-like viciousness. These creatures " +
+                        "gorge themselves on human flesh; although they willingly eat carcasses, above all they crave flesh that is fresh and warm. Devourers hunt after dark " +
+                        "in groups that peasants refer to as sabbaths. They like to deceive their victims and torture them, but there is no truth to the tales of their midnight " +
+                        "flights on broomsticks and their gingerbread houses."
+                        , "Devourer's Blood, Necrophage Hide, Rotfiend Blood, Monster Brain, Monster Bone, Monster Heart, Monster Liver, Monster Saliva, Monster Tongue, and Monster Tooth"
+                        , "With rotfiends, near corpses"
+                        , "Necrophage Oil"
+                        , "Assets\\devourer.png");
+
+                    //DROWNER
+                    Necrophages[3] = new Entry(
+                        "Drowners"
+                        , "A drowner resembles a corpse dredged from the bottom of a pond. It is sickly blue or green in color, with slime and sludge oozing out of every pore and the " +
+                        "acrid stench of rot wafting off of it. That is why it is often thought drowners - along with their more dangerous cousins: vodniks, mucknixers and drowned " +
+                        "dead – arise from the bodies of those who drown in shallow water: lost travelers falling into bogs, children who swim too far from the shore or, in the " +
+                        "case of vodniks, inebriated peasants who stumble off narrow swamp trails. Like so many other beliefs about monsters, this one is false.While drowners do " +
+                        "look like humans from a distance, witchers, who have the dubious pleasure of examining them from close quarters, have reported the numerous ways in which " +
+                        "their anatomy differs from our own.Their scaly skin, gills and dorsal fins suggest drowners and their like are an entirely foreign species. The adaptations " +
+                        "mentioned below make drowners excellent swimmers, well-suited to the muddy waters of the ponds and lakes in which they dwell.They often cluster near human " +
+                        "settlements, which are for them an excellent source of food. Cowardly creatures by nature, they usually stick to eating scraps they dig out of rubbish piles " +
+                        "and animal carcasses.Yet if a lone traveler or careless fisherman strays into their territory, they turn from scavengers to fearsome predators.They can attack " +
+                        "with lightning speed, taking their victim by surprise and pulling him into the water to drown. If not particularly hungry at the moment, they will keep their " +
+                        "prey under the water for a few days, aging it until it grows deliciously tender and rotten.Drowners are particularly active at dusk and during the night, " +
+                        "especially if the rain is falling – at such times they will even leave their watery homes and venture inland."
+                        , "Drowner Brain, Drowner Tongue, Monster Blood, Monster Heart, Monster Hair, Monster Saliva, Monster Tooth, and Water Essence"
+                        , "Novigrad, Skellige, Toussaint, Velen, and White Orchard"
+                        , "Necrophage Oil, and Igni"
+                        , "Assets\\drowner.png");
+
+                    //DROWNED DEAD
+                    Necrophages[4] = new Entry(
+                        "Drowned Dead"
+                        , "Particularly strong and dangerous drowners are known as the drowned dead. Simple people see no difference between the drowner and the drowned dead – encountering " +
+                        "either of them is equally deadly. We might suppose, though, that the most gloomy legends concern the drowned dead rather than drowners."
+                        , null
+                        , "Kaer Morhen Valley, Novigrad, Skellige, and Velen"
+                        , null
+                        , "Assets\\Drowdead.png");
+
+                    //FOGLET
+                    Necrophages[5] = new Entry(
+                        "Foglet"
+                        , "Fog is the traveler's foe. In the forest, it can make one lose one's way, at sea, it can send one sailing into the rocks. Yet such dangers are nothing compared to" +
+                        " the monsters known as foglets which sometimes lurk within it. These creatures have powerful arms and claws like Zerrikanian kinjals, yet what makes them truly " +
+                        "dangerous is their mastery of deception, beguilement and disorientation. Many times they need not attack at all, instead simply driving their prey to madness or into" +
+                        " boggy marshlands, after which they wait patiently for it to drown in the muddy waters."
+                        , "Foglet Teeth, Foglet Mutagen, and Lesser Blue Mutagen."
+                        , "Isle of Mists, Kaer Morhen, and Velen"
+                        , "Moon Dust, Necrophage Oil, and Quen"
+                        , "Assets\\foglet.png");
+
+                    //GHOUL
+                    Necrophages[6] = new Entry(
+                        "Ghoul"
+                        , "Ghouls and graveirs are hard to describe. In part, they resemble humans - yet on the whole, they are the utter negation of all that is human. Though they have arms " +
+                        "and legs like men, they walk on all fours like dogs or badgers. Though they have eerily familiar faces, one searches them in vain for any sign of sentiment, reason or " +
+                        "even a spark of consciousness. They are driven by one thing and one thing only: an insatiable craving for human flesh. Ghouls and their more dangerous cousins, graveirs," +
+                        " usually feed in small groups, at times led by an alghoul.Since they delight most in the taste of fresh carcasses, they appear wherever newly - dug graves are to be " +
+                        "found: cemeteries, crypts, catacombs and battlefields.Whenever the opportunity arises they hunt the living as well, especially when they have strength in numbers. In a " +
+                        "one - on - one fight with a trained witcher, a ghoul poses little threat, but one must remember that wounded individuals can erupt in a mad frenzy.At such times they " +
+                        "attack fiercely, paying no heed to their own safety and brushing off all wounds.One must likewise bear in mind that ghouls and graveirs are particular dangerous around " +
+                        "dusk and at night."
+                        , "Ghoul's Blood, Monster Blood, Monster Claw, Monster Eye, Monster Liver, Monster Saliva, Monster Tongue, Monster Tooth, and Venom Extract"
+                        , "Anywhere near corpses"
+                        , "Necrophage Oil"
+                        , "Assets\\ghoul.png");
+
+                    //GRAVE HAG
+                    Necrophages[7] = new Entry(
+                        "Grave Hag"
+                        , "Few monsters' names fit as well as the grave hags'. As one might guess, these creatures resemble aged, deformed women and loiter near graveyards and battlefields. Grave " +
+                        "hags feed on human corpses and in particular on the rotten marrow which they slurp from human bones using their long, prehensile tongues. Once a hag has devoured all corpses" +
+                        " within reach, she turns to killing men and burying them in the cemetery as she waits for them to decompose."
+                        , "Grave Hag's Ear, and Grave Hag Mutagen"
+                        , "Velen, and Skellige"
+                        , "Black Blood, Necrophage Oil, Yrden, and Quen"
+                        , "Assets\\Grags.png");
+
+                    //IGNIS FATUUS
+                    Necrophages[8] = new Entry(
+                        "Ignis Fatuus"
+                        , "The monster haunting the peat bogs of Velen turned out to be an ancient foglet. These are exceptionally long-lived creatures - some have even dwelt on this earth for over " +
+                        "two hundred years, growing stronger and stronger all the while. Blows dealt by foglets of such an age carry so much power blocking them is out of the question. These foglets " +
+                        "possess the ability to move extremely quickly, and not even Yrden can slow them down. Furthermore, they can meld completely into the mist, then suddenly rematerialize to strike " +
+                        "from behind. Wearing heavy armor or making good use of the Quen Sign is highly recommended. This ancient foglet proved particularly adept in the art of forming illusions. Only a " +
+                        "professional monster slayer skilled with Signs and swords could best such a foe.Luckily, Geralt fit that description."
+                        , "Foglet Teeth, Foglet Mutagen, Lesser Blue Mutagen, and Foglet Trophy"
+                        , "Cave in Velen"
+                        , "Moon Dust, Necrophage Oil, and Quen"
+                        , "Assets\\Ignituus.png");
+
+                    //MOURNTART
+                    Necrophages[9] = new Entry(
+                        "Mourntart"
+                        , "Most grave hags rarely attack humans, preferring instead to feed on the rotten remains they dig out of graves. Yet some individuals grow bold over the years and begin sneaking " +
+                        "into huts to steal children and kill the elderly. Just such a monster was tormenting the inhabitants of Lindenvale. The witcher knew this grave hag would put up a fierce fight. He " +
+                        "would have to watch out for her powerful claws, capable of smashing through any block or parry, and her long, venomous tongue.He also realized her attacks would be so quick not " +
+                        "even his mutated reflexes would be able to keep pace - meaning only judicious use of the Yrden Sign would all[sic] him to survive and conquer. The outcome of the fight was not hard " +
+                        "to predict. The grave hag perished in the very graveyard which had heretofore served as her feeding grounds, and her body was dumped in a grave she had dug with her own claws."
+                        , "Grave Hag Trophy, Grave Hag Mutagen, Grave Hag's Ear, Monster Bone, Monster Claw, Monster Tongue, and Addan Deith"
+                        , "Lindenvale"
+                        , "Black Blood, Necrophage Oil, Yrden, and Quen"
+                        , "Assets\\Mourntart.png");
+
+                    //MUCKNIXER
+                    Necrophages[10] = new Entry(
+                        "Mucknixer"
+                        , "A drowner resembles a corpse dredged from the bottom of a pond. It is sickly blue or green in color, with slime and sludge oozing out of every pore and the acrid stench of rot" +
+                        " wafting off of it. That is why it is often thought drowners -along with their more dangerous cousins: vodniks, mucknixers and drowned dead — arise from the bodies of those who " +
+                        "drown in shallow water: lost travelers falling into bogs, children who swim too far from the shore or, in the case of vodniks, inebriated peasants who stumble off narrow swamp trails."
+                        , "Monster Saliva, Drowner Tongue, and Drowner Brain"
+                        , "Swamps and riverbanks in Velen"
+                        , "Necrophage Oil and Igni"
+                        , "Assets\\mucknixer.png");
+
+                    //ROTFIEND
+                    Necrophages[11] = new Entry(
+                        "Rotfiend"
+                        , "Rotfiends resemble decomposing human bodies that have been stripped of their skin. Their presence is given away by the overwhelming stench of the rot which gives them their name." +
+                        " Devourers are a particularly dangerous kind of rotfiend marked by an insatiable appetite for human flesh. Rotfiends and devourers were once rarities, but in the present age of constant " +
+                        "warfare and violence they have become a veritable plague, particularly around battlefields and in disease - stricken areas.Though they feed mainly on carrion, they will at times attack " +
+                        "the living.They usually feed in large groups and thus present a danger to lone travelers – especially considering their speed, which is more than a match for a horse at full gallop. " +
+                        "The rotfiend's decomposing body is filled with gasses which are poisonous even to those who, like witchers, are immune to most other toxins. These emissions are also highly flammable, " +
+                        "meaning any spark, not to mention a carelessly-cast Igni sign, can lead to an explosion. This is particularly likely after a rotfiend dies, when its body thrashes around in uncontrollable " +
+                        "tremors. Rotfiends and devourers feed in the twilight hours and at night, when they become much more dangerous than during the day."
+                        , "Rotfiend Blood, Necrophage Hide, Monster Brain, Monster Bone, Monster Heart, Monster Liver, Monster Saliva, Monster Tongue, and Monster Tooth"
+                        , "Velen, White Orchard, Skellige, and Toussaint"
+                        , "Necrophage Oil"
+                        , "Assets\\rotfiend.png");
+
+                    //SCURVERS
+                    Necrophages[12] = new Entry(
+                        "Scurvers"
+                        , "Scurvers are rotfiends' larger cousins. The bodies of these hideous, vaguely humanoid creatures are covered with rotten scraps of flesh, under which lurk even more rotten muscles stretched " +
+                        "around a strong, flexible skeleton. Scurvers, which feed on old, rotting corpses, prefer to make their hunting grounds in abandoned torture sites, forgotten graveyards and old battlefields. " +
+                        "They are very aggressive and, though they feed on corpses, if they come across a living person they are likely to attack. Thus when wandering near any of the above-mentioned places, one must " +
+                        "be especially cautious. Scurvers usually feed underground, but sometimes, when they catch the scent of a human, they crawl to the surface in a matter of seconds and attack their potential prey." +
+                        " While fighting them one cannot afford to forget about their special boney spines, razor - sharp protuberances sticking out from their skeletons.When a scurver is near death, the gasses and " +
+                        "enzymes gathered within its body cause it to explode, flinging these spines out at great speed, turning them into one last deadly weapon in their arsenal. To protect oneself against damage from " +
+                        "these spines, one should make prodigious use of the Quen Sign."
+                        , null
+                        , "Toussaint"
+                        , "Necrophage Oil"
+                        , "Assets\\scurvers.png");
+
+                    //SPOTTED WIGHT
+                    Necrophages[13] = new Entry(
+                        "Spotted Wight" 
+                        , "Spotted wights were a subspecies of wight which the witchers drove to extinction. They were larger than their unspotted kin and owed their names to their numerous blotches and effusions. Spotted " +
+                        "wights would most often dwell in derelict cemeteries and empty wildernesses, yet at times took to living in abandoned human domiciles. There they would indulge in their greatest passion: creating " +
+                        "brews from their own emissions. When not disturbed, spotted wights would not act aggressively.If threatened, however, they became very dangerous indeed.In the colder months or when faced with an " +
+                        "unseasonable chill, they would slip into a state of lethargy, making them easy targets.Even during their active periods, it is said the witchers found a surefire way of besting them, based around " +
+                        "careful casting of the Yrden Sign – or at least, so claims witcher lore... Whenever on the one hand witchers swear they have driven a certain species of monster into extinction and one the other " +
+                        "someone claims to have seen a member of that species walking around in apparent health, most likely we are dealing with a curse.This rule of thumb showed its worth with the spotted wight from the " +
+                        "Trastamara estate.It turned out this creature was in fact a woman transformed into a monster by a curse many years prior, as punishment for refusing food and shelter to a wandering beggar."
+                        , "Wight Ear, Wight Hair, Wight Saliva Gland, Wight Trophy, Fork, Disgusting Wight Key"
+                        , "Toussaint"
+                        , "Necrophage Oil, Igni, and Yrden"
+                        , "Assets\\Spotted Wight.png");
+
+                    //WATER HAG
+                    Necrophages[14] = new Entry(
+                        "Water Hag"
+                        , "Some tales mention water hags and swamp bints masquerading as lost old women to lure travelers back to the rickety shacks they build in the wetlands. In truth, only a blind man, or a sighted man " +
+                        "blinded with drink, could mistake the rank sludge and rotting carrion of a water hag's den for a cozy cottage, and the hideous hag herself for an innocent grandmother. Their wrinkled, wart-covered " +
+                        "bodies stand nearly two yards tall, with skin the color of a long-dead cadaver and stinking of muck and fish. Bony growths two spans long stick out from their backs, with hair like a tangle of seaweed " +
+                        "and claws that would make a werewolf proud completing the picture."
+                        , "Monster Saliva, Monster Tongue, Venom Extract, Water Essence, Water Hag Mutagen, Water Hag Tooth"
+                        , "Velen, White Orchard, and Skellige"
+                        , "Northern Wind, Necrophage Oil, Quen, and Igni"
+                        , "Assets\\WaterHag.png");
+
+                    //WIGHTS
+                    Necrophages[15] = new Entry(
+                        "Wights"
+                        , "Though wights are ghastly and threatening in appearance, one should not approach them with sword drawn or attack them unprovoked. Left alone, they present no serious danger to anyone and are far more " +
+                        "interested in mixing noxious brews in cauldrons than in fighting. This species mainly lives around ancient burial sites, though they have also been spotted near more recently-founded cemeteries and " +
+                        "wherever mass graves can be found. Wights spend the winter months in a state of lethargy very similar to human sleep.They live strictly solitary lives-- in fact, it is practically unheard of for these " +
+                        "creatures to appear in groups.Yet when they fear their territory is threatened(and it is enough for one to step foot in a wight's territory for it to feel threatened), wights transform into dangerous foes " +
+                        "and even abandon their solitary ways to summon other monsters to their aid. It is a certainty that if a wight finds itself in danger, it will immediately spew out an ectoplasmic solution which near " +
+                        "instantaneously transforms into barghests.These beasts obey the wight and attack anyone it deems a foe. If one of them is killed, the wight tries to replace it at once. The best strategy when fighting " +
+                        "such a wight is to take out the monsters guarding it with the Axii sign before attacking the wight itself.Wights are resistant to poison, but vulnerable to silver."
+                        , "Monster Tongue, Wight Hair, Wight Ear, Greater Triglav Runestone, Green Mutagen"
+                        , "Toussaint"
+                        , "Necrophage Oil, and Axii"
+                        , "Assets\\Wights.png");
+
+                }
+
+                /*--------------Ogroid-----------------------
+                 
+                 Click To Expand*/{
+
+                    //CLOUD GIANT
+                    Ogroids[0] = new Entry(
+                        "Cloud Giant"
+                        , "The Cloud Giant is most likely a degenerated illusory being. He is an inhabitant of the castle in the sky in the Land of a Thousand Fables. This land was " +
+                        "abandoned and left untended for years, during which time it began to rot, fester and degrade. The Cloud Giant was most likely meant to be a pleasant - " +
+                        "natured strongman who would carry the duke's young daughters on his shoulders and never grow tired. When he became degenerated and overgrown, however, he " +
+                        "turned into a dangerous monster. After Jack stole his goose that laid golden eggs, the Cloud Giant decided in the future anyone who climbed onto his cloud " +
+                        "would be tossed off, without a word of warning."
+                        , "Infused Shards, Cyclop's Eye, Orens, and Greater Red Mutagen"
+                        , "Land of a thousand Fables Cloud Giant's Castle"
+                        , "Ogroid Oil, Igni, and Dancing Star"
+                        , "Assets\\CloudGiant.png");
+
+                    //CYCLOPSES
+                    Ogroids[1] = new Entry(
+                        "Cyclopses"
+                        , "Cyclopses can easily be recognized by the single eye located in the center of their foreheads. If for some reason that is not visible, other tell-tale signs " +
+                        "are their enormous size, incredible strength and a seething hatred for all humans."
+                        , "Cyclop's Eye, Old Bear Hide, Infused Shard, Monster Brain, Monster Blood, Monster Bone, Monster Ear, Monster Hair, Monster Hide, Monster Hear, Monster Liver," +
+                        "Monster Saliva, Monster Tongue, Monster Tooth, and Orens"
+                        , "Kaer Morhen, Skellige, and Velen"
+                        , "Ogroid Oil, Quen, and Axii"
+                        , "Assets\\Cyclopses.png");
+
+                    //GOLYAT
+                    Ogroids[2] = new Entry(
+                        "Golyat"
+                        , "According to legend, Golyat had once been a knight who violated his vows, for which he was punished by the Lady of the Lake. Transformed into a giant, he fled " +
+                        "into the mountains and would only descend into the inhabited lowlands when hunger forced him to it. There's no knowing how much truth lies in that legend, yet it " +
+                        "is incontrovertible fact that this dangerous giant gobbled up shepherds and sheep alike, and was so widely feared, governesses used him to scare children into eating " +
+                        "their vegetables. Though he came across as a wild, unthinking beast, Golyat used simple tools and any item could turn into a deadly weapon in his powerful hands. " +
+                        "When fighting Geralt, Golyat wielded a millstone, making his every blow truly crushing.Luckily, Geralt already had some experience slaying giants and made quick work " +
+                        "of Golyat as well, with the much appreciated help of three knights - Milton de Peyrac Peyran, Palmerin de Launfal and Guillaume de Launfal."
+                        , "Golyat Trophy, Dahlia, and Greater Red Mutagen"
+                        , "Dulcinea Windmill in Toussaint"
+                        , "Ogroid Oil, and Quen"
+                        , "Assets\\Golyat.png");
+
+                    //HAGUBMAN
+                    Ogroids[3] = new Entry(
+                        "Hagubman"
+                        , "Your average nekker is cowardly and weak and only ever attacks in groups, even then only when the group greatly outnumbers its opponents. Yet at times there will " +
+                        "appear among them an individual who towers over the rest in terms of strength, stamina and cunning. Such nekkers are usually called warriors, though that name is misleading. " +
+                        "Warriors fight with honor, face to face. These overgrown nekkers act more like assassins - they strike by surprise, from hiding, in the back, or when their opponent " +
+                        "exposes himself while attacking. Luckily, like other nekkers warriors are vulnerable to all the Signs, and their blows can be easily parried or countered. Such a monster " +
+                        "lived near the village of Larvik on Hindarsfjall - and not even the strongest of islanders were capable of slaying it.A witcher though... A witcher's another story."
+                        , "Nekker Claw, Nekker Heart, Nekker Warrio's Liver, Nekker Warrior Mutagen, Nekker Warrior Trophy, Devine, Venom Extract"
+                        , "Near the village of Larvik on Hindarsfjall"
+                        , "Northern Wind and Ogroid Oil"
+                        , "Assets\\Hagubman.png");
+
+                    //ICE GIANT
+                    Ogroids[4] = new Entry(
+                        "Ice Giant"
+                        , "This powerful, primeval monster is quite possibly the last of its race. The Ice Giant resembles a man in many respects, but is blue as frost and taller than a tree. " +
+                        "Though it seems capable of reason, all attempts to communicate with it to date have ended the same way – in a quick and painful death."
+                        , "Elemental Essence, Monster Brain, and Monster Eye"
+                        , "Skellige"
+                        , "Ogroid Oil and Quen"
+                        , "Assets\\IceGiant.png");
+
+                    //ICE TROLL
+                    Ogroids[5] = new Entry(
+                        "Ice Trolls"
+                        , "Climbing to the top of snow-covered peaks is never a safe endeavor. One can slip and fall into a ravine, be buried in an avalanche – or stumble across ice trolls." +
+                        " Unlike the rock trolls found at lower altitudes, these permafrost-dwelling monsters treat every man they encounter as a possible ingredient for a tasty meal. Luckily ice " +
+                        "trolls live atop high mountain ridges so inaccessible they rarely encounter humans, and some suppose this is why they have not mastered the basics of Common Speech. " +
+                        "Others claim their harsh mountain home has stripped them of an ability they once possessed, for in a land of never - ending cold there is no room for mercy or understanding. " +
+                        "Ice trolls are crueler than their rocky kin.Though they use similar tactics in battle – tossing stones and swinging with their mighty fists – they are heartier and stronger " +
+                        "than rock trolls and thus more dangerous.Like rock trolls, their backs are covered in thick protective armor, meaning one should never strike them from the rear. Meanwhile " +
+                        "their mass means that the Aard Sign cannot move them.Lastly, never think of attacking them during a blizzard.At such times they draw power from the surrounding cold and fight with increased strength."
+                        , "Troll Hide, Troll Mutagen, and Elemental Essence"
+                        , "Skellige"
+                        , "Ogroid Oil and Quen"
+                        , "Assets\\IceGiant.png");
+
+                    //NEKERS
+                    Ogroids[6] = new Entry(
+                        "Nekkers"
+                        , "A lone nekker is harmless. Five are dangerous. Ten can kill even a veteran monster slayer. Particularly troublesome are the larger, stronger individuals known as warriors, " +
+                        "as well as the rare breed of nekkers known as phoocas. Nekkers and phoocas live in the dark woods that grow in damp, mist - filled valleys, in colonies of one to several dozen " +
+                        "individuals.They dig deep burrows for lairs and connect them with a network of narrow tunnels.Using these passageways they are able to move at great speed within and around their " +
+                        "colonies. Nekkers always attack in groups and by surprise.They try to surround their prey as quickly as possible, cutting off all escape routes.Luckily their attack is for the most " +
+                        "part disorganized, for nekkers are not gifted with great courage and individual nekkers will often hesitate before overcoming their fear and striking.When fighting them one can use " +
+                        "this moment of hesitation to kill the braver individuals before finishing off those who remain in the back."
+                        , "Nekker Blood, Nekker Claw, Nekker Eyes, Nekker Heart, Lesser Blue Mutagen, and Lesser Green Mutagen"
+                        , "Velen, White Orchard, Skellige, and Toussaint"
+                        , "Northern Wind, and Ogroid Oil"
+                        , "Assets\\Nekker.png");
+
+                    //ROCK TROLL
+                    Ogroids[7] = new Entry(
+                        "Rock Troll"
+                        , "If while hiking high in the mountains you come across a walking stone, do not think your eyes deceive you. Instead, draw your sword – for before you stands a rock troll. True, not" +
+                        " every encounter with these creatures ends in a fight - while not particularly intelligent, trolls are capable of reason – but it is better to prepare for the worst. Otherwise, your" +
+                        " hike might end not on the summit, but in their stew. Trolls are able to use fire and simple tools, and some of them have even mastered the basics of Common Speech.Though linguistic " +
+                        "nuances such as conjugations and declinations escape them, they are extremely fond of riddles, rhymes and all sorts of wordplay, a fact a witcher in possession of a bit of wit can use " +
+                        "to his advantage. If a fight proves inevitable, one must watch out for the stones these trolls throw with great strength and shocking precision.Their powerful, heavy fists also present " +
+                        "a danger, for they can buckle even the sturdiest breastplate or cuirass.Since their backs are covered in a layer of rocky growth, blows delivered from behind will not do them much damage. " +
+                        "They must thus be fought directly, standing face to face – and preferably armed with a sword covered in a fresh coating of ogroid oil."
+                        , "Cave Troll Liver, Troll Hide, Troll Mutagen, and Monster Heart"
+                        , "Novigrad, Kaer Morhen Valley, Skellige, and Velen"
+                        , "Ogroid Oil, and Quen"
+                        , "Assets\\RockTroll.png");
+
+                    //WHAM-a-WHAM
+                    Ogroids[8] = new Entry(
+                        "Wham-a-Wham"
+                        , "Rock trolls come across as dim-witted, ponderous, slow - stupid, to be frank. It's easy to dismiss them - and even easier to enrage them. When this happens, one's best bet is to run as " +
+                        "fast as possible, for an angered rock troll is as deadly as a thundering landslide. The truth held in the case of the massive rock troll known as Wham-a-Wham. His every blow struck like a " +
+                        "battering ram - meaning one needed either avoid them entirely or protect oneself with the Quen Sign. Its hard skin meant it was near invulnerable to sword strikes - especially those dealt " +
+                        "from behind, where its rock armor is the thickest. The only hope for defeating it lay in taking advantage of its typical troll slowness - especially if further exploited using the Yrden Sign. " +
+                        "A certain set of Skellige miners learned first - hand just how dangerous rock trolls can be.Ignoring all warnings, they started to mine a rich silver vein in the cave which Wham - a - Wham" +
+                        " called home.They died soon thereafter - crushed or torn to rough bits.This time, a troll's killings were a justified act of self-defense - after all, the witcher reasoned, every troll's cave " +
+                        "is his castle."
+                        , "Troll Hide, Troll Mutagen, and Cave Troll Trophy"
+                        , "Cave near Blandare"
+                        , "Ogroid Oil, and Quen"
+                        , "Assets\\wham.png");
+
+                 }
             }
 
             this.InitializeComponent();
