@@ -1207,6 +1207,520 @@ namespace Bestiary
                         , "Assets\\wham.png");
 
                  }
+
+                /*--------------Relicts----------------------
+
+                Click to Expand*/{
+
+                    //CHORT
+                    Relicts[0] = new Entry(
+                       "Chort"
+                       , "Chorts are the somewhat smaller kin of fiends and bumbakvetches. Yet any witcher who thinks their diminutive stature means they present no danger commits a grave " +
+                       "error – the kind that can end his career permanently. These denizens of dark and ancient woods are some of the most dangerous monsters known to man. Legends often " +
+                       "mistake chorts for sylvans, ascribing to them the ability to speak, stand on two legs, gobble up cabbage, play pranks and work mischief around the household. The " +
+                       "arrival of a true chort in a region soon puts an end to such tales.The creatures do not speak, at best communicating with each other through grunts, snorts and moans. " +
+                       "They get about on four legs and as for their \"mischief\"... they destroy farmsteads, devouring anything that can be devoured, including cabbage, if such is available," +
+                       " but also extending to poultry, pork, the family dog and then the family itself. Chorts fight with little finesse, running straight towards their opponent and trying " +
+                       "to knock him to the ground with the force of their charge.After downing their foe they bite, kick and strike with their claw - tipped paws.Due to their size and " +
+                       "four-legged posture, they are mostly unperturbed by the force of the Aard Sign, and the regenerative powers of their body allow any wounds they receive to heal at a " +
+                       "rapid pace."
+                       , "Chort Hide, Raw Meat, and Chort Mutagen"
+                       , "Velen, Skellige, and Kaer Morhen"
+                       , "Devil's Puffball and Relict Oil"
+                       , "Assets\\chort.png") ;
+
+                    //CRONES
+                    Relicts[1] = new Entry(
+                        "Crones"
+                        , "The isolated corners of our world harbor creatures older than humans, older than academies and mages, older even than elves and dwarves. The Crones of Crookback Bog " +
+                        "are such creatures. No one knows their true names, nor what breed of monstrosity they in fact are. Common folk have given these three sisters the names Weavess, Brewess " +
+                        "and Whispess, and call the threesome \"The Ladies of the Wood\" or simply \"The Good Ladies.\" The Crones act as the true sovereigns of Velen, whose inhabitants they " +
+                        "help survive through harsh times in return for unquestioning obedience. They wield powerful magic, but one different from that of mages.They draw power from water and " +
+                        "earth and are bound to the land in which they live.The Crones can hear everything that happens in their woods, predict the future, twist the threads of human lives and " +
+                        "bring blessings as well as curses. The Crones seem for all intents and purposes to be immortal.Magic elixirs keep them from aging and allow them to take the appearance " +
+                        "of young women.These elixirs and their mystical ties to the swamps in which they live also give them supernatural strength and vitality."
+                        , null
+                        , "Velen, Crookback Bog, and Bald Mountain"
+                        , "Relict Oil and Quen"
+                        , "Assets\\crones.png");
+
+                    //DOPPLER
+                    Relicts[2] = new Entry(
+                        "Doppler"
+                        , "Dopplers, also known as vexlings or changelings, are beings able to take on the form of any humanoid or animal they please. This transformation is no mere illusion able " +
+                        "to be shattered with a simple spell, but an authentic and complete metamorphosis. This means no protective amulets or witcher medallions will signal a doppler's presence - " +
+                        "they emanate the same aura as the being whose form they have assumed. This, combined with their incredible intellect and cunning, would make dopplers supreme assassins or " +
+                        "thieves - had not nature endowed them with generous and timid spirits which make them avoid the shedding of blood at all costs."
+                        , "Doppler Mutagen"
+                        , "Novigrad and Skellige"
+                        , "Relict Oil"
+                        , "Assets\\doppler.png");
+
+                    //FIEND
+                    Relicts[3] = new Entry(
+                        "Fiend"
+                        , "Fiends are walking mountains of muscle capped with horned, tooth-filled heads. Like their rarer cousins, bumbakvetches, they live in thick forests, swamps and bogs. When " +
+                        "possible they avoid humans, but when not possible, they kill them, and without much difficulty. Their size alone makes fiends and bumbakvetches extremely dangerous – one blow " +
+                        "from their powerful paws can kill a knight along with it's fully armored mount. Their enormous heft also makes them invulnerable to Aard: even witchers specializing in the " +
+                        "power of Signs could not move one even an inch. Furthermore, any wounds they receive heal at lightning speed. If that weren't trouble enough, fiends need not rely on their " +
+                        "strength and stamina alone with fighting. They can also call on a more refined weapon: the third eye located in the center of their forehead, which they use to draw their " +
+                        "prey into a state of hypnosis. During these times their victim does not see anything beyond this single burning eye – the last thing they see before their death. A fiend's " +
+                        "only weakness is its fear of loud noises – bombs such as Samum or Devil's Puffball are thus quite effective when fighting this monster.Furthermore, a blade covered in relict " +
+                        "oil can increase a witcher's chances of victory – or at least of walking away from the fight."
+                        , "Fiend Mutagen, Fiend Trophy, Fiend's Eye, Fiend Dung, Fifth Essence, Lesser Blue Mutagen, Monster Bone, Monster Hair, and Raw Meat"
+                        , "Velen and Skellige"
+                        , "Samum, Devil's Puffball, and Relict Oil"
+                        , "Assets\\fiend.png");
+
+                    //FUGAS
+                    Relicts[4] = new Entry(
+                        "Fugas"
+                        , "The devil Fugas held a very prestigious and responsible position during the Crones' sabbath: that of goon restricting access to the peak. He in no way resembled Torque, " +
+                        "the irritating but harmless \"deovel\" Geralt and I had encountered many, many years prior. Fugas' size resembled that of a somewhat overgrown troll, and he likewise displayed" +
+                        " a troll's lack of subtlety.There was not a jot of mischievous puck or cunning verbal trickster about this \"devil.\" Instead, he carried out his task with the commitment and " +
+                        "professionalism of a Novigrad bouncer. Trying to stop Geralt, though, turned out to be Fugas' dumbest and final idea, ending both his life and his flourishing career in the " +
+                        "Crones' employ."
+                        , null
+                        , null
+                        , null
+                        , "Assets\\fugas.png");
+
+                    //GODLING
+                    Relicts[5] = new Entry(
+                        "Godling"
+                        , "Godlings (sometimes mistaken for lutin) are woodland creatures dwelling in burrows and moss-covered hollow stumps on the outskirts of human settlements. They are similar to " +
+                        "children in behavior and appearance, and, like children, delight in mischief. Godlings are deeply rooted in their home territory and perform acts of care and guardianship to " +
+                        "those dwelling near their burrows. They watch over people as well as animals, but, shy creatures by nature, they try to do so while remaining unseen. Godlings are drawn to " +
+                        "joy and innocence, and so delight in the company of children and usually only show themselves to the young. These hard - working and clever creatures gladly perform small " +
+                        "services for those in their care, asking only for respect and payment in the form of food or cast - off tools in return.They are easily offended by churlish, ungrateful or " +
+                        "simply rude behavior.Godlings also treasure their peace and quiet.When the village a godling watches over becomes too populous or its inhabitants forget the old ways, it will " +
+                        "abandon its burrow for good and walk off to destinations unknown."
+                        , null
+                        , null
+                        , null
+                        , "Assets\\godling.png");
+
+                    //GROTTORE
+                    Relicts[6] = new Entry(
+                        "Grottore"
+                        , "No one knows exactly when the spriggan called \"Grottore\" first made its home in the caves at the foot of Mount Gorgon. Spriggans usually prefer isolated backwoods and rarely " +
+                        "make dens in caverns. Yet Grottore seemed to have taken a liking to \"grottos,\" giving rise to its nickname. The monster was quite well - known among Beauclair knights, who often " +
+                        "talked of it as a potential source of great glory.None were particularly eager to actually engage the monster in combat, however – none, that is, except for the young Knight " +
+                        "François Grottore proved to be a demanding foe.It possessed the ability to teleport, meaning it would appear directly in front of Geralt and mount a surprise attack, dealing strong " +
+                        "blows that were impossible to parry.It used primeval magic to control tree roots, which would shoot from the ground on its command, dealing significant damage to any in their way. " +
+                        "It was resistant to the Aard Sign, but vulnerable to burning.Blows from a silver sword would do it harm, despite the bark - like hide covering it like armor."
+                        , "Grottore Trophy, Fen'aeth, Greather Blue Mutagen, Leshen Resin, Fiber, Monster Bone, and Hardened Timber"
+                        , "Toussaint"
+                        , "Dimeritium Bomb, Relict Oil, and Igni"
+                        , "Assets\\grottore.png");
+
+                    //HOWLER
+                    Relicts[7] = new Entry(
+                        "Howler"
+                        , "One is hard-pressed to name another area of our world more thoroughly riddled with monsters than Velen. There is on silver lining to this sad fact, however: the beasts living there " +
+                        "must compete fiercely for hunting territory, meaning monsters often end up killing other monsters. An aggressive chort known as Howler went on just such a fratricidal rampage, tearing " +
+                        "a pack of wolves to shreds before attacking and killing a fiend significantly larger than itself. Howler was a truly fearsome foe.Each one of its blows was enough to kill - only heavy " +
+                        "armor or the Quen Sign could protect one from mortal damage.Particularly to be avoided was its charge - and whenever possible, the monster was best attacked from the side. Geralt slayed " +
+                        "the Howler without much trouble, yet killing such a fierce fighter might very well have proved impossible, had not its previous conflicts with its monstrous kin weakened it considerably. " +
+                        "The lesson, I suppose, is that when two monsters fight, a witcher wins."
+                        , "Chort Trophy, Chort Mutagen, Chort Hide, and Azure Wrath"
+                        , "South of Lindenvale"
+                        , "Devil's Puffball and Relict Oil"
+                        , "Assets\\Howler.png");
+
+                    //IMP
+                    Relicts[8] = new Entry(
+                        "Imp"
+                        ,"The imp pestering the merchants of Novigrad turned out to be a doppler. These monsters usually avoid confrontation - to everyone's great relief, for when pinned they become extremely " +
+                        "dangerous. Fighting them quickly turns into a fight against oneself. Or, to be precise, against a mirror image gifted with one's own strengths and abilities. In a conflict with such " +
+                        "even odds, only luck - or destiny - decides the victor."
+                        , "Doppler Mutagen and Doppler Trophy"
+                        , "Novigrad"
+                        , "Relict Oil"
+                        , "Assets\\imp.png");
+
+                    //KERNUN
+                    Relicts[9] = new Entry(
+                        "Kernun"
+                        , "Novigrad - the greatest metropolis in the world, the acme of civilization, material proof - or so one is tempted to think - of mankind's ability to tame and control nature. Yet right " +
+                        "outside the city walls lies the Novigrad Wilderness - and whoever sets foot in it soon finds out that man's primacy does not extend past the city walls. One of the monsters who made its " +
+                        "lair in that thick tangle was an old, powerful leshen.It killed any who strayed into its territory with its species' characteristic cruelty: lacerating them with razor-sharp claws, sending " +
+                        "strangling plants shooting out of the ground or feeding them to packs of hungry wolves. If not for its vulnerability to fire, the Igni Sign included, and the protection of the Quen Sign, " +
+                        "one could wager not even the toughest witcher would be able to slay the beast. Geralt of Rivia was only able to finally put an end to this leshen after a long and exhausting battle. Once " +
+                        "the beast died, the way was clear for loggers to move into its former domain.The woods now gradually fall to the ax.Perhaps one day they'll disappear altogether - and their monstrous denizens " +
+                        "along with them."
+                        , null
+                        , "near Loggers'Hut"
+                        , "Dimeritium Bomb, Relict Oil, and Igni"
+                        , "Assets\\Kernun.png");
+
+                    //LESHEN
+                    Relicts[10] = new Entry(
+                        "Leshen"
+                        , "Leshens dwell in dense, primeval woods. Fiercely territorial creatures, they hunt with stealth and cunning as their only companions. They use their inborn magic to control the plants and " +
+                        "animals within their territory – and so, when stalking them, half the battle is merely getting near enough to strike. Leshens old enough to earn the appellation \"ancient\" wield advanced skills " +
+                        "and tactics that make them particularly dangerous."
+                        , "Leshen Resin, Leshen Mutagen, Monster Bone,  Leshen Trophy, and Fiber"
+                        , "Velen and Skellige"
+                        , "Dimeritium Bomb, Relict Oil, and Igni"
+                        , "Assets\\leshen.png");
+
+                    //MORVUDD
+                    Relicts[11] = new Entry(
+                        "Morvudd"
+                        , "hey say every journey made in the Skellige Isles ends in adventure. And sometimes, that adventure ends in death. Such was the case for a group of adventure-seeking Skelligers who set out in " +
+                        "search of treasure in forgotten ruins - which turned out to lie in the hunting grounds of a powerful fiend known as Morvudd. The witcher knew there was little room for error in a fight with " +
+                        "such a creature.A moment of carelessness and the beast could hypnotize him with its third eye, then tear him to shreds while he remained in a trance. Morvudd was a particularly large individual, " +
+                        "so one could presume fast attacks would not prove effective against it - and that its blows would kill anyone not protected with heavy armor or the Quen Sign. Though Morvudd killed the Skellige " +
+                        "warriors without much trouble, it proved no match for the witcher.It even tried to save its life by fleeing at one point, but that only delayed its inevitable death by the witcher's silver blade."
+                        , "Fiend's Eye, Fiend Dung, Fiend Mutagen, Rotting Flesh, Longclaw, and Fiend Trophy"
+                        , "Boxholm"
+                        , "Samum, Devil's Puffball, and Relict Oil"
+                        , "Assets\\morvudd.png");
+
+                    //SHAELMAAR
+                    Relicts[12] = new Entry(
+                        "Shaelmaar"
+                        , "Shaelmaars spend most of their lives deep underground, having no contact with the world up above. At times, however, a shaelmaar will dig its way to the surface and devour any men within its" +
+                        " reach. Some shaelmaars also burrow tunnels close to the surface, collapsing buildings and causing tremors in the process. Since shaelmaars are blind, they find their way by sensing vibrations " +
+                        "and listening for sounds.Thus the best tactic when fighting such a monster is to hurl something heavy or noisy against a nearby boulder or wall.Then pray silently that the beast will roll towards " +
+                        "the sound and knock itself out upon striking into the obstacle. Clumsy shaelmaars might seem easy targets to hit, but when even your strongest blows bounce off the thick armor plating their backs, " +
+                        "you realize they've little need to dodge. When threatened, a shaelmaar will curl up in a ball and roll forward with tremendous impetus, becoming an unstoppable force crushing everything in its " +
+                        "path. A witcher's best bet is to stay out of a charging shaelmaar's way and strike after its charge fails, revealing its vulnerable underbelly. A witcher of particular cunning and agility will use " +
+                        "the Aard Sign or a bomb(Samum works particularly well for this purpose) to cause the shaelmaar to slam into an obstacle at full speed, significantly lowering its fighting ability and opening the " +
+                        "witcher's path to victory. Trying to disorient a shaelmaar in this way is a risky maneuver, but can be effective, especially when third parties are threatened."
+                        , null
+                        , "Toussaint and Mahakam"
+                        , "Samum, Relict Oil, and Aard"
+                        , "Assets\\morvudd.png");
+
+                    //SHAELMAAR FROM THE EMPEROR OF NILFGAARD
+                    Relicts[13] = new Entry(
+                        "Shaelmaar from the Emperor of Nilfgaard"
+                        , "Gladiator fights in massive arenas are a popular form of entertainment in Nilfgaard. Usually the fighters are slaves specially trained for this purpose, yet at times the arena masters pit humans " +
+                        "against monsters. The shaelmaar Geralt had to fight in the tourney grounds was a present from the emperor to his relative, Duchess Anna Henrietta. It had been caught while young and prepared for its " +
+                        "ultimate purpose by Nilfgaardian trainers. That does not mean it was tame, however – in fact, its wildness and inborn ferocity had not been dulled one whit. Like all creatures of its species, it was " +
+                        "blind but could unerringly pinpoint its opponents' location using echolocation. The shaelmaar had thick armor and near impenetrable skin. It could also roll into a ball and charge its opponents. Its " +
+                        "underbelly, however, was relatively vulnerable and became exposed when its charge failed."
+                        , null
+                        , "Tourney Grounds"
+                        , "Samum, Relict Oil, and Aard"
+                        , "Assets\\emperor.png");
+
+                    //SPRIGGANS
+                    Relicts[14] = new Entry(
+                        "Spriggans"
+                        , "Spriggans are a subspecies of the monsters known as leshens. One is liable to come across them in inaccessible, unfrequented woodlands. They do not usually attack humans if unprovoked, but when " +
+                        "irritated they can be quite fearsome, and, as they possess considerable strength, they are capable of doing great damage. Their appetite is such that they can devour more flesh than an army at a wedding." +
+                        " Each spriggan has mastery over plants and is inextricably tied to them.Thus if someone destroys greenery in its domain, it immediately comes to punish the disturber."
+                        , null
+                        , "Toussaint"
+                        , "Dimeritium Bomb, Relict Oil, and Igni"
+                        , "Assets\\spriggan.png");
+
+                    //SYLVANS
+                    Relicts[15] = new Entry(
+                        "Sylvans"
+                        , "Sylvans and Yakshas, a kindred species, are extremely rare woodland creatures whose appearance combines traits of goats and rotund men. These beings usually pose little danger, for they limit their contact " +
+                        "with humans to playing harmless (though often bothersome) tricks and eating crops from their fields."
+                        , null
+                        , "Velen"
+                        , "Samum, Devil's Puffball, Relict Oil, and Igni"
+                        , "Assets\\sylvan.png");
+
+                    //The Caretaker
+                    Relicts[16] = new Entry(
+                        "The Caretaker"
+                        , "The Caretaker served with the indifference of a golem, and proved as fierce in battle as it was diligent in its labors. It felt no pain – in fact, each blow it received seemed to give it strength, as did " +
+                        "each blow it landed on Geralt with the spade it wielded as a weapon. What is more, the Caretaker was able to summon powerful spirits from the graves it had dug and could heal itself by absorbing them. The witcher " +
+                        "had a hard time evading the devastating strikes of its weapon, and his only chance at wounding the creature came when it would stick its spade in the ground to draw on otherworldly energy in an attempt to petrify " +
+                        "its foes with fright. The being known as the Caretaker had been summoned to the von Everec estate from another realm, making \"demon\" its most accurate designation.The Caretaker had been forced into servitude by " +
+                        "magic.Its tasks - to care for the house and protect it from intruders.It performed these pedantically, tending the flowers, repairing the fences, tidying the yard... and murdering all intruders who set foot on the" +
+                        " grounds, then burying their corpses in neat rows on untended land just beyond the manor garden's bounds."
+                        , "The Caretaker's Spade"
+                        , "von Everec Estate"
+                        , "Relict Oil and Quen"
+                        , "Assets\\caretaker.png");
+
+                    //THE MONSTER OF TUFO
+                    Relicts[17] = new Entry(
+                        "The Monster of Tufo"
+                        , "Imagine a creature that kills men, feeds on kikimore eggs and digs underground tunnels so wide they'd fit the emperor of Nilfgaard's coronation carriage along with a team of six horses. And now imagine this creature " +
+                        "digs with such force, the earth quakes and the houses up above tremble and collapse. Noting these symptoms, Geralt was at first unsure what sort of a beast he could be dealing with, knowing only that he needed to be very, " +
+                        "very careful. Only after he carefully examined the monster's tracks did he realize it had to be an aged female shaelmaar. The monster destroying Tufo turned out to be an old shaelmaar matriarch.Geralt hunted it down and " +
+                        "fought it deep under the ground. Though blind like all members of its species, this creature could easily maneuver by sensing vibrations and noises.As long as Geralt stood quiet and motionless, he was safe.Yet if he took " +
+                        "one step or breathed a bit too loud, the matriarch would start moving in his direction with great speed. Geralt had a very difficult time taking out this monster, whose armor could not be pierced by any of his weapons. " +
+                        "In the end, however, he succeeded and the monster of Tufo was no more."
+                        , "Shaelmaar Trophy, Ami, Shaelmaar Dust, Shaelmaar Hair, Monster Carapace, and Greater Blue Mutagen"
+                        , "Tufo, Toussaint"
+                        , "Samum, Relict Oil, and Aard"
+                        ,"Assets\\tufo.png");
+
+                    //WICKED WITCH
+                    Relicts[18] = new Entry(
+                        "Wicked Witch"
+                        , "Though evil witches are often considered creatures born of the overactive imaginations of fabulists and mythologists, cartoonish characters only a child would ever be frightened of, there are accounts of men who claim to " +
+                        "have happened across one of these improbable beings. All these accounts agree that the witch not only did in fact eat men, but had mastered the cooking of humans to a fine art. They are said to be particularly fond of " +
+                        "children's liver fried in butter and served in a saffron sauce, balsamic vinegar-marinated fingers roasted to a golden crisp and, yes, even freshly-squeezed corpse juice. It should be noted here that all the above-mentioned " +
+                        "witnesses who swore they saw such a witch were patients of the Ellander Institute for the Mentally Ill, thus the veracity of their testimony is highly debatable."
+                        , "Cookies, Gingerbread, Gingerbread Man, Magic Dust, Poisoned Apple, Bone Ashes, and Grave Hag's Ear"
+                        , "Land of a Thousand Fables"
+                        , "Relicts Oils"
+                        , "Assets\\wickedwitch.png") ;
+
+                    //WOODLAND SPIRIT
+                    Relicts[19] = new Entry(
+                        "Woodland Spirit"
+                        , "Some monsters are so powerful local populaces begin worshiping them as gods. Such was the case with the leshen dwelling in the woods near the Skellige village of Fayrlund. The elders were absolutely convinced the monster " +
+                        "watched over them by defending them from their enemies and training their hunters. The witcher had his doubts, however.Leshens are mean, self - serving creatures - and the ancient one living in the woods near Fayrlund was " +
+                        "surely no exception. Geralt knew freeing the villagers from their supposed protector's grasp would be no easy task - if he decided to even try. The leshen known as the Woodland Spirit was so powerful as to have mastered the " +
+                        "art of marking. This meant the monster had inserted his essence into one of the residents of Fayrlund. As long as this unfortunate soul remained alive and near the settlement, the leshen would always be reborn near its lair. " +
+                        "Yet even with the marked one eliminated, killing the leshen would be no easy task.The monster commanded the obedience of the denizens of the woods - it could thus call on wolves, ravens or even the trees themselves for help. " +
+                        "Luckily, it had a weakness as well: it was vulnerable to fire, that born of the Igni Sign in particular."
+                        , "Leshen Resin, Ancient Leshen Mutagen, and Leshen Trophy"
+                        , "Fayrlund"
+                        , "Dimeritium Bomb, Relict Oil, and Igni"
+                        , "Assets\\woodland.png");
+
+                }
+
+                /*--------------Specters---------------------
+
+                Click to Expand*/{
+
+                    //BARGHEST
+                    Specters[0] = new Entry(
+                        "Barghests"
+                        , "Folk of simple or superstitious minds claim committing particularly rotten acts will bring down the wrath of the gods in the form of \"barghests, \" phantom dogs " +
+                        "which stalk the roads at night. Even if this were their origin, barghests saints and sinners alike would need fear barghests, for they attack both with equal " +
+                        "ferocity. Witchers rarely believe in the gods, but they do accept that barghests exist and are always connected with some sequence of tragic events that happened in " +
+                        "the past. Their explanation, however, holds that barghests result from a curse or a concentration of ill will. Barghests, like wolves, are stronger in packs. " +
+                        "Together they surround their prey, leaping at it and tearing it apart with their teeth.If their prey defends itself too determinedly, they strike it with a blast of " +
+                        "phantom fire.Since they are fast and agile, they can easily evade attacks directed at them. They cannot be burned, but fire hurts them as if they were of flesh and " +
+                        "blood. The Axii Sign also works on them."
+                        , "Barghest Essence, Infused Dust, and Lesser Blue Mutagen"
+                        , "Toussaint"
+                        , "Moon Dust, Specter Oil, Axii, and Yrden"
+                        , "Assets\\barghest.png");
+
+                    //Beann'shies
+                    Specters[1] = new Entry(
+                        "Beann'shies"
+                        , "Old gossips claim beann'shies are the spirits of women stuck between life and death due to traumatic experiences. Their wails and howls are considered ill omens of " +
+                        "imminent, inevitable death, though they are said not to attack the living themselves. Most often they appear in the form of pale, tear-streaked women with shriveled faces " +
+                        "and wrinkled, corpse-like bodies."
+                        , "Essence of Wraith, Specter Dust, Infused Dust, and Lunar Shards"
+                        , "Toussaint"
+                        , "Specter Oil"
+                        , "Assets\\banshe.png");
+
+                    //DAPHNE'S WRAITH
+                    Specters[2] = new Entry(
+                        "Daphne's Wraith"
+                        , "During his stay in Toussaint, Geralt became involved with a curiuos case of gynodendromorphy - that is to say, a woman who had been turned into a tree. When one cut into " +
+                        "this tree's bark, it bled, and when the wind blew through its leaves, one could hear muffled sobs. Geralt investigated the matter and learned magic (or possibly a curse) was " +
+                        "responsible for the transformation, and it surely had something to do with a certain sad episode form the woman's past. The love of Daphne's life, a knight errant, had gone to " +
+                        "the witch of Lynx Crag and never returned, leaving her to wait for him forever, filled with sadness and longing. \n\nIf Geralt threatens the witch: \nOur hero visited the witch and " +
+                        "decided to force her to disenchant the woman stuck in the tree, but this did not end well.The witch freed Daphne, but the shock was too much for her tortured soul.Daphne's crazed soul " +
+                        "turned out to be highly dangerous. It possessed the first living being it came across, a dog, then killed Jacob the woodcutter. Geralt put an end to the wraith's rampage by killing " +
+                        "the possessed hound and walked away with a heavy heart, ruing the fate of woman, woodcutter and dog alike."
+                        , null
+                        , "Toussaint"
+                        , "Specter Oil"
+                        , "Assets\\daphne.png");
+
+                    //DEVIL BY THE WELL
+                    Specters[3] = new Entry(
+                        "Devil by the Well"
+                        , "The residents of White Orchard have suffered more than their fair share of misfortunes. Passing armies had trampled their spring planting, a griffin had begun abducting their " +
+                        "livestock, and, the rotten icing on this painful cake, a noonwraith haunted a nearby well. No wonder the locals called this final evil a 'devil'. The witcher could sense something bound " +
+                        "her to this place, and that in order to send her off into ethereal realms he would first need to learn her secret. Once that was done, he would have to prepare for battle - and a " +
+                        "noonwraith is a demanding opponent.She can disorient her victim by blinding him and creating mirror images of herself.These copies slowly suck their victim's life energy - while their " +
+                        "mistress remains untouchable. In order to defeat her, the witcher could not rely on his silver sword alone - the Yrden sign would also be needed to trap her and force her to take on " +
+                        "material form. Witchers don't normally feel a limited range of emotions regarding the monsters they slay. They despise the particularly cruel ones and are repulsed by the disgusting " +
+                        "ones, but rare indeed is the monster for which they feel sympathy. Yet that is exactly what Geralt felt for the noonwraith of White Orchard. For a long time he was haunted by thoughts " +
+                        "of the young woman whose horrible death and powerful emotions had transformed her into that terrible monster."
+                        , "Emerald Dust, Essence of Wraith, Light Essence, Specter Dust, Noonwraith Mutagen, Noonwraith Trophy, Amethyst Dust, and Infused Dust"
+                        , "Hovel"
+                        , "Moon Dust, Specter Oil, and Yrden"
+                        , "assets\\devil.png");
+
+
+                    //ETHEREAL
+                    Specters[4] = new Entry(
+                        "Ethereal"
+                        , "The painted world created in the mind of Iris von Everec was mainly populated by figures from her memories, but was also home to dangerous, predatory creatures: the embodiments of" +
+                        " her fears. The most dangerous of these, the Ethereal, invoked her greatest fear – and wore the face of her husband. The Ethereal resembled Olgierd in appearance and also fought using " +
+                        "a technique similar to his.A group of six such creatures lay in wait for Geralt, yet at first only one engaged him in battle.This one's death awoke the next, which was more powerful than " +
+                        "the first, and so it went to the end, with a stronger ethereal replacing a fallen weaker brother until all were defeated. Yet Geralt had to be careful, for the slightest amount of damage " +
+                        "dealt to a being awaiting his turn would cause him to come alive and join his still-living comrade in the fight. In the end, the best tactic against these nightmarish beings proved to be " +
+                        "a well - timed counterattack."
+                        , null
+                        , "von Everec Estate"
+                        , "Specter Oil and Blizzard"
+                        , "Assets\\Ethereal.png");
+
+                    //HYM
+                    Specters[5] = new Entry(
+                        "Hym"
+                        , "Monsters most commonly claim innocents as their victims: tardy merchants, reckless children and travelers who wander into dark woodlands out of misplaced curiosity. None of the above need " +
+                        "fear hyms, however. These wraiths only latch onto particularly despicable individuals who have committed some unspeakable crime. To all others, they remain completely invisible. When they do " +
+                        "show themselves to the one they torment, they appear as a tall, shadow-clad, humanoid silhouette with long, sharp claws. Yet hyms do not sink these claws into their victims. Instead, they sap " +
+                        "their strength directly, through inflicting suffering.Speaking in a voice only the victim hears, they drive him to commit acts of violence, aggression and self - harm.A hym will seize on a " +
+                        "guilty person's worst fears and weave out of them hideous visions, slowing[sic] driving the poor soul into madness. Those tormented by a hym are incapable of restful sleep, for they are tormented " +
+                        "by ever - more - frequent, incredibly - realistic nightmares.At times the victim will become extremely on edge, yelling pleas or threats at invisible phantoms or confessing his guilt out loud " +
+                        "in the hope this will end his torment.This act does not, however, bring any relief, for the hym will not leave until it has addled its victim's wits completely or driven him to suicide."
+                        , "Crystalized Essence, Emerald Dust, Specter Dust, Essence of Wraith, and Lesser Veles Runestone"
+                        , "Skellige and Gaunter's World"
+                        , "Moon Dust, Specter Oil, and Igni Sign"
+                        , "Assets\\hym.png");
+
+                    //Jenny o'the Woods
+                    Specters[6] = new Entry(
+                        "Jenny o'the Woods"
+                        , "It is said true love's flame is never extinguished. This sad truth is the reason why Zula of Midcopse, whom an early death had separated from her beloved, was unable to find peace in the next " +
+                        "life, and instead returned to haunt her former environs as a nightwraith. Fighting such an apparition is extremely difficult. A nightwraith will form mirror images of herself to confuse her opponent " +
+                        "and aid her in battle.She herself can take on immaterial form, rendering her invulnerable to blows.The best way to force her out of this state is to set a trap with the Yrden Sign, then quickly " +
+                        "followup with Igni while she is caught.Most important of all, however, is this: never attempt to fight one in the middle of the night, when the moon hangs high in the sky. This vengeful wraith might " +
+                        "very well have killed every last inhabitant of the village, had not a famous witcher, Geralt of Rivia, appeared in Velen - and been in need of a bit of coin."
+                        , "Dark Essence, Nightwraith Hair, Nightwraith Mutagen, Nightwraith Trophy, Forgotten Vran Sword"
+                        , "Midcopse"
+                        , "Moon Dust, Specter Oil, and Yrden"
+                        , "Assets\\jenny.png");
+
+                    //LONGLOCKS
+                    Specters[7] = new Entry(
+                        "Longlocks"
+                        , "Everyone knows love stories can have tragic endings, but few would think this also applies to princesses from fairy tales created to relieve a set happy ending over and over again. Longlocks had " +
+                        "the misfortune of becoming just such an unlikely tragic heroine. After the duke's daughters grew up and the Land of a Thousand Fables went feral, Longlocks, whose prince never came and who suffered " +
+                        "greatly from her loneliness, decided to hang herself by her own braid. After she died, her ghost stayed to haunt the castle in which she had awaited her suitor."
+                        , "Lunar Shards, Infused Dust, Specter Dust, and Essence of Wraith"
+                        , "Land of a Thousand Fables"
+                        , "Specter Oil"
+                        , "Assets\\Longlocks.png");
+
+                    //NIGHTWRAITH
+                    Specters[8] = new Entry(
+                        "Nightwraith"
+                        , "Compared to other creatures of the night – katakans, nekurats and werewolves, for example – nightwraiths (and their rarer cousins, duskwraiths) might not seem all that dangerous. After all, one " +
+                        "might ask, how much harm could a pale, withered woman in a tattered dress do? The answer: quite a bit. Instead of finding this out the hard way, avoid crossing fields and meadows at night at all costs. " +
+                        "Like noonwraiths, nightwraiths are only found in rural areas.Travelers fall victim to them most often, but if legends are to be believed they also sneak into huts at times and murder peasants in their " +
+                        "sleep. When they attack nightwraiths remain immaterial for most of the time, meaning physical blows pass right through them.They only take on more tangible form for the brief moments in which they strike." +
+                        " When weakened, they will create several projections of themselves which cannot attack directly but act as transmitters of sorts through which the nightwraith can sap her victim's vital energy. Nightwraiths " +
+                        "can turn immaterial and are at such times very difficult to wound.In order to force one to take on corporeal form, trap it with the Yrden Sign or hit it with the blast of a Moon Dust bomb. Do not believe " +
+                        "the old wife tales and think yourself completely safe from nightwraiths during the day.They appear under the light of the sun as well - but are much weaker then than after dusk."
+                        , "Nightwraith Mutagen, Specter Dust, Nightwraith Hair, Infused Dust, Dark Essence, and Lunar Shards"
+                        , "Velen"
+                        , "Moon Dust, Specter Oil, and Yrden"
+                        , "Assets\\nightwrath.png");
+
+                    //NOONWRAITH
+                    Specters[9] = new Entry(
+                        "Noonwraith"
+                        , "On particularly searing summer days, when the sun reaches its zenith, wraiths will at times appear, resembling sun-scorched women dressed in long, white robes. These are noonwraiths – the spirits of young " +
+                        "women and girls who died violent deaths right before their weddings. Driven mad with pain and anger, they wander the fields searching for their unfaithful lovers or backstabbing rivals, though they will kill " +
+                        "anyone who does not get out of their way in time. They are often held in this world by some object of intense emotional significance. That is why, if one ever finds a wedding ring or torn veil in the middle of " +
+                        "a field, one should not pick it up, but instead back away as quickly as possible. Noonwraiths are only known to haunt rural places, and usually stay near the place of their deaths.They prey on peasants working " +
+                        "in the fields or children playing nearby. Noonwraiths do not bleed and are for the most part immune to the effects of Witcher Signs.They can create mirror images of themselves which circle their victims in a " +
+                        "kind of morbid parody of a dance.This ghastly ritual drains their victims' life energy while adding to their own strength. Noonwraiths are also able to manipulate the physical world to a limited degree, kicking " +
+                        "up clouds of dust which temporarily blind and disorient their opponents. Noonwraiths can turn immaterial and are at such times very difficult to wound.In order to force a noonwraith to take corporeal form, one " +
+                        "must first trap it with the Yrden Sign or strike it with a Moon Dust bomb.Once the monster has regained physical presence, one can mount a fast attack with a silver blade, preferably one coated in specter oil. " +
+                        "Contrary to popular belief, noonwraiths can also be encountered at night, but are much weaker then than during the day."
+                        , "Noonwraith Mutagen, Noonwraith Trophy, Light Essence, and Specter Dust"
+                        , "Velen and White Orchard"
+                        , "Moon Dust, Specter Oil, and Yrden"
+                        , "Assets\\noon.png");
+
+                    //PENITENT
+                    Specters[10] = new Entry(
+                        "Penitent"
+                        , "It turned out the monster haunting the isle of Eldberg and its lighthouse was a rare type of specter known as a penitent. Wherever this wraith haunts immediately becomes enveloped in thick fog and darkness - " +
+                        "and those that wander into it usually never return. In order to defeat a penitent, one must remain in constant motion in order to avoid being struck by this agile creature, which can disappear and reappear in " +
+                        "the blink of an eye to attack from behind. Most importantly of all, however, one must discover what keeps they monster bound to its haunting grounds - and break that bond as soon as possible. With the lighthouse " +
+                        "keeper's help, Geralt drove the mist from the isle - then dispatched the penitent from our world for good. Now ships were once again able to sail to Arinbjorn's port, and the witcher's coin pouch grew a little fuller."
+                        , "Specter Dust, Wraith Mutagen, Essence of Wraith, Wraith Trophy, and Ashrune"
+                        , "Eldberg Lighthouse"
+                        , "Moon Dust, Specter Oil, Yrden, and Quen"
+                        , "Assets\\penitent.png");
+
+                    //PLAGUE MAIDEN
+                    Specters[11] = new Entry(
+                        "Plague Maiden"
+                        , "When plague ravages a region, a spirit will sometimes walk its lands, a ghost resembling an ill woman whose flesh rots off her bones and in whose wake crawls a cavalcade of rats. No one knows whether this spirit " +
+                        "brings the pox with her or is merely drawn to it like a moth to a light. Yet it is certain that she delights in dealing pain and suffering, in hearing the howling and moaning of men. Many have called into question " +
+                        "the very existence of plague maidens, or pestae, as they are sometimes called.Only two sightings of such a creature have ever been recorded, both during times of raging epidemic. As the name \"plague maiden\" " +
+                        "suggests, these wraiths take the appearance of females, though exactly why that is remains a mystery.Some speculate they, like other such specters, arise from the powerful emotional charge associated with certain " +
+                        "circumstances of death, such as death preceded by a long and particularly painful illness. Not much is known about how to fight a plague maiden, though one can assume they possess many traits in common with other " +
+                        "phantoms and wraiths.They undoubtedly pose a great danger, though a witcher's immunities should at least prevent him from catching the contagious illnesses they carry."
+                        , null
+                        , "Fyke Isle and Velen"
+                        , "Specter Oil and Yrden"
+                        , "Assets\\plague.png");
+
+                    //UMBRA
+                    Specters[12] = new Entry(
+                        "Umbra"
+                        , "According to some philosophers, everything we do in life leaves a permanent trace in the delicate matter which makes up our souls. Evil deeds, especially harm done to innocent creatures, can torment the soul of " +
+                        "a sinner an cause it to remain restless, even after death. While traveling through Toussaint, Geralt discovered there might a be grain of truth in these theories and folk beliefs.He came across a hermit whose sleep " +
+                        "was troubled by some invisible phantom. Geralt determined this phantom was an umbra, the ghost of a recently - deceased knight who had committed a terrible deed while alive and now visited the hermit to demand " +
+                        "forgiveness. In his wraithly form he drank her blood and systematically deprived her of life energy. The umbra appeared to the hermit as a horse, for the evil deed the knight had committed was to flog his own mount " +
+                        "to death.The knight's spirit was unaware of the demonic role he had assumed in the afterlife."
+                        , "Umbra Trophy"
+                        , "Toussaint"
+                        , "Specter Oils"
+                        , "Assets\\umbra.png");
+
+                    //THE WHITE LADY
+                    Specters[13] = new Entry(
+                        "The White Lady"
+                        , "The apparition haunting the fields outside Novigrad turned out to be a noonwraith. Some powerful emotion must have bound it to that place - love, hate, anger or perhaps all three at once. Like every wraith of " +
+                        "this type, she was surely capable of forming mirror images of herself, which served to mislead opponents and restore her vitality. Luckily, these mirages could be dispelled with a quick slash from a silver blade. " +
+                        "Like any noonwraith, she would undoubtedly seek to assume immaterial form while fighting, making her almost impossible to injure - unless she is first caught in a trap laid by the Yrden Sign, or blasted with a special " +
+                        "bomb. Once thus forced into materiality, she should be attacked with strong blows or the Igni Sign. Finally, one must always keep in mind two witcher sayings: \"The longer you fight a noonwraith, the lower your " +
+                        "chances of surviving,\" and \"Fight a noonwraith at midday and you'll be dead before dusk.\" The vengeful wraith known as the White Lady had roamed the fields for a long times, murdering anyone she came across. " +
+                        "Though the grain hung heavy from the stalks, the frightened peasants were kept from harvesting it and thus faced famine.They gathered their last bit of savings and went in together on a bounty for a witcher. That was " +
+                        "coin well - spent."
+                        , "Emerald Dust, Amethyst Dust, Essence of Wraith, Noonwraith Mutagen, and Noonwraith Trophy"
+                        , "Fields south of Farcorners"
+                        , "Moon Dust, Specter Oilm and Yrden"
+                        , "Assets\\lady.png");
+
+                    //THE WRAITH FROM THE PAINTING
+                    Specters[14] = new Entry(
+                        "The Wraith from the Painting"
+                        , "While wandering the von Everecs' abandoned estate, Geralt came into contact with a woman's wraith haunting the house. The restless spirit had mastery over the house's furnishings and in particular over the paintings " +
+                        "hanging from its walls. It moved freely between their canvasses, entering one and exiting through another. At first it tried to scare Geralt into giving up his search, then, when it was clear this strategy would not " +
+                        "work, it attacked him directly. Geralt's battle against the wraith proved very difficult, for it was fueled by rage and launched its attacks with heated aggression. Geralt was forced to move with lightning speed in " +
+                        "order to parry its blows, without time to take a breath or launch an attack of his own. What's more, the wraith had created a bond with the paintings around it and, until the witcher severed this tie, it would continually " +
+                        "regain any lost strength. The key to victory over the Wraith from the Painting was to focus on parrying its blows and only attack sporadically, at exactly the right moments.Any attempt to attack in a flurry was always " +
+                        "punished with a deadly counterattack."
+                        , null
+                        , "Von Everec Estate"
+                        , "Specter Oil and Yrden"
+                        , "Assets\\paint.png");
+
+                    //WRAITH
+                    Specters[15] = new Entry(
+                        "Wraith"
+                        , "Clerics and scholars are forever debating whether spirits do in fact journey to another world after death, one where eternal joy or suffering awaits. Both groups agree, however, on what happens to spirits who, for one " +
+                        "reason or another, remain in our world after their body breathes its last: they transform into wraiths. To hear their mournful howls, one can surmise this is not a fate to be envied. Wraiths are usually encountered at " +
+                        "night, near cemeteries, catacombs and other such burial places, or else near the places that were important to them in life: abandoned homes, crumbling castles or forgotten bridges. Wraiths suffer endless, indescribable " +
+                        "pain. Filled with anger and a sense of having been wronged, they both envy the living and brim with overwhelming hatred for them.Like other specters, they are immaterial, meaning they are not harmed by fire, poison or weapons " +
+                        "designed to provoke bleeding. Wraiths can turn immaterial and are at times very difficult to wound.One can, however, force them to reassume a physical presence by trapping them with the Yrden Sign or by hitting them with " +
+                        "slivers from a Moon Dust bomb.As with any such ghostly being, one should fight them using silver swords, preferably ones smeared with a thick coat of specter oil.Note as well that wraiths are particularly dangerous on moonless " +
+                        "nights."
+                        , "Specter Dust, Emerald Dust, Amethyst Dust, Infused Dust, Wraith Mutagen, and Essence of Wraith"
+                        , "Velen, WHite Orchard, Skellige, and Toussaint"
+                        , "Moon Dust, Specter Oil, Yrden, and Quen"
+                        , "Assets\\wraith.png");
+                }
+
+                /*--------------Vampires---------------------
+
+                Click to Expand*/{
+
+
+                }
             }
 
             this.InitializeComponent();
