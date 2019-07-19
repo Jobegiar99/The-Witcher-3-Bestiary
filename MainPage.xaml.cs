@@ -1719,6 +1719,196 @@ namespace Bestiary
 
                 Click to Expand*/{
 
+                    //ALPHA GARKAIN
+                    Vampires[0] = new Entry(
+                        "Alpha Garkain"
+                        , "When a vampire gives a witcher a contract to kill another vampire, you can be certain neither of the two is entirely normal. The contract seemed simple enough, " +
+                        "though Geralt knew his target was a vampire.Yet one must bear in mind vampires are a very diverse group and their various species differ from one another greatly." +
+                        " The witcher established the individual he sought had long, hooked claws with which it could tear apart a body with ease, leaving behind venom which hindered the" +
+                        " clotting of blood.What's more, it could use these claws to scale even the sheer outer wall of a building, giving others the impression it possessed mind-boggling" +
+                        " powers. Geralt also realized his opponent was an experienced predator able to set ambushes for its prey and attack it unexpectedly. The monster he was tracking " +
+                        "turned out to be a powerful type of garkain, a pack leader or alpha. As the witcher expected, in addition to its ability to emit waves of mental energy, this alpha " +
+                        "garkain also had powerful venom at its disposal. The monster killed for pleasure, not just to satisfy its hunger.It must be admitted that Geralt also gained a measure" +
+                        " of satisfaction from eradicating this beast, for he could still remember the massacre in the orphanage for which this garkain was responsible."
+                        , "Monster Ear, Monster Brain, Vampire Fang, Vampire Saliva, Vampire Blood, Lesser Green Mutagen, and Garkain Trophy"
+                        , "Blood Simple"
+                        , "Moon Dust, Samum, Vampire Oil, and Black Blood"
+                        , "Assets\\alpha.png");
+
+                    //ALP
+                    Vampires[1] = new Entry(
+                        "Alp"
+                        , "Alps are vampires that resemble bruxae in appearance. They are called phantoms by some, a name which fits well enough, for like phantoms they haunt and torment men. " +
+                        "They usually take on the form of a woman, though they can also appear as animals. They are most often found prowling near villages. They attack at night and are most " +
+                        "active when the moon is full. Alp saliva can make one fall asleep, and when applied to a sleeping man, can invoke horrible nightmares. Some suggest they are the cause " +
+                        "of legends about men who go to sleep healthy and are found in the morning white as snow, not a drop of blood in their veins. In combat alps display supernatural speed " +
+                        "and incredible(even by vampire standards) stamina.One must aim one's sword with great precision, for alps are unequaled in the art of evading blows. The Yrden Sign is" +
+                        " recommended, for it weakens an alp's defenses.Another strategy is to drink the Black Blood potion, for alps suck the blood of their victims to deprive them of strength " +
+                        "and regenerate their own powers. Unlike bruxae, alps cannot turn invisible, yet like bruxae, they emit a shrieking noise whose shock wave can incapacitate.Their greatest" +
+                        " asset is their agility and they can leap with uncanny lightness that appears to border on the power of flight.When in human form, they easily blend in with the surrounding" +
+                        " community, which makes them very dangerous indeed."
+                        , null
+                        , "Toussaint"
+                        , "Yrden, Vampire Oil, Moon Dust, and Black Blood"
+                        , "Assets\\alp.png");
+
+                    //BRUXAE
+                    Vampires[2] = new Entry(
+                        "Bruxae"
+                        , "Fortunately for us all, bruxae are rare creatures. Most live far from population centers, for they care greatly for their own safety and make their lairs in places where " +
+                        "they cannot be taken by surprise. Those who decide to live near men avoid crowds and emerge from their shelters only at night. When they do, one could almost mistake them " +
+                        "for delayed travelers hurrying towards their night's lodging, yet subtle details give them away: their close ties to birds, their piercing voices and the breathtaking speed " +
+                        "of their movements. Bruxae are far swifter and stronger than men, but their greatest asset is their ability to turn invisible. Bruxae dart about with uncanny speed, and with " +
+                        "their power of invisibility they can easily confuse opponents and attack unexpectedly or from behind.Thus when fighting these vampires the Moon Dust bomb is a great aid – while " +
+                        "it cannot eliminate the vampire's invisibility altogether, it can make it easier to track its motions. A generous smearing of vampire oil is also effective. Bruxae use their " +
+                        "sharp claws to attack and can easily break through an opponent's guard by buffeting him with a hail of blows from all directions. They will try to bite their prey and drink its" +
+                        " blood once it is weakened, so every witcher who expects to encounter such a monster should swallow a Black Blood potion beforehand. Bruxae are also known for their sonic " +
+                        "attacks, which knock down and stun their prey."
+                        , null
+                        , "Toussaint"
+                        , "Moon Dust, Black Blood, Vampire Oil, and Yrden"
+                        , "Assets\\bruxae.png");
+
+                    //DETTLAFF VAN DER ERETEIN
+                    Vampires[3] = new Entry(
+                        "Dettlaff van der Eretein"
+                        , "Dettlaff is a higher vampire and one of the most terrifying creatures the world has ever known. Some vampires of his sort live among men easily and inconspicuously, sometimes " +
+                        "even gaining the respect and admiration of their community. Yet even the most civilized vampire can be incredibly dangerous if provoked, and Dettlaff... Dettlaff was far from " +
+                        "civilized. When in his two - legged form, Dettlaff strikes in surprising and unique ways, so one must be extremely alert and attentive.His razor - sharp claws, wielded with great " +
+                        "strength and precision, are his chief weapons, yet he can also wield weapons of human devising with extraordinary skill. Like all higher vampires, Dettlaff can turn into fog and " +
+                        "envelop opponents.When fighting a vampire in this form, one must watch out for magic puddles and attacks from the air.When wounded, Detlaff tends to assume his winged form, using " +
+                        "these powerful appendages to stun his foes near effortlessly. One must remember higher vampires are immortal creatures and thus do not fear for their lives while fighting, meaning " +
+                        "they take every risk.They are able to turn invisible and can regenerate strength during combat. All in all, they are supremely difficult foes, even for a witcher."
+                        , null
+                        , null
+                        , "Toussaint"
+                        , "Assets\\eretein.png");
+
+                    //EKIMMARAS
+                    Vampires[4] = new Entry(
+                        "Ekkimaras"
+                        , "Like other vampires, ekimmaras are not, despite what village gossips might say, undead humans. They are instead post-Conjunction monsters who have no particular feelings about " +
+                        "garlic, holy water or religious symbols. Unlike their portrayals in ballads and legends, they look nothing like handsome, pale aristocrats with charming eastern accents, though, like " +
+                        "katakans and nekurats, they do bear a strong resemblance to overgrown bats. They also do not suck blood from the necks of virgins with a delicate, kiss-like bite – they tear them " +
+                        "to shreds using long, sharp claws and then slurp the splattered blood off the ground. Ekimmaras are unusually cruel and exceptionally swift.They are able to quickly land blow after " +
+                        "blow capable of smashing even the best Mahakaman-made armor into tiny shards. They should be fought with a silver sword, remembering that they can regenerate back health over time. " +
+                        "One should thus never attempt to tire them out or, gods forbid, wait for it to bleed to death.Instead, cut then down as quickly as possible and, if possible, burn the body to ash and " +
+                        "scatter it to the four winds."
+                        , "Ekimmara Hide, Ekimmara Mutagen, Lesser Blue Mutagen, Monster Ear, Monster Eye, Monster Hair, Monster Tongue, Vampire Fang, and Vampire Saliva"
+                        , "Novigrad and Velen"
+                        , "Devil's Puffball, Vampire Oil, and Igni"
+                        , "Assets\\ekimma.png");
+
+                    //FLEDER
+                    Vampires[5] = new Entry(
+                        "Fleder"
+                        , "Fleders are classified as lesser vampires. Though weaker than the rest of their ilk in every aspect from the physiomagic to they physiognomic, they should not be underestimated – " +
+                        "for they are very, very dangerous. Fleders cannot be mistaken for any other creature, with their wide, toothy jaws, flat, unpleasant faces and completely hairless, often warty bodies. " +
+                        "These vampires mainly fight with their teeth and claws, flailing them blindly and not stopping even when their victim is already dead. Even a solitary fleder is strong enough to take " +
+                        "down a trained soldier. Compared to other vampires, fleders display meager intelligence, seen most clearly in the mindless rage which causes them to try with all their might to attack" +
+                        " and tear to shreds any weaker being. When fighting fleders, it is best to take advantage of their particular method of movement. These creatures do not run, but they do try to catch" +
+                        " their prey and knock it over by leaping. Knowing this behavior, one can plan the fight appropriately and not let oneself be caught by surprise."
+                        , "Lesser Red Mutagen, Monster Eye, Monster Hair, and Vampire Blood"
+                        , "Toussaint"
+                        , "Vampire Oil, and Black Blood"
+                        , "Assets\\fleder.png");
+
+                    //GAEL
+                    Vampires[6] = new Entry(
+                        "Gael"
+                        , "Contrary to popular belief, monsters are not all alike. Like people, individual members of the same species can each have their own unique traits, preferences and weaknesses. A good " +
+                        "example of this is the katakan which once fed on the inhabitants of Oxenfurt. Perhaps influenced by its close proximity to the hard-drinking student youth of the city, this vampire had" +
+                        " developed a keen appetite for blood spiked with a hefty dose of hard alcohol - and also baubles and gaudy jewelry of all kinds. The vampire had clearly thrived on its high - octane diet. " +
+                        "It had grown exceptionally strong and gained the ability to regenerate lost life quickly, cause heavy bleeding with its claws and, if all that were not enough, meld into the air and appear" +
+                        " again behind its opponent's back. Luckily the Quen Sign meant the witcher was well-equipped to defend against this surprise attack, and the Yrden Sign would let him catch the monster in " +
+                        "a trap. To bait the vampire, Geralt took note of its dietary preferences and seasoned his blood to match by loading up on cheap wine. This made it somewhat harder to aim his blows, true," +
+                        " but he still managed to defeat the beast -then had another battle awaiting him the next morning, this one against a powerful hangover."
+                        , "Katakan Mutagen, Katakan Trophy, Lesser Blue Mutagen, Monster Hide, Monster Ear, Monster Bone, Vampire Saliva, Deargdeith, Key to Katakan's Hideout"
+                        , "Oxenfurt"
+                        , "Moon Dust, Devil's Puffball, Vampire Oil, Yrden, and Igni"
+                        , "Assets\\gael.png");
+
+                    //GARKAINS
+                    Vampires[7] = new Entry(
+                        "Garkains"
+                        , "Garkains, like fleders, belong to the class of particularly dangerous vampires whose strength exceeds even that of fiends. An encounter with one of their number almost always ends in " +
+                        "death, which is why there are not many eye-witness accounts of them. From the city guard reports written up in Lan Exeter describing the attacks committed in that city in 1104 by three " +
+                        "garkains (later killed by a certain Olivier of Gulet, witcher), it seems these horrible monsters do not content themselves with drinking the blood of their victims. The investigators " +
+                        "concluded from the blood and guts strewn around the crime scenes that garkains tear their victims to shreds with great delight and muck about in their bloody entrails. Garkains belong to " +
+                        "the group of creatures known as lesser vampires.They often gather around themselves members of other subspecies of lesser vampires, acting in such situations as leaders of the pack. They " +
+                        "are by and large unable to run, but can jump a great distance and often attack their prey in that way.During combat, they usually keep their distance from their foes, trying to incapacitate" +
+                        " them using a blast of mental energy provoking visions that beguile and disorient. Before grappling a garkain, one should drink the Black Blood potion and stock up on vampire oil. It should" +
+                        " also be remembered that the Samum and Moon Dust bombs are always effective weapons against any mental attacks."
+                        , null
+                        , "Toussaint"
+                        , "Moon Dust, Samum, Vampire Oil, and Black Blood"
+                        , "Assets\\garkain.png");
+
+                    //HIGHER VAMPIRE
+                    Vampires[8] = new Entry(
+                        "Higher Vampire"
+                        , "Only a mutual thirst for blood links higher vampires to their distant and much more primitive cousins: ekimmaras, alps, katakans and the like. Higher vampires are, in fact, much more " +
+                        "similar to humans than to those bat-like blood slurpers. They not only resemble us in appearance, but also share our intelligence and behavioral patterns. This means they do not squat in " +
+                        "distant forest or hide in the shadows. On the contrary, they are particularly fond of cities, where they live out deceivingly normal lives. Even witchers are not capable of recognizing them " +
+                        "at once, for their medallions remain perfectly motionless in the presence of higher vampires. Yet all these similarities should not blind us to an essential difference: unlike men, higher " +
+                        "vampires are immortal. Those who have faced them in combat and survived can be counted on one hand. It is a witcher's good fortune that higher vampires are extremely rare – and not all are " +
+                        "dangerous to humans. Though they do have a taste for blood, they do not need to drink it to survive. Some higher vampires have renounced feeding on humans altogether and do no harm to anyone," +
+                        " but others give in to their desires. A witcher who braves fighting a higher vampire must bear in mind that he faces a monster endowed with incredible strength, one able to manipulate men and" +
+                        " animals, turn invisible and transform into a giant bat - and furthermore one which it is nearly impossible to kill. In other words, even an experienced monster slayer should think twice before" +
+                        " accepting a contract on one of these creatures, even if half a kingdom and a princess' hand is in the offing."
+                        , null
+                        , "Novigrad and Toussaint"
+                        , "Vampire Oil and Igni"
+                        , "Assets\\higher.png");
+
+                    //KATAKAN
+                    Vampires[9] = new Entry(
+                        "Katakans"
+                        , "Katakans and their more dangerous kin, nekurats, are the embodiments of human fear. They hide in the shadows. They feed on blood. They resemble enormous bats – though with long fangs and even " +
+                        "longer talons. And, as if that weren't terror enough, they can turn invisible, waiting unseen while dread of their unpreventable attack overwhelms their victim. When fighting a katakan one must " +
+                        "pay particular attention to its shadow – often the only way to know its location. Katakans are invulnerable to steel, regenerate quickly, hear acutely and move at incredible speed.To even the odds" +
+                        " one can temporarily immobilize katakans using the Yrden sign, then seize that moment to attack with all one's might – for there might not be another chance. Unfortunately, the legends are wrong " +
+                        "and the sun's rays do not turn katakans to ash. They are vulnerable to sunlight, however, and when the sun stands at its zenith their regeneration is considerably slowed."
+                        , "Monster Heart, Monster Bone, Vampire Fang, Vampire Saliva, Lesser Blue Mutagen, and Katakan Mutagen"
+                        , "Novigrad, Oxenfurt, and Toussaint"
+                        , "Moon Dust, Devil's Puffball, Vampire Oil, Yrden, and Igni"
+                        , "Assets\\katakan.png");
+
+                    //PROTOFEDLER
+                    Vampires[10] = new Entry(
+                        "Protofleder"
+                        , "Protofleders are relatives of fleders which came from the world of the higher vampires to our own during the Conjunction of the Spheres. The members of this species are characterized by their " +
+                        "considerable strength and agility as well as the strange glow they emit, a trait most likely tied to their otherworldly nature.Protofleders have never had significant contact with the outside world, " +
+                        "having spent their entire time on our planet in the Unseen Elder's cave, whose atmosphere is very similar to that of their home world."
+                        , "Protofleder Mutagen, Monster Blood, Monster Brain, Monster Eye, Monster Heart, Vampire Fang, and Vampire Saliva"
+                        , "only in Hen Gàidh cave in Toussaint"
+                        , "Vampire Oil and Black Blood"
+                        , "Assets\\Protofleder.png");
+
+                    //SARASTI
+                    Vampires[11] = new Entry(
+                        "Sarasti"
+                        , "Raiders of elven tombs either get rich quickly, or die trying. The Aen Seidhe's disintegrating temples and palaces hold priceless treasures, true, but within them many a foul monster waits in " +
+                        "deep slumber. Such was the case in Byways, where a few peasants, unaware of the dangers they faced, awoke an unusually dangerous ekimmara. The witcher knew this monster would be no easy kill. That " +
+                        "the vampire would quickly regenerate, that its blows would cause heavy bleeding, that it was able to disappear into thin air.Yet he also knew he could overcome these advantages.He needed merely to " +
+                        "use Yrden and Quen Signs and strike heavy blows.Oh, and avoid getting killed. The vampire had already managed to kill several peasants and a patrol of heavily - armed Nilfgaardians.The list of victims " +
+                        "would surely have grown even longer, had not Geralt of Rivia, the White Wolf, happened to waltz into town."
+                        , "Ekimmara Mutagen, Ekimmara Hide, Ekimmara Trophy, and Bloed Aedd"
+                        , "Elven ruins beneath Byways"
+                        , "Devil's Puffball, Vampire Oil, and Igni"
+                        , "Assets\\Sarasti.png");
+
+                    //THE BRUXA OF CORVO BIANCO
+                    Vampires[12] = new Entry(
+                        "The Bruxa of Corvo Bianco"
+                        , "The bruxa Geralt encountered and killed in self-defense at Corvo Bianco differed from other creatures of this sort. Firstly, it was more intelligent, capable even of articulating words in human language " +
+                        "without much difficulty. What's more, this bruxa was tied to the Beast, the mysterious murderer prowling Beauclair at the time. Fighting it presented Geralt with quite the challenge.Like other bruxae, this" +
+                        " one possessed strength and speed far above that of any human, could turn invisible and could attack using a sonic wave. As is typical for all vampires, it sought to suck its victim's blood. This meant the" +
+                        " usual defense against those creatures, the Black Blood potion, was an effective weapon against it, as were the Moon Dust bomb and, naturally, the witcher's trusty silver blade."
+                        , "Monster Eye, Monster Heart, Vampire Fang, Vampire Saliva, Vampire Blood, and Greater Blue Mutagen"
+                        , "Corvo Bianco"
+                        , "Moon Dust, Black Blood, Vampire Oil, and Yrden"
+                        , "Assets\\Sarasti.png");
 
                 }
             }
