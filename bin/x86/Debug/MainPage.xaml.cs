@@ -228,7 +228,7 @@ namespace Bestiary
                         ,null
                         ,null
                         ,null
-                        ,"Assets\\Luberkin.png");
+                        ,"Assets\\Lubberkin.png");
 
                     //WEREWOLF
                     EntriesDone.CursedOnes[5] = new Entry(
@@ -694,7 +694,7 @@ namespace Bestiary
 
                     //ARACHNOMORPHS
                     EntriesDone.Insectoids[1] = new Entry(
-                        "Arachnomorphss"
+                        "Arachnomorphs"
                         , "A similar saying could gain ground in our land concerning arachnomorphs and everything unable to flee them – meaning most every creature in the world. True, the " +
                         "tillers of the earth and fellers of trees need not fear them in their daily labors, for arachnomorphs, as distant, post-Conjunction cousins of common spiders, " +
                         "strongly prefer deep, dark caves and unfrequented sodden swamps. Anyone who does come across them, however, had best hope his conscience is clear and his worldly " +
@@ -703,7 +703,7 @@ namespace Bestiary
                         , "Chitinous Shell, Lesser Blue Mutagen, Lesser Green Mutagen, Monster Blood, Monster Hair, Monster Heart, Monster Saliva, Monster Tooth, and Venom Extract"
                         , null
                         , "Aard, Axii, and Insectoid Oil"
-                        , "Assets\\arachonomorphs.png");
+                        , "Assets\\arachnomorphs.png");
 
                     //ARMORED ARACHASAE
                     EntriesDone.Insectoids[2] = new Entry(
@@ -1161,7 +1161,7 @@ namespace Bestiary
                         , "Troll Hide, Troll Mutagen, and Elemental Essence"
                         , "Skellige"
                         , "Ogroid Oil and Quen"
-                        , "Assets\\IceGiant.png");
+                        , "Assets\\icetroll.png");
 
                     //NEKERS
                     EntriesDone.Ogroids[6] = new Entry(
@@ -1393,7 +1393,7 @@ namespace Bestiary
                         , null
                         , "Toussaint and Mahakam"
                         , "Samum, Relict Oil, and Aard"
-                        , "Assets\\morvudd.png");
+                        , "Assets\\shaelmaar.png");
 
                     //SHAELMAAR FROM THE EMPEROR OF NILFGAARD
                     EntriesDone.Relicts[13] = new Entry(
@@ -1781,8 +1781,8 @@ namespace Bestiary
                         "these powerful appendages to stun his foes near effortlessly. One must remember higher vampires are immortal creatures and thus do not fear for their lives while fighting, meaning " +
                         "they take every risk.They are able to turn invisible and can regenerate strength during combat. All in all, they are supremely difficult foes, even for a witcher."
                         , null
-                        , null
                         , "Toussaint"
+                        , null
                         , "Assets\\eretein.png");
 
                     //EKIMMARAS
@@ -1857,7 +1857,7 @@ namespace Bestiary
                         " but others give in to their desires. A witcher who braves fighting a higher vampire must bear in mind that he faces a monster endowed with incredible strength, one able to manipulate men and" +
                         " animals, turn invisible and transform into a giant bat - and furthermore one which it is nearly impossible to kill. In other words, even an experienced monster slayer should think twice before" +
                         " accepting a contract on one of these creatures, even if half a kingdom and a princess' hand is in the offing."
-                        , null
+                        ,null
                         , "Novigrad and Toussaint"
                         , "Vampire Oil and Igni"
                         , "Assets\\higher.png");
@@ -1909,7 +1909,7 @@ namespace Bestiary
                         , "Monster Eye, Monster Heart, Vampire Fang, Vampire Saliva, Vampire Blood, and Greater Blue Mutagen"
                         , "Corvo Bianco"
                         , "Moon Dust, Black Blood, Vampire Oil, and Yrden"
-                        , "Assets\\Sarasti.png");
+                        , "Assets\\Bianco.png");
 
                 }
             }

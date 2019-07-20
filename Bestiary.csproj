@@ -155,6 +155,7 @@
     <Content Include="Assets\Basilisk.png" />
     <Content Include="Assets\Bear.png" />
     <Content Include="Assets\Berserker.png" />
+    <Content Include="Assets\Bianco.png" />
     <Content Include="Assets\BigBadWolf.png" />
     <Content Include="Assets\botchling.png" />
     <Content Include="Assets\bruxae.png" />
@@ -208,6 +209,7 @@
     <Content Include="Assets\hym.png" />
     <Content Include="Assets\ice.png" />
     <Content Include="Assets\IceGiant.png" />
+    <Content Include="Assets\icetroll.png" />
     <Content Include="Assets\Ignituus.png" />
     <Content Include="Assets\imp.png" />
     <Content Include="Assets\jenny.png" />
@@ -218,6 +220,7 @@
     <Content Include="Assets\lady.png" />
     <Content Include="Assets\leshen.png" />
     <Content Include="Assets\logo.jpg" />
+    <Content Include="Assets\logo.png" />
     <Content Include="Assets\Longlocks.png" />
     <Content Include="Assets\Lubberkin.png" />
     <Content Include="Assets\Melusine.png" />
@@ -243,6 +246,7 @@
     <Content Include="Assets\sandcrab.jpg" />
     <Content Include="Assets\Sarasti.png" />
     <Content Include="Assets\scurvers.png" />
+    <Content Include="Assets\shaelmaar.png" />
     <Content Include="Assets\Shrieker.png" />
     <Content Include="Assets\Silver.png" />
     <Content Include="Assets\Siren.png" />

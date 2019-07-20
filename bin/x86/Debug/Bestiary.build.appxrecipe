@@ -418,6 +418,9 @@
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Berserker.png">
       <PackagePath>Assets\Berserker.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Bianco.png">
+      <PackagePath>Assets\Bianco.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\BigBadWolf.png">
       <PackagePath>Assets\BigBadWolf.png</PackagePath>
     </AppxPackagedFile>
@@ -574,6 +577,9 @@
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\IceGiant.png">
       <PackagePath>Assets\IceGiant.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\icetroll.png">
+      <PackagePath>Assets\icetroll.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Ignituus.png">
       <PackagePath>Assets\Ignituus.png</PackagePath>
     </AppxPackagedFile>
@@ -600,6 +606,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\leshen.png">
       <PackagePath>Assets\leshen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\logo.png">
+      <PackagePath>Assets\logo.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Longlocks.png">
       <PackagePath>Assets\Longlocks.png</PackagePath>
@@ -672,6 +681,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\scurvers.png">
       <PackagePath>Assets\scurvers.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\shaelmaar.png">
+      <PackagePath>Assets\shaelmaar.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Shrieker.png">
       <PackagePath>Assets\Shrieker.png</PackagePath>

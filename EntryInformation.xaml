@@ -11,6 +11,14 @@
     <Grid Height="auto" Width="auto">
         <Image Name="img_back" HorizontalAlignment="Center" Height="1007.3" Width="1962.479" Source="Assets\Background.png" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto"/>
         <Button Name="button_return" Click="Button_return_Click"  Margin="700,700,0,0" Content="Return" Height="auto" Width="auto" FontFamily="Faith Collapsing" FontSize="25"/>
-        <Image Name="img_entry" HorizontalAlignment="Left" Source="\Assets\Slyzard.png" Height="500" Margin="962,40,0,0" VerticalAlignment="Top" Width="500"/>
+        <Image Name="img_entry" HorizontalAlignment="Left" Source="\Assets\Slyzard.png" Height="500" Margin="980,40,0,0" VerticalAlignment="Top" Width="500"/>
+        <TextBlock x:Name="txt_Name" FontFamily="Faith Collapsing" FontSize="50" HorizontalAlignment="Left" Margin="350,50,0,0" Text="_NAME_" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock Name="txt_Description" TextAlignment="Justify" HorizontalAlignment="Left" Margin="74,163,0,0" Text="_DESCRIPTION_" FontSize="20" FontFamily="Faith Collapsing" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="-1.377,-2.712" Height="377" Width="883"/>
+
+
+
+        <TextBlock Name="txt_Ocurrence" FontSize="25"  FontFamily="Faith collapsing" HorizontalAlignment="Left" Margin="111,568,0,0" Text="Ocurrence: " TextWrapping="Wrap" VerticalAlignment="Top" Width="583"/>
+        <TextBlock x:Name="txt_Loot" FontSize="25"  FontFamily="Faith collapsing" HorizontalAlignment="Left" Margin="111,633,0,0" Text="Loot: " TextWrapping="Wrap" VerticalAlignment="Top" Width="1351" Height="110"/>
+        <TextBlock x:Name="txt_Susceptibility" FontSize="25"  FontFamily="Faith collapsing" HorizontalAlignment="Left" Margin="770,568,0,0" Text="Susceptibility: " TextWrapping="Wrap" VerticalAlignment="Top" Width="666" Height="70"/>
     </Grid>
 </Page>

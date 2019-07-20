@@ -41,7 +41,7 @@ namespace Bestiary.Classes
         /// <summary>
         /// A creature that is a variation of this one.
         /// </summary>
-        public Entry Variation { get; set; }
+        
 
         /// <summary>
         /// Constructor of the Creature
@@ -60,7 +60,7 @@ namespace Bestiary.Classes
             this.Ocurrence = Ocurrence;
             this.Susceptibility = Susceptibility;
             this.ImagePath = ImagePath;
-            this.Variation = null;
+            
         }
     }
 }

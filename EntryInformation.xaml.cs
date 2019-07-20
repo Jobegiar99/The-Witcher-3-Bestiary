@@ -34,13 +34,28 @@ namespace Bestiary
             img_entry.Opacity = 0.40;
             img_entry.MaxWidth = 500;
             img_entry.MaxHeight = 500;
+
+            txt_Name.Text = EntriesDone.SelectedEntry.Name;
+
+            if (EntriesDone.SelectedEntry.Ocurrence == null)
+                txt_Ocurrence.Visibility = Visibility.Collapsed;
+            else
+                txt_Ocurrence.Text += EntriesDone.SelectedEntry.Ocurrence;
+
+            if (EntriesDone.SelectedEntry.Loot == null)
+                txt_Loot.Visibility = Visibility.Collapsed;
+            else
+                txt_Loot.Text += EntriesDone.SelectedEntry.Loot;
+
+            if (EntriesDone.SelectedEntry.Susceptibility == null)
+                txt_Susceptibility.Visibility = Visibility.Collapsed;
+            else
+                txt_Susceptibility.Text += EntriesDone.SelectedEntry.Susceptibility;
+
+
+            txt_Description.Text = EntriesDone.SelectedEntry.Description;
             
-            
-
-
-
-
-
+                 
         }
 
         private void Button_return_Click(object sender, RoutedEventArgs e)

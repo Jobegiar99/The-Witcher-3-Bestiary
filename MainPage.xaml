@@ -12,19 +12,20 @@
 
     <Grid Height="Auto" Width="Auto">
         <Image Name="img_back" HorizontalAlignment="Center" Height="1007.3" Width="1962.479" Source="Assets\Background.png" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto"/>
-
+        
         <TextBlock Name="txt_Title" Text="The Witcher 3 Bestiary"  FontFamily="Faith Collapsing" FontSize="50" VerticalAlignment="Top" Margin="50,25,0,0" HorizontalAlignment="Center" />
-        <Button Name="button_Beasts" Content="Beasts"  FontSize="35" Click="Button_Beasts_Click" FontFamily="Faith Collapsing" Margin="250,150,0,0"  Height="Auto" Width="200" VerticalAlignment="Top"/>
-        <Button x:Name="button_Cursed" Content="Cursed Ones"  FontSize="35" Click="Button_Cursed_Click" FontFamily="Faith Collapsing" Margin="550,150,0,0"  Height="Auto" Width="200" VerticalAlignment="Top"/>
-        <Button x:Name="button_Draconids" Content="Draconids"  FontSize="35" Click="Button_Draconids_Click" FontFamily="Faith Collapsing" Margin="850,150,0,0"  Height="Auto" Width="200" VerticalAlignment="Top"/>
-        <Button x:Name="button_Elementa" Content="Elementa"  FontSize="35" Click="Button_Elementa_Click" FontFamily="Faith Collapsing" Margin="1150,150,0,0"  Height="Auto" Width="200" VerticalAlignment="Top"/>
-        <Button x:Name="button_Hybrids" Content="Hybrids"  FontSize="35" Click="Button_Hybrids_Click" FontFamily="Faith Collapsing" Margin="400,300,0,0"  Height="Auto" Width="200" VerticalAlignment="Top"/>
-        <Button x:Name="button_Insectoids" Content="Insectoids"  FontSize="35" Click="Button_Insectoids_Click" FontFamily="Faith Collapsing" Margin="700,310,0,0"  Height="Auto" Width="200" VerticalAlignment="Top" />
-        <Button x:Name="button_Necrophages" Content="Necrophages"  FontSize="35" Click="Button_Necrophages_Click" FontFamily="Faith Collapsing" Margin="1000,310,0,0"  Height="Auto" Width="200" VerticalAlignment="Top"/>
-        <Button x:Name="button_Ogroids" Content="Ogroids"  FontSize="35" FontFamily="Faith Collapsing" Click="Button_Ogroids_Click" Margin="250,500,0,0"  Height="Auto" Width="200" VerticalAlignment="Top"/>
-        <Button x:Name="button_Relicts" Content="Relicts"  FontSize="35" FontFamily="Faith Collapsing" Click="Button_Relicts_Click" Margin="550,500,0,0"  Height="Auto" Width="200" VerticalAlignment="Top"/>
-        <Button x:Name="button_Specters" Content="Specters"  FontSize="35" FontFamily="Faith Collapsing" Click="Button_Specters_Click" Margin="850,500,0,0"  Height="Auto" Width="200" VerticalAlignment="Top"/>
-        <Button x:Name="button_Vampires" Content="Vampires"  FontSize="35" FontFamily="Faith Collapsing" Click="Button_Vampires_Click" Margin="1150,500,0,0"  Height="Auto" Width="200" VerticalAlignment="Top"/>
+        <Button Name="button_Beasts" Content="Beasts"  FontSize="35" Click="Button_Beasts_Click" FontFamily="Faith Collapsing" Margin="343,266,0,0"  Height="Auto" Width="200" VerticalAlignment="Top" RenderTransformOrigin="-0.014,1.278"/>
+        <Button x:Name="button_Cursed" Content="Cursed Ones"  FontSize="35" Click="Button_Cursed_Click" FontFamily="Faith Collapsing" Margin="543,177,0,0"  Height="Auto" Width="200" VerticalAlignment="Top"/>
+        <Button x:Name="button_Draconids" Content="Draconids"  FontSize="35" Click="Button_Draconids_Click" FontFamily="Faith Collapsing" Margin="804,177,0,0"  Height="Auto" Width="200" VerticalAlignment="Top"/>
+        <Button x:Name="button_Elementa" Content="Elementa"  FontSize="35" Click="Button_Elementa_Click" FontFamily="Faith Collapsing" Margin="1006,266,0,0"  Height="Auto" Width="200" VerticalAlignment="Top"/>
+        <Button x:Name="button_Hybrids" Content="Hybrids"  FontSize="35" Click="Button_Hybrids_Click" FontFamily="Faith Collapsing" Margin="250,411,0,0"  Height="Auto" Width="200" VerticalAlignment="Top" RenderTransformOrigin="0.958,0.49"/>
+        <Button x:Name="button_Insectoids" Content="Insectoids"  FontSize="35" Click="Button_Insectoids_Click" FontFamily="Faith Collapsing" Margin="674,699,0,0"  Height="Auto" Width="200" VerticalAlignment="Top" />
+        <Button x:Name="button_Necrophages" Content="Necrophages"  FontSize="35" Click="Button_Necrophages_Click" FontFamily="Faith Collapsing" Margin="1106,411,0,0"  Height="Auto" Width="200" VerticalAlignment="Top"/>
+        <Button x:Name="button_Ogroids" Content="Ogroids"  FontSize="35" FontFamily="Faith Collapsing" Click="Button_Ogroids_Click" Margin="250,557,0,0"  Height="Auto" Width="200" VerticalAlignment="Top" RenderTransformOrigin="0.036,1.833"/>
+        <Button x:Name="button_Relicts" Content="Relicts"  FontSize="35" FontFamily="Faith Collapsing" Click="Button_Relicts_Click" Margin="443,638,0,0"  Height="Auto" Width="200" VerticalAlignment="Top"/>
+        <Button x:Name="button_Specters" Content="Specters"  FontSize="35" FontFamily="Faith Collapsing" Click="Button_Specters_Click" Margin="905,638,0,0"  Height="Auto" Width="200" VerticalAlignment="Top"/>
+        <Button x:Name="button_Vampires" Content="Vampires"  FontSize="35" FontFamily="Faith Collapsing" Click="Button_Vampires_Click" Margin="1106,557,0,0"  Height="Auto" Width="200" VerticalAlignment="Top"/>
+        <Image Source="Assets\Logo.png" Margin="385,266,385,150" Height="auto" Width="auto" Opacity=".45"/>
     </Grid>
 
 </Page>
