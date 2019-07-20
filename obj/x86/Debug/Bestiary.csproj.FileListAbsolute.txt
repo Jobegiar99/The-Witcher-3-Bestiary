@@ -225,3 +225,8 @@ C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\obj\x86\De
 C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\obj\x86\Debug\SelectedEntryMenu.g.cs
 C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\obj\x86\Debug\SelectedEntryMenu.xaml
 C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\obj\x86\Debug\SelectedEntryMenu.xbf
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\bin\x86\Debug\EntryInformation.xbf
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\obj\x86\Debug\EntryInformation.g.i.cs
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\obj\x86\Debug\EntryInformation.g.cs
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\obj\x86\Debug\EntryInformation.xaml
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\obj\x86\Debug\EntryInformation.xbf

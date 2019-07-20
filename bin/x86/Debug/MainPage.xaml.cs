@@ -1917,7 +1917,7 @@ namespace Bestiary
 
 
             this.InitializeComponent();
-            txt_Title.Text = EntriesDone.Draconids[4].Name;
+            
 
             
         }
@@ -1925,7 +1925,7 @@ namespace Bestiary
         private void Button_Beasts_Click(object sender, RoutedEventArgs e)
         {
 
-            EntriesDone.SelectedEntry = EntriesDone.Beasts;
+            EntriesDone.SelectedEntryArray = EntriesDone.Beasts;
             EntriesDone.SelectedEntryType = "Beasts";
             this.Frame.Navigate(typeof(SelectedEntryMenu));
             
@@ -1933,7 +1933,7 @@ namespace Bestiary
 
         private void Button_Cursed_Click(object sender, RoutedEventArgs e)
         {
-            EntriesDone.SelectedEntry = EntriesDone.CursedOnes;
+            EntriesDone.SelectedEntryArray = EntriesDone.CursedOnes;
             EntriesDone.SelectedEntryType = "Cursed Ones";
             this.Frame.Navigate(typeof(SelectedEntryMenu));
 
@@ -1941,14 +1941,14 @@ namespace Bestiary
 
         private void Button_Draconids_Click(object sender, RoutedEventArgs e)
         {
-            EntriesDone.SelectedEntry = EntriesDone.Draconids;
+            EntriesDone.SelectedEntryArray = EntriesDone.Draconids;
             EntriesDone.SelectedEntryType = "Draconids";
             this.Frame.Navigate(typeof(SelectedEntryMenu));
         }
 
         private void Button_Elementa_Click(object sender, RoutedEventArgs e)
         {
-            EntriesDone.SelectedEntry = EntriesDone.Elementa;
+            EntriesDone.SelectedEntryArray = EntriesDone.Elementa;
             EntriesDone.SelectedEntryType = "Elementa";
             this.Frame.Navigate(typeof(SelectedEntryMenu));
 
@@ -1956,7 +1956,7 @@ namespace Bestiary
 
         private void Button_Hybrids_Click(object sender, RoutedEventArgs e)
         {
-            EntriesDone.SelectedEntry = EntriesDone.Hybrids;
+            EntriesDone.SelectedEntryArray = EntriesDone.Hybrids;
             EntriesDone.SelectedEntryType = "Hybrids";
             this.Frame.Navigate(typeof(SelectedEntryMenu));
 
@@ -1964,42 +1964,42 @@ namespace Bestiary
 
         private void Button_Insectoids_Click(object sender, RoutedEventArgs e)
         {
-            EntriesDone.SelectedEntry = EntriesDone.Insectoids;
+            EntriesDone.SelectedEntryArray = EntriesDone.Insectoids;
             EntriesDone.SelectedEntryType = "Insectoids";
             this.Frame.Navigate(typeof(SelectedEntryMenu));
         }
 
         private void Button_Necrophages_Click(object sender, RoutedEventArgs e)
         {
-            EntriesDone.SelectedEntry = EntriesDone.Necrophages;
+            EntriesDone.SelectedEntryArray = EntriesDone.Necrophages;
             EntriesDone.SelectedEntryType = "Necrophages";
             this.Frame.Navigate(typeof(SelectedEntryMenu));
         }
 
         private void Button_Ogroids_Click(object sender, RoutedEventArgs e)
         {
-            EntriesDone.SelectedEntry = EntriesDone.Ogroids;
+            EntriesDone.SelectedEntryArray = EntriesDone.Ogroids;
             EntriesDone.SelectedEntryType = "Ogroids";
             this.Frame.Navigate(typeof(SelectedEntryMenu));
         }
 
         private void Button_Relicts_Click(object sender, RoutedEventArgs e)
         {
-            EntriesDone.SelectedEntry = EntriesDone.Relicts;
+            EntriesDone.SelectedEntryArray = EntriesDone.Relicts;
             EntriesDone.SelectedEntryType = "Relicts";
             this.Frame.Navigate(typeof(SelectedEntryMenu));
         }
 
         private void Button_Specters_Click(object sender, RoutedEventArgs e)
         {
-            EntriesDone.SelectedEntry = EntriesDone.Specters;
+            EntriesDone.SelectedEntryArray = EntriesDone.Specters;
             EntriesDone.SelectedEntryType = "Specters";
             this.Frame.Navigate(typeof(SelectedEntryMenu));
         }
 
         private void Button_Vampires_Click(object sender, RoutedEventArgs e)
         {
-            EntriesDone.SelectedEntry = EntriesDone.Vampires;
+            EntriesDone.SelectedEntryArray = EntriesDone.Vampires;
             EntriesDone.SelectedEntryType = "Vampires";
             this.Frame.Navigate(typeof(SelectedEntryMenu));
         }

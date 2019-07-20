@@ -11,26 +11,26 @@
     <Grid Height="auto" Width="auto">
         <Image x:ConnectionId='2' Name="img_back" HorizontalAlignment="Center" Height="1007.3" Width="1962.479" Source="Assets\Background.png" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto"/>
         <TextBlock x:ConnectionId='3' Name="txt_title" HorizontalAlignment="Center" Margin="0,20,80,0" Text="_NAME_" FontFamily="Faith COllapsing" FontSize="50" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <Button x:ConnectionId='4' Name="button_entry1" Content="_NAME_" Margin="200,100,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
-        <Button x:ConnectionId='5' Name="button_entry2" Content="_NAME_" Margin="500,100,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
-        <Button x:ConnectionId='6' Name="button_entry3" Content="_NAME_" Margin="800,100,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
-        <Button x:ConnectionId='7' x:Name="button_entry4" Content="_NAME_" Margin="1100,100,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
-        <Button x:ConnectionId='8' x:Name="button_entry5" Content="_NAME_" Margin="200,200,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
-        <Button x:ConnectionId='9' x:Name="button_entry6" Content="_NAME_" Margin="500,200,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
-        <Button x:ConnectionId='10' x:Name="button_entry7" Content="_NAME_" Margin="800,200,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
-        <Button x:ConnectionId='11' x:Name="button_entry8" Content="_NAME_" Margin="1100,200,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
-        <Button x:ConnectionId='12' x:Name="button_entry9" Content="_NAME_" Margin="200,300,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
-        <Button x:ConnectionId='13' x:Name="button_entry10" Content="_NAME_" Margin="500,300,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
-        <Button x:ConnectionId='14' x:Name="button_entry11" Content="_NAME_" Margin="800,300,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
-        <Button x:ConnectionId='15' x:Name="button_entry12" Content="_NAME_" Margin="1100,300,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
-        <Button x:ConnectionId='16' x:Name="button_entry13" Content="_NAME_" Margin="200,400,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
-        <Button x:ConnectionId='17' x:Name="button_entry14" Content="_NAME_" Margin="500,400,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
-        <Button x:ConnectionId='18' x:Name="button_entry15" Content="_NAME_" Margin="800,400,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
-        <Button x:ConnectionId='19' x:Name="button_entry16" Content="_NAME_" Margin="1100,400,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
-        <Button x:ConnectionId='20' x:Name="button_entry17" Content="_NAME_" Margin="200,500,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
-        <Button x:ConnectionId='21' x:Name="button_entry18" Content="_NAME_" Margin="500,500,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
-        <Button x:ConnectionId='22' x:Name="button_entry19" Content="_NAME_" Margin="800,500,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
-        <Button x:ConnectionId='23' x:Name="button_entry20" Content="_NAME_" Margin="1100,500,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='4'                            TabIndex="0" Name="button_entry1" Content="_NAME_" Margin="200,100,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='5'                            TabIndex="1" Name="button_entry2" Content="_NAME_" Margin="500,100,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='6'                            TabIndex="2" Name="button_entry3" Content="_NAME_" Margin="800,100,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='7'                            TabIndex="3" x:Name="button_entry4" Content="_NAME_" Margin="1100,100,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='8'                            TabIndex="4" x:Name="button_entry5" Content="_NAME_" Margin="200,200,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='9'                            TabIndex="5" x:Name="button_entry6" Content="_NAME_" Margin="500,200,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='10'                            TabIndex="6" x:Name="button_entry7" Content="_NAME_" Margin="800,200,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='11'                            TabIndex="7" x:Name="button_entry8" Content="_NAME_" Margin="1100,200,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='12'                            TabIndex="8" x:Name="button_entry9" Content="_NAME_" Margin="200,300,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='13'                            TabIndex="9" x:Name="button_entry10" Content="_NAME_" Margin="500,300,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='14'                            TabIndex="10" x:Name="button_entry11" Content="_NAME_" Margin="800,300,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='15'                            TabIndex="11" x:Name="button_entry12" Content="_NAME_" Margin="1100,300,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='16'                            TabIndex="12" x:Name="button_entry13" Content="_NAME_" Margin="200,400,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='17'                            TabIndex="13" x:Name="button_entry14" Content="_NAME_" Margin="500,400,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='18'                            TabIndex="14" x:Name="button_entry15" Content="_NAME_" Margin="800,400,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='19'                            TabIndex="15" x:Name="button_entry16" Content="_NAME_" Margin="1100,400,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='20'                            TabIndex="16" x:Name="button_entry17" Content="_NAME_" Margin="200,500,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='21'                            TabIndex="17" x:Name="button_entry18" Content="_NAME_" Margin="500,500,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='22'                            TabIndex="18" x:Name="button_entry19" Content="_NAME_" Margin="800,500,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='23'                            TabIndex="19" x:Name="button_entry20" Content="_NAME_" Margin="1100,500,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
         <Button x:ConnectionId='24' Name="button_return"                             Content="Return" FontFamily="Faith Collapsing" FontSize="25" Margin="660,600,0,0" VerticalAlignment="Top"/>
     </Grid>
 

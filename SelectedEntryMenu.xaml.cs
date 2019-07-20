@@ -55,7 +55,7 @@ namespace Bestiary
           
             txt_title.Text = EntriesDone.SelectedEntryType;
             byte listIndex = 0;
-            foreach(Entry entry in EntriesDone.SelectedEntry)
+            foreach(Entry entry in EntriesDone.SelectedEntryArray)
             {
                 buttonList[listIndex].Content = entry.Name;
                 listIndex++;
@@ -70,6 +70,14 @@ namespace Bestiary
         private void Button_return_Click(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(MainPage));
+        }
+
+        private void Button_entry_Click(object sender, RoutedEventArgs e)
+        {
+            //Sets the Entry that will be visualized on the page "EntryInformation"
+            EntriesDone.SelectedEntry = EntriesDone.SelectedEntryArray[((Button)sender).TabIndex];
+            this.Frame.Navigate(typeof(EntryInformation));
+        
         }
     }
 }

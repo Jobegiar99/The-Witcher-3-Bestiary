@@ -120,6 +120,9 @@
     </Compile>
     <Compile Include="Classes\EntriesDone.cs" />
     <Compile Include="Classes\Entry.cs" />
+    <Compile Include="EntryInformation.xaml.cs">
+      <DependentUpon>EntryInformation.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -135,10 +138,139 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\abaya.png" />
+    <Content Include="Assets\alghoul.png" />
+    <Content Include="Assets\alp.png" />
+    <Content Include="Assets\alpha.png" />
+    <Content Include="Assets\apiarian.png" />
+    <Content Include="Assets\arachasae.png" />
+    <Content Include="Assets\arachnomorphs.png" />
+    <Content Include="Assets\Archespore.png" />
+    <Content Include="Assets\ArmoredAra.png" />
     <Content Include="Assets\Background.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="Assets\banshe.png" />
+    <Content Include="Assets\barghest.png" />
+    <Content Include="Assets\Basilisk.png" />
     <Content Include="Assets\Bear.png" />
+    <Content Include="Assets\Berserker.png" />
+    <Content Include="Assets\BigBadWolf.png" />
+    <Content Include="Assets\botchling.png" />
+    <Content Include="Assets\bruxae.png" />
+    <Content Include="Assets\caretaker.png" />
+    <Content Include="Assets\chort.png" />
+    <Content Include="Assets\CloudGiant.png" />
+    <Content Include="Assets\Cockatrice.png" />
+    <Content Include="Assets\crones.png" />
+    <Content Include="Assets\Cyclopses.png" />
+    <Content Include="Assets\daphne.png" />
+    <Content Include="Assets\devil.png" />
+    <Content Include="Assets\devourer.png" />
+    <Content Include="Assets\Djinn.png" />
+    <Content Include="Assets\Dog.png" />
+    <Content Include="Assets\doppler.png" />
+    <Content Include="Assets\Dracolyzard.png" />
+    <Content Include="Assets\drones.png" />
+    <Content Include="Assets\Drowdead.png" />
+    <Content Include="Assets\drowner.png" />
+    <Content Include="Assets\Earth.png" />
+    <Content Include="Assets\ekhidna.jpg" />
+    <Content Include="Assets\ekimma.png" />
+    <Content Include="Assets\emperor.png" />
+    <Content Include="Assets\eretein.png" />
+    <Content Include="Assets\Erynias.png" />
+    <Content Include="Assets\Ethereal.png" />
+    <Content Include="Assets\fiend.png" />
+    <Content Include="Assets\fire.png" />
+    <Content Include="Assets\fleder.png" />
+    <Content Include="Assets\foglet.png" />
+    <Content Include="Assets\Forktail.png" />
+    <Content Include="Assets\fugas.png" />
+    <Content Include="Assets\Fyresdal.png" />
+    <Content Include="Assets\gael.png" />
+    <Content Include="Assets\gargo.png" />
+    <Content Include="Assets\garkain.png" />
+    <Content Include="Assets\ghoul.png" />
+    <Content Include="Assets\GiantCentipede.png" />
+    <Content Include="Assets\godling.png" />
+    <Content Include="Assets\Golem.png" />
+    <Content Include="Assets\Golyat.png" />
+    <Content Include="Assets\Grags.png" />
+    <Content Include="Assets\Griffin.png" />
+    <Content Include="Assets\grottore.png" />
+    <Content Include="Assets\Hagubman.png" />
+    <Content Include="Assets\Harpy.png" />
+    <Content Include="Assets\Harrisi.png" />
+    <Content Include="Assets\higher.png" />
+    <Content Include="Assets\Howler.png" />
+    <Content Include="Assets\hunt.png" />
+    <Content Include="Assets\hym.png" />
+    <Content Include="Assets\ice.png" />
+    <Content Include="Assets\IceGiant.png" />
+    <Content Include="Assets\Ignituus.png" />
+    <Content Include="Assets\imp.png" />
+    <Content Include="Assets\jenny.png" />
+    <Content Include="Assets\katakan.png" />
+    <Content Include="Assets\Kernun.png" />
+    <Content Include="Assets\kikiWa.png" />
+    <Content Include="Assets\kikiWo.png" />
+    <Content Include="Assets\lady.png" />
+    <Content Include="Assets\leshen.png" />
+    <Content Include="Assets\logo.jpg" />
+    <Content Include="Assets\Longlocks.png" />
+    <Content Include="Assets\Lubberkin.png" />
+    <Content Include="Assets\Melusine.png" />
+    <Content Include="Assets\moreau.png" />
+    <Content Include="Assets\morvudd.png" />
+    <Content Include="Assets\Mourntart.png" />
+    <Content Include="Assets\mucknixer.png" />
+    <Content Include="Assets\Nekker.png" />
+    <Content Include="Assets\nightwrath.png" />
+    <Content Include="Assets\noon.png" />
+    <Content Include="Assets\Opinicus.png" />
+    <Content Include="Assets\paint.png" />
+    <Content Include="Assets\PaleWidow.png" />
+    <Content Include="Assets\penitent.png" />
+    <Content Include="Assets\Phanter.png" />
+    <Content Include="Assets\Pixies.png" />
+    <Content Include="Assets\plague.png" />
+    <Content Include="Assets\Protofleder.png" />
+    <Content Include="Assets\RockTroll.png" />
+    <Content Include="Assets\rotfiend.png" />
+    <Content Include="Assets\royal.png" />
+    <Content Include="Assets\salma.png" />
+    <Content Include="Assets\sandcrab.jpg" />
+    <Content Include="Assets\Sarasti.png" />
+    <Content Include="Assets\scurvers.png" />
+    <Content Include="Assets\Shrieker.png" />
+    <Content Include="Assets\Silver.png" />
+    <Content Include="Assets\Siren.png" />
+    <Content Include="Assets\Slyzard.png" />
+    <Content Include="Assets\Spotted Wight.png" />
+    <Content Include="Assets\spriggan.png" />
+    <Content Include="Assets\Succubus.png" />
+    <Content Include="Assets\sylvan.png" />
+    <Content Include="Assets\TheBeastOfBeau.png" />
+    <Content Include="Assets\Therazane.png" />
+    <Content Include="Assets\ThreePigs.png" />
+    <Content Include="Assets\Toad.png" />
+    <Content Include="Assets\tufo.png" />
+    <Content Include="Assets\ulfhedinn.png" />
+    <Content Include="Assets\umbra.png" />
+    <Content Include="Assets\venochasae.png" />
+    <Content Include="Assets\warrior.png" />
+    <Content Include="Assets\WaterHag.png" />
+    <Content Include="Assets\Werewolf.png" />
+    <Content Include="Assets\wham.png" />
+    <Content Include="Assets\wickedwitch.png" />
+    <Content Include="Assets\Wights.png" />
+    <Content Include="Assets\WildBoar.png" />
+    <Content Include="Assets\Wolf.png" />
+    <Content Include="Assets\woodland.png" />
+    <Content Include="Assets\worker.png" />
+    <Content Include="Assets\wraith.png" />
+    <Content Include="Assets\Wyvern.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -153,6 +285,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="EntryInformation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

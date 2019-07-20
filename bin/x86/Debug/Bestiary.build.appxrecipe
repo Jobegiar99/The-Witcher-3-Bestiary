@@ -373,11 +373,389 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\abaya.png">
+      <PackagePath>Assets\abaya.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\alghoul.png">
+      <PackagePath>Assets\alghoul.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\alp.png">
+      <PackagePath>Assets\alp.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\alpha.png">
+      <PackagePath>Assets\alpha.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\apiarian.png">
+      <PackagePath>Assets\apiarian.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\arachasae.png">
+      <PackagePath>Assets\arachasae.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\arachnomorphs.png">
+      <PackagePath>Assets\arachnomorphs.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Archespore.png">
+      <PackagePath>Assets\Archespore.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\ArmoredAra.png">
+      <PackagePath>Assets\ArmoredAra.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Background.png">
       <PackagePath>Assets\Background.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\banshe.png">
+      <PackagePath>Assets\banshe.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\barghest.png">
+      <PackagePath>Assets\barghest.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Basilisk.png">
+      <PackagePath>Assets\Basilisk.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Bear.png">
       <PackagePath>Assets\Bear.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Berserker.png">
+      <PackagePath>Assets\Berserker.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\BigBadWolf.png">
+      <PackagePath>Assets\BigBadWolf.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\botchling.png">
+      <PackagePath>Assets\botchling.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\bruxae.png">
+      <PackagePath>Assets\bruxae.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\caretaker.png">
+      <PackagePath>Assets\caretaker.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\chort.png">
+      <PackagePath>Assets\chort.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\CloudGiant.png">
+      <PackagePath>Assets\CloudGiant.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Cockatrice.png">
+      <PackagePath>Assets\Cockatrice.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\crones.png">
+      <PackagePath>Assets\crones.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Cyclopses.png">
+      <PackagePath>Assets\Cyclopses.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\daphne.png">
+      <PackagePath>Assets\daphne.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\devil.png">
+      <PackagePath>Assets\devil.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\devourer.png">
+      <PackagePath>Assets\devourer.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Djinn.png">
+      <PackagePath>Assets\Djinn.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Dog.png">
+      <PackagePath>Assets\Dog.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\doppler.png">
+      <PackagePath>Assets\doppler.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Dracolyzard.png">
+      <PackagePath>Assets\Dracolyzard.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\drones.png">
+      <PackagePath>Assets\drones.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Drowdead.png">
+      <PackagePath>Assets\Drowdead.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\drowner.png">
+      <PackagePath>Assets\drowner.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Earth.png">
+      <PackagePath>Assets\Earth.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\ekimma.png">
+      <PackagePath>Assets\ekimma.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\emperor.png">
+      <PackagePath>Assets\emperor.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\eretein.png">
+      <PackagePath>Assets\eretein.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Erynias.png">
+      <PackagePath>Assets\Erynias.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Ethereal.png">
+      <PackagePath>Assets\Ethereal.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\fiend.png">
+      <PackagePath>Assets\fiend.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\fire.png">
+      <PackagePath>Assets\fire.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\fleder.png">
+      <PackagePath>Assets\fleder.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\foglet.png">
+      <PackagePath>Assets\foglet.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Forktail.png">
+      <PackagePath>Assets\Forktail.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\fugas.png">
+      <PackagePath>Assets\fugas.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Fyresdal.png">
+      <PackagePath>Assets\Fyresdal.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\gael.png">
+      <PackagePath>Assets\gael.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\gargo.png">
+      <PackagePath>Assets\gargo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\garkain.png">
+      <PackagePath>Assets\garkain.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\ghoul.png">
+      <PackagePath>Assets\ghoul.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\GiantCentipede.png">
+      <PackagePath>Assets\GiantCentipede.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\godling.png">
+      <PackagePath>Assets\godling.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Golem.png">
+      <PackagePath>Assets\Golem.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Golyat.png">
+      <PackagePath>Assets\Golyat.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Grags.png">
+      <PackagePath>Assets\Grags.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Griffin.png">
+      <PackagePath>Assets\Griffin.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\grottore.png">
+      <PackagePath>Assets\grottore.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Hagubman.png">
+      <PackagePath>Assets\Hagubman.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Harpy.png">
+      <PackagePath>Assets\Harpy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Harrisi.png">
+      <PackagePath>Assets\Harrisi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\higher.png">
+      <PackagePath>Assets\higher.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Howler.png">
+      <PackagePath>Assets\Howler.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\hunt.png">
+      <PackagePath>Assets\hunt.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\hym.png">
+      <PackagePath>Assets\hym.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\ice.png">
+      <PackagePath>Assets\ice.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\IceGiant.png">
+      <PackagePath>Assets\IceGiant.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Ignituus.png">
+      <PackagePath>Assets\Ignituus.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\imp.png">
+      <PackagePath>Assets\imp.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\jenny.png">
+      <PackagePath>Assets\jenny.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\katakan.png">
+      <PackagePath>Assets\katakan.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Kernun.png">
+      <PackagePath>Assets\Kernun.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\kikiWa.png">
+      <PackagePath>Assets\kikiWa.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\kikiWo.png">
+      <PackagePath>Assets\kikiWo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\lady.png">
+      <PackagePath>Assets\lady.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\leshen.png">
+      <PackagePath>Assets\leshen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Longlocks.png">
+      <PackagePath>Assets\Longlocks.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Lubberkin.png">
+      <PackagePath>Assets\Lubberkin.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Melusine.png">
+      <PackagePath>Assets\Melusine.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\moreau.png">
+      <PackagePath>Assets\moreau.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\morvudd.png">
+      <PackagePath>Assets\morvudd.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Mourntart.png">
+      <PackagePath>Assets\Mourntart.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\mucknixer.png">
+      <PackagePath>Assets\mucknixer.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Nekker.png">
+      <PackagePath>Assets\Nekker.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\nightwrath.png">
+      <PackagePath>Assets\nightwrath.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\noon.png">
+      <PackagePath>Assets\noon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Opinicus.png">
+      <PackagePath>Assets\Opinicus.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\paint.png">
+      <PackagePath>Assets\paint.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\PaleWidow.png">
+      <PackagePath>Assets\PaleWidow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\penitent.png">
+      <PackagePath>Assets\penitent.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Phanter.png">
+      <PackagePath>Assets\Phanter.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Pixies.png">
+      <PackagePath>Assets\Pixies.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\plague.png">
+      <PackagePath>Assets\plague.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Protofleder.png">
+      <PackagePath>Assets\Protofleder.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\RockTroll.png">
+      <PackagePath>Assets\RockTroll.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\rotfiend.png">
+      <PackagePath>Assets\rotfiend.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\royal.png">
+      <PackagePath>Assets\royal.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\salma.png">
+      <PackagePath>Assets\salma.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Sarasti.png">
+      <PackagePath>Assets\Sarasti.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\scurvers.png">
+      <PackagePath>Assets\scurvers.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Shrieker.png">
+      <PackagePath>Assets\Shrieker.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Silver.png">
+      <PackagePath>Assets\Silver.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Siren.png">
+      <PackagePath>Assets\Siren.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Slyzard.png">
+      <PackagePath>Assets\Slyzard.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Spotted Wight.png">
+      <PackagePath>Assets\Spotted Wight.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\spriggan.png">
+      <PackagePath>Assets\spriggan.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Succubus.png">
+      <PackagePath>Assets\Succubus.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\sylvan.png">
+      <PackagePath>Assets\sylvan.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\TheBeastOfBeau.png">
+      <PackagePath>Assets\TheBeastOfBeau.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Therazane.png">
+      <PackagePath>Assets\Therazane.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\ThreePigs.png">
+      <PackagePath>Assets\ThreePigs.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Toad.png">
+      <PackagePath>Assets\Toad.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\tufo.png">
+      <PackagePath>Assets\tufo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\ulfhedinn.png">
+      <PackagePath>Assets\ulfhedinn.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\umbra.png">
+      <PackagePath>Assets\umbra.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\venochasae.png">
+      <PackagePath>Assets\venochasae.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\warrior.png">
+      <PackagePath>Assets\warrior.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\WaterHag.png">
+      <PackagePath>Assets\WaterHag.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Werewolf.png">
+      <PackagePath>Assets\Werewolf.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\wham.png">
+      <PackagePath>Assets\wham.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\wickedwitch.png">
+      <PackagePath>Assets\wickedwitch.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Wights.png">
+      <PackagePath>Assets\Wights.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\WildBoar.png">
+      <PackagePath>Assets\WildBoar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Wolf.png">
+      <PackagePath>Assets\Wolf.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\woodland.png">
+      <PackagePath>Assets\woodland.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\worker.png">
+      <PackagePath>Assets\worker.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\wraith.png">
+      <PackagePath>Assets\wraith.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\Wyvern.png">
+      <PackagePath>Assets\Wyvern.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -406,6 +784,15 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\ekhidna.jpg">
+      <PackagePath>Assets\ekhidna.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\logo.jpg">
+      <PackagePath>Assets\logo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Assets\sandcrab.jpg">
+      <PackagePath>Assets\sandcrab.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
@@ -414,6 +801,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\bin\x86\Debug\EntryInformation.xbf">
+      <PackagePath>EntryInformation.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>

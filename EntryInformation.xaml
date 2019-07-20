@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="Bestiary.EntryInformation"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Bestiary"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+   >
+
+    <Grid Height="auto" Width="auto">
+        <Image Name="img_back" HorizontalAlignment="Center" Height="1007.3" Width="1962.479" Source="Assets\Background.png" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto"/>
+        <Button Name="button_return" Click="Button_return_Click"  Margin="700,700,0,0" Content="Return" Height="auto" Width="auto" FontFamily="Faith Collapsing" FontSize="25"/>
+        <Image Name="img_entry" HorizontalAlignment="Left" Source="\Assets\Slyzard.png" Height="500" Margin="962,40,0,0" VerticalAlignment="Top" Width="500"/>
+    </Grid>
+</Page>

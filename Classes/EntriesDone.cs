@@ -21,6 +21,7 @@ namespace Bestiary.Classes
         public static Entry[] Specters { get; set; } = new Entry[16];
         public static Entry[] Vampires { get; set; } = new Entry[13];
         public static dynamic SelectedEntry { get; set; }
+        public static dynamic SelectedEntryArray { get; set; }
         public static string SelectedEntryType { get; set; }
 
 
