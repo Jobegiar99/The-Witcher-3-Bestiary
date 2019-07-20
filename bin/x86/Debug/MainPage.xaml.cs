@@ -23,17 +23,7 @@ namespace Bestiary
     /// </summary>
     public sealed partial class MainPage : Page
     {
-        Entry[] Beasts { get; set; } = new Entry[8];
-        Entry[] CursedOnes { get; set; } = new Entry[7];
-        Entry[] Draconids { get; set; } = new Entry[10];
-        Entry[] Elementa { get; set; } = new Entry[11];
-        Entry[] Hybrids { get; set; } = new Entry[9];
-        Entry[] Insectoids { get; set; } = new Entry[13];
-        Entry[] Necrophages { get; set; } = new Entry[16];
-        Entry[] Ogroids { get; set; } = new Entry[9];
-        Entry[] Relicts { get; set; } = new Entry[20];
-        Entry[] Specters { get; set; } = new Entry[16];
-        Entry[] Vampires { get; set; } = new Entry[13];
+       
 
         public MainPage()
         {
@@ -74,7 +64,7 @@ namespace Bestiary
                 Click to Expand*/{
 
                     //BEAR
-                    Beasts[0] = new Entry(
+                    EntriesDone.Beasts[0] = new Entry(
                         "Bear"
                         , "Bears are generally found far from human habitation, either in the high mountains or in the deep woods. " +
                         "Opposite of dogs and wolves, bears are solitary creatures, which is probably for the best considering how strong a " +
@@ -87,7 +77,7 @@ namespace Bestiary
                         , "Assets\\Bear.png");
 
                     //Phanter
-                    Beasts[1] = new Entry(
+                    EntriesDone.Beasts[1] = new Entry(
                         "Phanter"
                         , "Panthers are dangerous predators found in forests and other woodlands. They are quick, agile and, like all cats, diabolically " +
                         "cunning. In many less-than-thoroughly-urbanized areas, folk still believe panthers are the stranded souls of those who die in their sleep. " +
@@ -99,7 +89,7 @@ namespace Bestiary
                         , "Assets\\Phanter.png");
 
                     //Wild Boars
-                    Beasts[2] = new Entry(
+                    EntriesDone.Beasts[2] = new Entry(
                         "Wild Boars"
                         , "These woodland beasts are as \"wild\" – untamed, nasty and aggressive – as their name indicates. To this day, many peasants in outlying Kaedweni villages believe " +
                         "wild boars persist on a diet of young maids, though in truth they most often slate their hunger with roots and acorns. Do not think this vegetarian diet makes them harmless, " +
@@ -114,7 +104,7 @@ namespace Bestiary
                         , "Assets\\WildBoar.png");
 
                     //BigBadWolf
-                    Beasts[3] = new Entry(
+                    EntriesDone.Beasts[3] = new Entry(
                         "Big Bad Wolf"
                         , "The Big Bad Wolf is a large lupine humanoid who inhabits the illusory Land of a Thousand Fables, created by Artorius Vigo. He is based on a homonym figure from Nordling folk tales and served " +
                         "as a childhood playmate for Anna Henrietta and Sylvia Anna, two daughters of Toussaintois duke."
@@ -124,7 +114,7 @@ namespace Bestiary
                         , "Assets\\BigBadWolf.png");
 
                     //The Beast of Beauclair
-                    Beasts[4] = new Entry(
+                    EntriesDone.Beasts[4] = new Entry(
                         "The Beast of Beauclair"
                         , "Eyewitnesses to gruesome monster attacks always have a hard time describing the creature in question. The beasts move quickly and often attack at night, while the witnesses are terrified and primarily " +
                         "concerned with fleeing for their lives. As a result, witchers quite often have no inkling what creature they face until they find tracks or otherwise establish something for themselves. Such was the case with " +
@@ -137,7 +127,7 @@ namespace Bestiary
                         , "Assets\\TheBeastOfBeau.png");
 
                     //Wolves
-                    Beasts[5] = new Entry(
+                    EntriesDone.Beasts[5] = new Entry(
                         "Wolves"
                         , "Once upon a time wolves were the absolute rulers of the forest. Men used them to frighten children, while adults, too, trembled at the sound of their howling. Post-Conjunction monsters not only pushed wolves into the deepest wilds but " +
                         "also took over their place in human nightmares. Yet this does not mean the old predators ceased to be a danger. Wolves do not have a drop of magic within them, breathe no fire and spit no acid, but that in no way stops them from killing unwary travelers and hunters."
@@ -147,7 +137,7 @@ namespace Bestiary
                         , "Assets\\Wolf.png");
 
                     //Dogs
-                    Beasts[6] = new Entry(
+                    EntriesDone.Beasts[6] = new Entry(
                         "Dogs"
                         , "Some claim dogs are reflections of their masters. A well-treated pet repays his owner with loyalty and trust, whereas an ill-treated one repays this treatment in kind as well, meeting yells with barks and kicks with bites. Since there is an abundance of bad men, so, too, " +
                         "is there an abundance of bad dogs. Most dangerous of all are the vagrant mutts who have lost all respect for men and developed a taste for blood and carrion. Dogs usually attack in packs, choosing isolated victims, especially ones in whom they sense some kind of weakness.Packs of " +
@@ -158,7 +148,7 @@ namespace Bestiary
                         , "Assets\\Dog.png");
 
                     //Three Little Pigs
-                    Beasts[7] = new Entry(
+                    EntriesDone.Beasts[7] = new Entry(
                         "Three Little Pigs"
                         , "The three little pigs are perfect examples of a rather unfortunate phenomenon. Leave even a kind-hearted, warm, naively benign creature to fend for itself, and it won't remain so benign for long. The three little pigs from the Land of a Thousand Fables were left for years without Artorius " +
                         "Vigo's supervision. During this time they went completely feral, transforming into three wild boars which attacked anyone who dared approach their ruined home."
@@ -173,7 +163,7 @@ namespace Bestiary
                 Click To Expand*/{
 
                     //ARCHESPORE
-                    CursedOnes[0] = new Entry(
+                    EntriesDone.CursedOnes[0] = new Entry(
                         "Archespore"
                         , "Archespores look like gigantic, aesthetically unpleasing flowers with some of the traits of exceptionally cruel and bloodthirsty sundews. They are, however, far more dangerous that even the most colossal sundew. Their peculiar appearance makes them practically impossible to discern amidsts other " +
                         "plants. By the time one draws close enough to realize what they are, it is often too late to flee. According to popular belief, archespores are cursed plants grown in soil fertilized by the blood of the dying.They are most often found in places which in the past saw pogroms, bloody rituals or cruel " +
@@ -186,7 +176,7 @@ namespace Bestiary
                         , "Assets\\Archespore.png");
 
                     //BOTCHLINGS
-                    CursedOnes[1] = new Entry(
+                    EntriesDone.CursedOnes[1] = new Entry(
                         "Botchlings"
                         , "otchlings are perhaps the most repulsive creatures a witcher will ever have the displeasure of meeting. Born of dead, unwanted babies discarded without a proper burial, their appearance is that of a partially-decayed fetus, their unformed flesh twisted with hate, fear and malice. These hideous creatures feed " +
                         "on the blood of pregnant women, driven by a mad hunger that most often leads to their victim's death. A botchling will emerge from its lair at night to lurk by the bedside of an expectant mother, draining her strength and that of her unborn progeny as she sleeps.A woman thus beleaguered first suffers from troubling " +
@@ -199,7 +189,7 @@ namespace Bestiary
                         ,"Assets\\Botchling.png");
 
                     //ULFHEDINN
-                    CursedOnes[2] = new Entry(
+                    EntriesDone.CursedOnes[2] = new Entry(
                         "Ulfhedinn"
                         , "Ulfhedinn are a breed of werewolf found mainly in Skellige. The harsh and barren conditions of the isles might explain why they primarily hunt men and are " +
                         "stronger than their continental brethren. Older and particularly dangerous ulfhedinn are called olrefs. Only a few daring warriors in Skellige history have " +
@@ -213,7 +203,7 @@ namespace Bestiary
                         ,"Assets\\ulfhedinn.png");
 
                     //BERSERKERS
-                    CursedOnes[3] = new Entry(
+                    EntriesDone.CursedOnes[3] = new Entry(
                         "Berserkers"
                         , "Skellige legends speak of men known as berserkers who transform into bears when overwhelmed by battle rage. In doing so, they lose all self-awareness and are " +
                         "driven by a bloodlust which they must satiate in order to return to human form. Few believe these blood-curdling tales, however, not even in Skellige, where the " +
@@ -230,7 +220,7 @@ namespace Bestiary
                         , "Assets\\Berserker.png");
 
                     //LUBBERKIN
-                    CursedOnes[4] = new Entry(
+                    EntriesDone.CursedOnes[4] = new Entry(
                         "Lubberkin"
                         , "A lubberkin is a friendly household guardian spirit created from a botchling through Aymm Rhoin, an elven naming ritual, during which it is given a proper name and " +
                         "a burial under the hearth of the family estate. A lubberkin looks very similar to a botchling, though the main difference being its ghost-like, glowing, white aura and " +
@@ -241,7 +231,7 @@ namespace Bestiary
                         ,"Assets\\Luberkin.png");
 
                     //WEREWOLF
-                    CursedOnes[5] = new Entry(
+                    EntriesDone.CursedOnes[5] = new Entry(
                         "Werewolf"
                         , "Werewolves are creatures with both men and wolves inside them. When in beastly form, they take the worst traits of each: the wolf's drive to kill and hunger for raw flesh " +
                         "and the man's cruel and calculating intelligence. A werewolf's condition comes about through a curse, and the transformations happen outside his conscious control. When he reverts " +
@@ -256,7 +246,7 @@ namespace Bestiary
                         , "Assets\\Werewolf.png");
 
                     //THE TOAD PRINCE
-                    CursedOnes[6] = new Entry(
+                    EntriesDone.CursedOnes[6] = new Entry(
                         "The Toad Prince"
                         , "Timeless tales always carry within them a grain of truth. The legend of the frog prince is no exception, or at least that's what the folk of Oxenfurt wished to believe when they found out " +
                         "a monstrous toad lurked in their city sewers. The women who hunted it in search of romance and a better life, however, found their tales had a most unhappy ending. The creature they encountered " +
@@ -276,7 +266,7 @@ namespace Bestiary
                 Click To Expand*/{
 
                     //BASILISKS
-                    Draconids[0] = new Entry(
+                    EntriesDone.Draconids[0] = new Entry(
                         "Basilisks"
                         , "Contrary to popular belief, basilisks cannot turn anything to stone with their gaze. That is small comfort, however, given that their acid, venom, claws and " +
                         "teeth provide them many other ways to kill. Basilisks love dark, damp places such as cellars, caves and city sewers.They hunt by day, waiting patiently in hiding " +
@@ -292,7 +282,7 @@ namespace Bestiary
 
 
                     //ROYAL WYVERNS
-                    Draconids[1] = new Entry(
+                    EntriesDone.Draconids[1] = new Entry(
                         "Royal Wyverns"
                         , "A hunter who knows his prey's habits and behavior will rarely return from his hunt empty-handed. To know what forest paths deer are like to trod, to know in what muck " +
                         "boars will wallow, to guess when a hare will emerge from its burrow - that is half the battle.What most men do not know is that some monsters also possess such knowledge.For " +
@@ -304,7 +294,7 @@ namespace Bestiary
                         , "Assets\\royal.png");
 
                     //SLYZARD MATRIARCHS
-                    Draconids[2] = new Entry(
+                    EntriesDone.Draconids[2] = new Entry(
                         "Slyzard Matriarchs"
                         , "If you ever find yourself facing a monster that breathes fire, strikes with a tail tipped with venomous spines, bites with sharp teeth and swipes with even sharper claws and tends to " +
                         "knock its prey to the ground with a sonic blast, then you are fighting a slyzard. With an asernal like that, it comes as no surprise folk often mistake these draconids for dragons. " +
@@ -317,7 +307,7 @@ namespace Bestiary
                         , "Assets\\Slyzard.png");
 
                     //COCKATRICE
-                    Draconids[3] = new Entry(
+                    EntriesDone.Draconids[3] = new Entry(
                         "Cockatrices"
                         , "Foolish superstitions claim cockatrices, like basilisks, can kill with their gaze alone. That is utter nonsense, however, a cockatrice's gaze being no more dangerous than that of an angry " +
                         "goose. One should instead watch out for it's sharp beak and long tail, which it can whip to murderous effect. Cockatrices thrive in dark caves, abandoned ruins, cobwebbed dungeons and old " +
@@ -330,7 +320,7 @@ namespace Bestiary
                         , "Assets\\Cockatrice.png");
 
                     //SHRIEKER
-                    Draconids[3] = new Entry(
+                    EntriesDone.Draconids[3] = new Entry(
                         "Shrieker"
                         , "The monster tormenting the residents of Crow's Perch turned out to be a particularly nasty cockatrice. Geralt was not surprised the baron's men had been unable to stop it. They could not possibly" +
                         " withstand the surgical precision of its strikes, which slice open arteries and provoke an outpouring of blood only the Swallow potion could hope to stop. Neither did they know to force it to the" +
@@ -342,7 +332,7 @@ namespace Bestiary
                         , "Assets\\Shrieker.png");
 
                     //FORKTAIL
-                    Draconids[4] = new Entry(
+                    EntriesDone.Draconids[4] = new Entry(
                         "Forktails"
                         , "Forktails owe their quaint name to the long sharp growths at the tip of their tails. A blow from this weapon can slice an oaken shield in two – along with the arm that was carrying it. Thus, though " +
                         "its name conjures images of cutlery, fighting a forktail is nothing like a dinner party and ends in death rather than dessert."
@@ -352,7 +342,7 @@ namespace Bestiary
                         , "Assets\\Forktail.png");
 
                     //SILVER BASILISK
-                    Draconids[5] = new Entry(
+                    EntriesDone.Draconids[5] = new Entry(
                         "Silver Basilisk"
                         , "Silver Basilisks were once a dominating species, especially in the region of Toussaint where they were very common around the year 1100. Their extirpation in the duchy, and possibly near-extinction " +
                         "in the world as a whole, is chiefly due to hunting by humans for the monsters' silver-colored hides.In the year 1275, the last regulus platinum specimen in Toussaint (known as the Great White Terror) " +
@@ -363,7 +353,7 @@ namespace Bestiary
                         , "Assets\\Silver.png");
 
                     //THE DRAGON OF FYRESDAL
-                    Draconids[6] = new Entry(
+                    EntriesDone.Draconids[6] = new Entry(
                         "The Dragon of Fyresdal"
                         , "Few truly know what a dragon looks like, for those who have seen one up-close rarely have a chance to share their impressions. That is why people are forever mistaking other monsters for dragons. " +
                         "This was the case in Fyresdal, where the so-called dragon wreaking havoc turned out to be a forktail. Yet this mistaken attribution did not mean there was no reason to worry.The forktail harassing " +
@@ -375,7 +365,7 @@ namespace Bestiary
                         , "Assets\\Fyresdal.png");
 
                     //DRACOLIZARD
-                    Draconids[7] = new Entry(
+                    EntriesDone.Draconids[7] = new Entry(
                         "Dracolizards / Slyzards"
                         , "Slyzards are often mistaken for wyverns or forktails. Yet make no mistake: slyzards are nasty, terribly dangerous beasts, and confusing them for wyverns will end very badly for the confuser. While " +
                         "a wyvern can tear apart and devour an untrained man in seconds, only a slyzard can first bake him to a crisp with a waft of fiery breath. Slyzards are keenly aggressive and attack from both ground and " +
@@ -389,7 +379,7 @@ namespace Bestiary
                         , "Assets\\Dracolyzard.png");
 
                     //WYVERNS
-                    Draconids[8] = new Entry(
+                    EntriesDone.Draconids[8] = new Entry(
                         "Wyverns"
                         , "Wyverns are often mistaken for dragons, and, though they are much smaller than their more famous kin and do not breathe fire, they are likewise extremely dangerous monsters. Especially feared are the " +
                         "so-called royal wyverns who, like their namesake monarchs, are exceptionally ornery and extremely deadly."
@@ -406,7 +396,7 @@ namespace Bestiary
                 Click To Expand*/{
 
                     //DJIN
-                    Elementa[0] = new Entry(
+                    EntriesDone.Elementa[0] = new Entry(
                         "Djin"
                         , "A djinn is a powerful air spirit, a condensation of the power of that element endowed with consciousness and character - the latter usually nasty. " +
                         "According to legend, djinn can grant even the most far-fetched wishes, though they do so very begrudgingly. Unusually powerful mages can capture and " +
@@ -421,7 +411,7 @@ namespace Bestiary
                         , "Assets\\Djinn.png");
 
                     //GOLEMS
-                    Elementa[1] = new Entry(
+                    EntriesDone.Elementa[1] = new Entry(
                         "Golems"
                         , "Golems are mindless matter brought to life by a spell. They obey their creator's orders without question. Their boundless strength, ability to withstand " +
                         "pain, endless patience and the fact that they neet not one jot of food or drink makes them the best servants or guards anyone could ask for. Once provoked, " +
@@ -438,7 +428,7 @@ namespace Bestiary
                         ,"Assets\\Golem.png");
 
                     //PIXIES
-                    Elementa[2] = new Entry(
+                    EntriesDone.Elementa[2] = new Entry(
                         "Pixies"
                         , "Pixies might look like gentle, harmless creatures, yet in their case, the saying about appearances being deceiving fits all too perfectly. The pixies from " +
                         "the Land of a Thousand Fables were created to protect that magic place from intruders and ensure the ducal daughters, Sylvia Anna and Anna Henrietta, did not " +
@@ -450,7 +440,7 @@ namespace Bestiary
                         ,"Assets\\Pixies.png");
 
                     //EARTH ELEMENTAL
-                    Elementa[3] = new Entry(
+                    EntriesDone.Elementa[3] = new Entry(
                         "Earth Elemental"
                         , "Earth elementals are made of mud, clay, sand and rock dust clumped together with water and brought alive with magic. While seemingly slow and ponderous, there " +
                         "creatures are nevertheless dangerous and should be avoided at all costs. Earth elementals can withstand a tremendous amount of punishment.Due to their enormous " +
@@ -463,7 +453,7 @@ namespace Bestiary
                         , "Assets\\Earth.png");
 
                     //HOUND OF THE WILD HUNT
-                    Elementa[4] = new Entry(
+                    EntriesDone.Elementa[4] = new Entry(
                         "Hound of the Wild Hunt"
                         , "Born, or so some experts believe, of magic ice crystal, the Hounds of the Wild Hunt race alongside their spectral masters. Like ravenous, feral dogs they are " +
                         "capable only of mindlessly attacking whatever crosses their path. The Hounds' chief weapons are their claws and teeth. Their battle tactics rely on knocking " +
@@ -478,7 +468,7 @@ namespace Bestiary
                         , "Assets\\hunt.png");
 
                     //THE APIARIAN PHANTOM
-                    Elementa[5] = new Entry(
+                    EntriesDone.Elementa[5] = new Entry(
                         "The Apiarian Phantom"
                         , "The \"Apiarian Phantom\" destroying the Meiersdorf family's hives turned out to be a lost Hound of the Wild Hunt. When fighting such a beast, one must bear in mind " +
                         "three things. First of all, that the thick armor of ice covering it can only be pierced by strong blows. Second, that, like any other frost-born creature, it is " +
@@ -489,7 +479,7 @@ namespace Bestiary
                         , "Assets\\apiarian.png");
 
                     //FIRE ELEMENTAL
-                    Elementa[6] = new Entry(
+                    EntriesDone.Elementa[6] = new Entry(
                         "Fire Elemental"
                         , "Fire is the most destructive of the elements, thus the aggressive lethality of the creature that embodies its essence should come as no surprise. Fire elementals are " +
                         "forged in complicated magic rituals for one purpose: destruction. And they pursue this with murderous determination. This elemental attacks using fireballs and streams " +
@@ -503,7 +493,7 @@ namespace Bestiary
                         , "Assets\\fire.png");
 
                     //ICE ELEMENTAL
-                    Elementa[7] = new Entry(
+                    EntriesDone.Elementa[7] = new Entry(
                         "Ice Elemental"
                         , "An ice elemental is a mass of frozen water animated by magic. Deprived of consciousness or independent will, this elemental is boundlessly obedient to the orders of the " +
                         "mage who created it. Those orders usually contain but one syllable: kill. Ice elementals have no qualms about carrying out this order nor any particular difficulty in doing " +
@@ -516,7 +506,7 @@ namespace Bestiary
                         , "Assets\\ice.png");
 
                     //THERAZANE
-                    Elementa[8] = new Entry(
+                    EntriesDone.Elementa[8] = new Entry(
                         "Therazane"
                         , "There's no such thing as a risk-free real estate investment. It might turn out your new home has a leaky roof, structural rot in the attic, a scratched floor in the living " +
                         "room... or elven ruins beneath its foundations, and within them an enormous earth elemental just waiting for a chance to break free of its chains. Fighting such a monster is no " +
@@ -528,7 +518,7 @@ namespace Bestiary
                         , "Assets\\Therazane.png");
 
                     //GARGOYLES
-                    Elementa[9] = new Entry(
+                    EntriesDone.Elementa[9] = new Entry(
                         "Gargoyles"
                         , "Gargoyles are stone statues brought to life by magic in order to guard mages' laboratories and lairs from intruders. Their appearance alone has scared off more than one " +
                         "prospective burglar. Those who do not take fright at the sight of these horned and winged monstrosities usually die shortly thereafter, torn to shreds by stony claws."
@@ -538,7 +528,7 @@ namespace Bestiary
                         , "Assets\\gargo.png");
 
                     //MOREAU'S GOLEM
-                    Elementa[10] = new Entry(
+                    EntriesDone.Elementa[10] = new Entry(
                         "Moreau's Golem"
                         , "Long years of solitary study tend to make mages somewhat eccentric. As the years pass, laypeople being to irritate them more and more: they are dense, unreliable, " +
                         "disobedient and determined not to understand the gravity of mages' work. They display emotion when they should show discipline and self-mastery. No wonder mages have " +
@@ -556,7 +546,7 @@ namespace Bestiary
                 Click To Expand*/{
 
                     //EKHIDNA
-                    Hybrids[0] = new Entry(
+                    EntriesDone.Hybrids[0] = new Entry(
                         "Ekhidna"
                         , "They are a larger, stronger, breed of sirens. They make bodies of water a dangerous place."
                         , "Ekhidna Mutagen, Lock of Lamia Hair, Monster Brain, Monster Blood, Monster Bone, Monster Claw, Monster Ear, Monster Eye, Monster Heart, Monster Liver" +
@@ -566,7 +556,7 @@ namespace Bestiary
                         , "Assets\\ekhidna.jpg") ;
 
                     //HARPY
-                    Hybrids[1] = new Entry(
+                    EntriesDone.Hybrids[1] = new Entry(
                         "Harpy"
                         , "It is hard to say what is most repulsive about harpies and their cousins, the shishigas: their hideous appearance, the overwhelming stench of rot and bird " +
                         "excrement that clings to them or their bloodcurdling screech. Suffice it to say that even rats, who dwell happily among the rankest fecal matter and rotten waste, " +
@@ -581,7 +571,7 @@ namespace Bestiary
                         , "Assets\\Harpy.png");
 
                     //SALMA
-                    Hybrids[2] = new Entry(
+                    EntriesDone.Hybrids[2] = new Entry(
                         "Salma"
                         , "The witcher's investigation uncovered that a succubus named Salma was responsible for the string of killings afflicting the Novigrad city guard. This came as a " +
                         "surprise, for succubi do not usually commit premeditated, cold-blooded murder. This is not to say they are not dangerous: they will at times kill on accident, when " +
@@ -594,7 +584,7 @@ namespace Bestiary
                         , "Assets\\salma.png");
 
                     //ERYNIAS
-                    Hybrids[3] = new Entry(
+                    EntriesDone.Hybrids[3] = new Entry(
                         "Erynias"
                         , "Hard as it is to imagine, the erynias found in Skellige are even more repulsive - and dangerous - than harpies, their close relatives. Though well-rotten carrion is " +
                         "their food of choice, they will not turn up their noses at fresh meat, man flesh included. When they spy a potential victim, erynias, like harpies or shishigas, will " +
@@ -608,7 +598,7 @@ namespace Bestiary
                         , "Assets\\Erynias.png");
 
                     //MELUSINE
-                    Hybrids[4] = new Entry(
+                    EntriesDone.Hybrids[4] = new Entry(
                         "Melusine"
                         , "In the mountains near the village of Svorlag in Skellige lies an enormous complex of caves. For many centuries they were given wide berth on account of the " +
                         "bloodthirsty ekhidna known as Melusine who had made them into her lair. Melusine was a beast so powerful some islanders worshiped her as a semi - divine being.The " +
@@ -620,7 +610,7 @@ namespace Bestiary
                         ,"Assets\\Melusine.png");
 
                     //SIREN
-                    Hybrids[5] = new Entry(
+                    EntriesDone.Hybrids[5] = new Entry(
                         "Siren"
                         , "Like skilled hunters setting out wooden ducks to lure in drakes, sirens and lamias lure men near - using their own bodies as decoys. They can transform to resemble " +
                         "beautiful human maidens, though with tails covered in silver scales instead of legs. Once a naive sailor gets within arm's reach of these beautiful creatures, their " +
@@ -634,7 +624,7 @@ namespace Bestiary
                         , "Assets\\Siren.png");
 
                     //GRIFFIN
-                    Hybrids[6] = new Entry(
+                    EntriesDone.Hybrids[6] = new Entry(
                         "Griffin"
                         , "Griffins were once only found high in the mountains, where they would hunt marmots and wild goats. When humans encroached on their lands, however, griffins soon discovered " +
                         "a new source of much more plentiful and easier-caught prey: cows, sheep and shepherds. Though still wary of main roads and towns (where folk with the means to hire a witcher " +
@@ -651,7 +641,7 @@ namespace Bestiary
                         , "Assets\\Griffin.png");
 
                     //OPINICUS
-                    Hybrids[7] = new Entry(
+                    EntriesDone.Hybrids[7] = new Entry(
                         "Opinicus"
                         , "Killers of various stripes - mercenaries, knights errant, ambitious lawmen - try at times to compete with witchers as monster slayers. This usually ends in a massacre that not " +
                         "only does not solve the problem, but in fact only makes it worse - the beast walks away from the fight unharmed, enraged and out for vengeance. Such was the case in the mountains " +
@@ -664,7 +654,7 @@ namespace Bestiary
                         , "Assets\\Opinicus.png");
 
                     //SUCCUBUS
-                    Hybrids[8] = new Entry(
+                    EntriesDone.Hybrids[8] = new Entry(
                         "Succubus"
                         , "Unlike other monsters, succubi and menads feel no desire to kill, do not crave human blood and usually do not, in fact, mean any harm at all. They are motivated by one thing and " +
                         "one thing only: an insatiable lust. They try in vain to slake this by engaging in sexual acts with any other humanoid species they encounter. While it must be admitted that their \"victims\"" +
@@ -688,7 +678,7 @@ namespace Bestiary
                 Click To Expand*/{
 
                     //ARACHASAE
-                    Insectoids[0] = new Entry(
+                    EntriesDone.Insectoids[0] = new Entry(
                         "Arachasae"
                         , "Powerful pincers, a maw filled with razor-sharp teeth and venom glands packed with deadly toxins – these creatures constitute the arachas' deadly arsenal. " +
                         "Since people and farm animals make up an important part of these creatures' diet, contracts on arachasae in turn constitute an important source of witcher " +
@@ -703,7 +693,7 @@ namespace Bestiary
                         , "Assets\\arachasae.png");
 
                     //ARACHNOMORPHS
-                    Insectoids[1] = new Entry(
+                    EntriesDone.Insectoids[1] = new Entry(
                         "Arachnomorphss"
                         , "A similar saying could gain ground in our land concerning arachnomorphs and everything unable to flee them – meaning most every creature in the world. True, the " +
                         "tillers of the earth and fellers of trees need not fear them in their daily labors, for arachnomorphs, as distant, post-Conjunction cousins of common spiders, " +
@@ -716,7 +706,7 @@ namespace Bestiary
                         , "Assets\\arachonomorphs.png");
 
                     //ARMORED ARACHASAE
-                    Insectoids[2] = new Entry(
+                    EntriesDone.Insectoids[2] = new Entry(
                         "Armored Arachasae"
                         , "An arachas' only weakness is its soft, sensitive abdomen. Some arachasae hide this under hollow tree stumps, while other, \"armored\" varieties exist which have grown " +
                         "a thick carapace that covers all the more delicate parts of their bodies. An armored arachas is a true behemoth.It uses its enormous mass to knock over and trample its " +
@@ -729,7 +719,7 @@ namespace Bestiary
                         , "Assets\\ArmoredAra.png");
 
                     //ENDREGA DRONES
-                    Insectoids[3] = new Entry(
+                    EntriesDone.Insectoids[3] = new Entry(
                         "Endrega Drones"
                         , "Endrega males – called 'drones' – are gluttonous creatures whose only aim in life is to eat, fight and reproduce. Yet when venturing outside their nests, these aggressive " +
                         "hunters attack any and every creature they come across. Endrega drones live but brief lives, the culmination of which comes in the autumn when they fertilize the queen.They " +
@@ -743,7 +733,7 @@ namespace Bestiary
                         , "Assets\\drones.png");
 
                     //ENDREGA WARRIORS
-                    Insectoids[4] = new Entry(
+                    EntriesDone.Insectoids[4] = new Entry(
                         "Endrega Warriors"
                         , "Endless waves of endrega workers are enough to overcome most attackers, but when confronting more dangerous foes, endrega colonies unleash their larger, stronger members – " +
                         "the so-called warriors. This caste lives only to fight, and gets ample opportunity to do so while defending the colony's borders or conquering new territory. An endrega warrior's " +
@@ -756,7 +746,7 @@ namespace Bestiary
                         , "Assets\\warrior.png");
 
                     //ENDREGA WORKERS
-                    Insectoids[5] = new Entry(
+                    EntriesDone.Insectoids[5] = new Entry(
                         "Endrega Workers"
                         , "Workers are the most numerous, and thus the most frequently encountered, caste of endrega. Within the colony their duty lies in building nests and cocoons, acquiring food and " +
                         "caring for eggs and larvae. When threatened they will summon warriors to aid them, yet if forced to defend themselves they will – and do so surprisingly well. Endrega workers " +
@@ -770,7 +760,7 @@ namespace Bestiary
                         , "Assets\\worker.png");
 
                     //GIANT CENTIPEDES
-                    Insectoids[6] = new Entry(
+                    EntriesDone.Insectoids[6] = new Entry(
                         "Giant Centipede"
                         , "Giant centipedes are enormous, insect-like monsters which can be found in many places in the world, but are particularly common in the lands (or more precisely, under the lands) of " +
                         "Toussaint. There they often dwell in close comity with shaelmaars, for a sort of monstrous symbiosis has developed between them: giant centipedes feed on the small creatures which eat " +
@@ -786,7 +776,7 @@ namespace Bestiary
                         , "Assets\\GiantCentipede.png");
 
                     //HARRISI
-                    Insectoids[7] = new Entry(
+                    EntriesDone.Insectoids[7] = new Entry(
                         "Harrisi"
                         , "Velen's woods and bogs brim with monsters. This fact is well known, and thus when the war drove refugees into this hostile land, certain of their number thought to avoid the dangers of the " +
                         "lowlands by hiding in an abandoned mine. They were in for an unfortunate surprise. The shaft they chose for their sanctuary was inhabited by a poisonous arachas - a merciless and bloodthirsty " +
@@ -800,7 +790,7 @@ namespace Bestiary
                         , "Assets\\Harrisi.png");
 
                     //KIKIMORE WARRIOR
-                    Insectoids[8] = new Entry(
+                    EntriesDone.Insectoids[8] = new Entry(
                         "Kikimore Warrior"
                         , "It is unknown how exactly it is kikimores communicate with each other. Autopsies are hampered by the high toxicity of their subjects. Scholars have established that kikimores do not seem to possess " +
                         "any detectable auricles. One amateur researcher, Count di Salvaress, put forth a theory in his treatise \"A Microscope Among Monsters\" suggesting kikimores have a highly developed since of smell and use " +
@@ -814,7 +804,7 @@ namespace Bestiary
                         , "Assets\\kikiWa.png");
 
                     //KIKIMORE WORKER
-                    Insectoids[9] = new Entry(
+                    EntriesDone.Insectoids[9] = new Entry(
                         "Kikimore Worker"
                         , "Kikimores form colonies, making them similar to communal insects such as ants. A kikimore colony is ruled by a queen and organized into something of a social hierarchy. Kikimore workers take care of " +
                         "hunting food and bringing it back to the nest, while kikimore warriors defend the nest against attackers. A worker on its own can be easily killed by even a weak person or a child.It is rare indeed, however, " +
@@ -829,7 +819,7 @@ namespace Bestiary
                         , "Assets\\kikiWo.png");
 
                     //PALE WIDOWS
-                    Insectoids[10] = new Entry(
+                    EntriesDone.Insectoids[10] = new Entry(
                         "Pale Widows"
                         , "This rare variety of giant centipede dwells in underground lairs and owes its name to its unusual, pale white coloring. Like the more common giant centipede, its body is covered in hard chitinous armor, " +
                         "with numerous hooked limbs sticking out from underneath. Some scholars raise these creatures in laboratory conditions for the properties of their albumen, which makes an excellent base for the brewing " +
@@ -840,7 +830,7 @@ namespace Bestiary
                         , "Assets\\PaleWidow.png");
 
                     //SANDCRABS
-                    Insectoids[11] = new Entry(
+                    EntriesDone.Insectoids[11] = new Entry(
                         "Sandcrabs"
                         , "Sandcrabs have well-developed carapaces, and two pairs of legs and a pair of wings, even though it is unknown whether the creatures are able to fly. A most eye-catching feature is the very long horn on " +
                         "their heads."
@@ -850,7 +840,7 @@ namespace Bestiary
                         , "Assets\\sandcrab.jpg");
 
                     //VENOMOUS ARACHASAE
-                    Insectoids[12] = new Entry(
+                    EntriesDone.Insectoids[12] = new Entry(
                         "Venomous Arachasae"
                         , "Though all arachasae are highly venomous, this breed produces an especially strong toxin. A few drops are enough to kill a grown man – unless that man is a witcher, whose mutations will neutralize small " +
                         "amounts of this venom. Large quantities, however, will kill anything they touch, with mutations only prolonging an inevitable and painful death in such instances. Venomous arachasae produce colossal amounts " +
@@ -870,7 +860,7 @@ namespace Bestiary
                 Click To Expand*/{
 
                     //ABAYA
-                    Necrophages[0] = new Entry(
+                    EntriesDone.Necrophages[0] = new Entry(
                         "Abaya"
                         , "The bay below Kaer Trolde had a pernicious reputation. At times fishermen who chose to cast their nets in its waters would never come home again. " +
                         "Something would drag oarsmen off their longships or knock the ships themselves over. The locals blamed this on sea devils - the Skelligers' " +
@@ -885,7 +875,7 @@ namespace Bestiary
                         , "Assets\\abaya.png");
 
                     //ALGHOUL
-                    Necrophages[1] = new Entry(
+                    EntriesDone.Necrophages[1] = new Entry(
                         "Elghoul"
                         , "Alghouls differ from normal ghouls in size, strength, coloring and, most importantly, intelligence. Whereas ghouls and graveirs are primitive " +
                         "creatures unfit to plan even the simplest ambush, alghouls and their kindred (such as cemetaurs) are capable of forethought, and are thus much " +
@@ -902,7 +892,7 @@ namespace Bestiary
                         , "Assets\\alghoul.png");
 
                     //DEVOURER
-                    Necrophages[2] = new Entry(
+                    EntriesDone.Necrophages[2] = new Entry(
                         "Devourer"
                         , "evourers are often called night witches, because they resemble old, ugly women and are famous for their witch-like viciousness. These creatures " +
                         "gorge themselves on human flesh; although they willingly eat carcasses, above all they crave flesh that is fresh and warm. Devourers hunt after dark " +
@@ -914,7 +904,7 @@ namespace Bestiary
                         , "Assets\\devourer.png");
 
                     //DROWNER
-                    Necrophages[3] = new Entry(
+                    EntriesDone.Necrophages[3] = new Entry(
                         "Drowners"
                         , "A drowner resembles a corpse dredged from the bottom of a pond. It is sickly blue or green in color, with slime and sludge oozing out of every pore and the " +
                         "acrid stench of rot wafting off of it. That is why it is often thought drowners - along with their more dangerous cousins: vodniks, mucknixers and drowned " +
@@ -934,7 +924,7 @@ namespace Bestiary
                         , "Assets\\drowner.png");
 
                     //DROWNED DEAD
-                    Necrophages[4] = new Entry(
+                    EntriesDone.Necrophages[4] = new Entry(
                         "Drowned Dead"
                         , "Particularly strong and dangerous drowners are known as the drowned dead. Simple people see no difference between the drowner and the drowned dead – encountering " +
                         "either of them is equally deadly. We might suppose, though, that the most gloomy legends concern the drowned dead rather than drowners."
@@ -944,7 +934,7 @@ namespace Bestiary
                         , "Assets\\Drowdead.png");
 
                     //FOGLET
-                    Necrophages[5] = new Entry(
+                    EntriesDone.Necrophages[5] = new Entry(
                         "Foglet"
                         , "Fog is the traveler's foe. In the forest, it can make one lose one's way, at sea, it can send one sailing into the rocks. Yet such dangers are nothing compared to" +
                         " the monsters known as foglets which sometimes lurk within it. These creatures have powerful arms and claws like Zerrikanian kinjals, yet what makes them truly " +
@@ -956,7 +946,7 @@ namespace Bestiary
                         , "Assets\\foglet.png");
 
                     //GHOUL
-                    Necrophages[6] = new Entry(
+                    EntriesDone.Necrophages[6] = new Entry(
                         "Ghoul"
                         , "Ghouls and graveirs are hard to describe. In part, they resemble humans - yet on the whole, they are the utter negation of all that is human. Though they have arms " +
                         "and legs like men, they walk on all fours like dogs or badgers. Though they have eerily familiar faces, one searches them in vain for any sign of sentiment, reason or " +
@@ -972,7 +962,7 @@ namespace Bestiary
                         , "Assets\\ghoul.png");
 
                     //GRAVE HAG
-                    Necrophages[7] = new Entry(
+                    EntriesDone.Necrophages[7] = new Entry(
                         "Grave Hag"
                         , "Few monsters' names fit as well as the grave hags'. As one might guess, these creatures resemble aged, deformed women and loiter near graveyards and battlefields. Grave " +
                         "hags feed on human corpses and in particular on the rotten marrow which they slurp from human bones using their long, prehensile tongues. Once a hag has devoured all corpses" +
@@ -983,7 +973,7 @@ namespace Bestiary
                         , "Assets\\Grags.png");
 
                     //IGNIS FATUUS
-                    Necrophages[8] = new Entry(
+                    EntriesDone.Necrophages[8] = new Entry(
                         "Ignis Fatuus"
                         , "The monster haunting the peat bogs of Velen turned out to be an ancient foglet. These are exceptionally long-lived creatures - some have even dwelt on this earth for over " +
                         "two hundred years, growing stronger and stronger all the while. Blows dealt by foglets of such an age carry so much power blocking them is out of the question. These foglets " +
@@ -996,7 +986,7 @@ namespace Bestiary
                         , "Assets\\Ignituus.png");
 
                     //MOURNTART
-                    Necrophages[9] = new Entry(
+                    EntriesDone.Necrophages[9] = new Entry(
                         "Mourntart"
                         , "Most grave hags rarely attack humans, preferring instead to feed on the rotten remains they dig out of graves. Yet some individuals grow bold over the years and begin sneaking " +
                         "into huts to steal children and kill the elderly. Just such a monster was tormenting the inhabitants of Lindenvale. The witcher knew this grave hag would put up a fierce fight. He " +
@@ -1009,7 +999,7 @@ namespace Bestiary
                         , "Assets\\Mourntart.png");
 
                     //MUCKNIXER
-                    Necrophages[10] = new Entry(
+                    EntriesDone.Necrophages[10] = new Entry(
                         "Mucknixer"
                         , "A drowner resembles a corpse dredged from the bottom of a pond. It is sickly blue or green in color, with slime and sludge oozing out of every pore and the acrid stench of rot" +
                         " wafting off of it. That is why it is often thought drowners -along with their more dangerous cousins: vodniks, mucknixers and drowned dead — arise from the bodies of those who " +
@@ -1020,7 +1010,7 @@ namespace Bestiary
                         , "Assets\\mucknixer.png");
 
                     //ROTFIEND
-                    Necrophages[11] = new Entry(
+                    EntriesDone.Necrophages[11] = new Entry(
                         "Rotfiend"
                         , "Rotfiends resemble decomposing human bodies that have been stripped of their skin. Their presence is given away by the overwhelming stench of the rot which gives them their name." +
                         " Devourers are a particularly dangerous kind of rotfiend marked by an insatiable appetite for human flesh. Rotfiends and devourers were once rarities, but in the present age of constant " +
@@ -1035,7 +1025,7 @@ namespace Bestiary
                         , "Assets\\rotfiend.png");
 
                     //SCURVERS
-                    Necrophages[12] = new Entry(
+                    EntriesDone.Necrophages[12] = new Entry(
                         "Scurvers"
                         , "Scurvers are rotfiends' larger cousins. The bodies of these hideous, vaguely humanoid creatures are covered with rotten scraps of flesh, under which lurk even more rotten muscles stretched " +
                         "around a strong, flexible skeleton. Scurvers, which feed on old, rotting corpses, prefer to make their hunting grounds in abandoned torture sites, forgotten graveyards and old battlefields. " +
@@ -1050,7 +1040,7 @@ namespace Bestiary
                         , "Assets\\scurvers.png");
 
                     //SPOTTED WIGHT
-                    Necrophages[13] = new Entry(
+                    EntriesDone.Necrophages[13] = new Entry(
                         "Spotted Wight" 
                         , "Spotted wights were a subspecies of wight which the witchers drove to extinction. They were larger than their unspotted kin and owed their names to their numerous blotches and effusions. Spotted " +
                         "wights would most often dwell in derelict cemeteries and empty wildernesses, yet at times took to living in abandoned human domiciles. There they would indulge in their greatest passion: creating " +
@@ -1065,7 +1055,7 @@ namespace Bestiary
                         , "Assets\\Spotted Wight.png");
 
                     //WATER HAG
-                    Necrophages[14] = new Entry(
+                    EntriesDone.Necrophages[14] = new Entry(
                         "Water Hag"
                         , "Some tales mention water hags and swamp bints masquerading as lost old women to lure travelers back to the rickety shacks they build in the wetlands. In truth, only a blind man, or a sighted man " +
                         "blinded with drink, could mistake the rank sludge and rotting carrion of a water hag's den for a cozy cottage, and the hideous hag herself for an innocent grandmother. Their wrinkled, wart-covered " +
@@ -1077,7 +1067,7 @@ namespace Bestiary
                         , "Assets\\WaterHag.png");
 
                     //WIGHTS
-                    Necrophages[15] = new Entry(
+                    EntriesDone.Necrophages[15] = new Entry(
                         "Wights"
                         , "Though wights are ghastly and threatening in appearance, one should not approach them with sword drawn or attack them unprovoked. Left alone, they present no serious danger to anyone and are far more " +
                         "interested in mixing noxious brews in cauldrons than in fighting. This species mainly lives around ancient burial sites, though they have also been spotted near more recently-founded cemeteries and " +
@@ -1098,7 +1088,7 @@ namespace Bestiary
                  Click To Expand*/{
 
                     //CLOUD GIANT
-                    Ogroids[0] = new Entry(
+                    EntriesDone.Ogroids[0] = new Entry(
                         "Cloud Giant"
                         , "The Cloud Giant is most likely a degenerated illusory being. He is an inhabitant of the castle in the sky in the Land of a Thousand Fables. This land was " +
                         "abandoned and left untended for years, during which time it began to rot, fester and degrade. The Cloud Giant was most likely meant to be a pleasant - " +
@@ -1111,7 +1101,7 @@ namespace Bestiary
                         , "Assets\\CloudGiant.png");
 
                     //CYCLOPSES
-                    Ogroids[1] = new Entry(
+                    EntriesDone.Ogroids[1] = new Entry(
                         "Cyclopses"
                         , "Cyclopses can easily be recognized by the single eye located in the center of their foreheads. If for some reason that is not visible, other tell-tale signs " +
                         "are their enormous size, incredible strength and a seething hatred for all humans."
@@ -1122,7 +1112,7 @@ namespace Bestiary
                         , "Assets\\Cyclopses.png");
 
                     //GOLYAT
-                    Ogroids[2] = new Entry(
+                    EntriesDone.Ogroids[2] = new Entry(
                         "Golyat"
                         , "According to legend, Golyat had once been a knight who violated his vows, for which he was punished by the Lady of the Lake. Transformed into a giant, he fled " +
                         "into the mountains and would only descend into the inhabited lowlands when hunger forced him to it. There's no knowing how much truth lies in that legend, yet it " +
@@ -1136,7 +1126,7 @@ namespace Bestiary
                         , "Assets\\Golyat.png");
 
                     //HAGUBMAN
-                    Ogroids[3] = new Entry(
+                    EntriesDone.Ogroids[3] = new Entry(
                         "Hagubman"
                         , "Your average nekker is cowardly and weak and only ever attacks in groups, even then only when the group greatly outnumbers its opponents. Yet at times there will " +
                         "appear among them an individual who towers over the rest in terms of strength, stamina and cunning. Such nekkers are usually called warriors, though that name is misleading. " +
@@ -1149,7 +1139,7 @@ namespace Bestiary
                         , "Assets\\Hagubman.png");
 
                     //ICE GIANT
-                    Ogroids[4] = new Entry(
+                    EntriesDone.Ogroids[4] = new Entry(
                         "Ice Giant"
                         , "This powerful, primeval monster is quite possibly the last of its race. The Ice Giant resembles a man in many respects, but is blue as frost and taller than a tree. " +
                         "Though it seems capable of reason, all attempts to communicate with it to date have ended the same way – in a quick and painful death."
@@ -1159,7 +1149,7 @@ namespace Bestiary
                         , "Assets\\IceGiant.png");
 
                     //ICE TROLL
-                    Ogroids[5] = new Entry(
+                    EntriesDone.Ogroids[5] = new Entry(
                         "Ice Trolls"
                         , "Climbing to the top of snow-covered peaks is never a safe endeavor. One can slip and fall into a ravine, be buried in an avalanche – or stumble across ice trolls." +
                         " Unlike the rock trolls found at lower altitudes, these permafrost-dwelling monsters treat every man they encounter as a possible ingredient for a tasty meal. Luckily ice " +
@@ -1174,7 +1164,7 @@ namespace Bestiary
                         , "Assets\\IceGiant.png");
 
                     //NEKERS
-                    Ogroids[6] = new Entry(
+                    EntriesDone.Ogroids[6] = new Entry(
                         "Nekkers"
                         , "A lone nekker is harmless. Five are dangerous. Ten can kill even a veteran monster slayer. Particularly troublesome are the larger, stronger individuals known as warriors, " +
                         "as well as the rare breed of nekkers known as phoocas. Nekkers and phoocas live in the dark woods that grow in damp, mist - filled valleys, in colonies of one to several dozen " +
@@ -1188,7 +1178,7 @@ namespace Bestiary
                         , "Assets\\Nekker.png");
 
                     //ROCK TROLL
-                    Ogroids[7] = new Entry(
+                    EntriesDone.Ogroids[7] = new Entry(
                         "Rock Troll"
                         , "If while hiking high in the mountains you come across a walking stone, do not think your eyes deceive you. Instead, draw your sword – for before you stands a rock troll. True, not" +
                         " every encounter with these creatures ends in a fight - while not particularly intelligent, trolls are capable of reason – but it is better to prepare for the worst. Otherwise, your" +
@@ -1203,7 +1193,7 @@ namespace Bestiary
                         , "Assets\\RockTroll.png");
 
                     //WHAM-a-WHAM
-                    Ogroids[8] = new Entry(
+                    EntriesDone.Ogroids[8] = new Entry(
                         "Wham-a-Wham"
                         , "Rock trolls come across as dim-witted, ponderous, slow - stupid, to be frank. It's easy to dismiss them - and even easier to enrage them. When this happens, one's best bet is to run as " +
                         "fast as possible, for an angered rock troll is as deadly as a thundering landslide. The truth held in the case of the massive rock troll known as Wham-a-Wham. His every blow struck like a " +
@@ -1224,7 +1214,7 @@ namespace Bestiary
                 Click to Expand*/{
 
                     //CHORT
-                    Relicts[0] = new Entry(
+                    EntriesDone.Relicts[0] = new Entry(
                        "Chort"
                        , "Chorts are the somewhat smaller kin of fiends and bumbakvetches. Yet any witcher who thinks their diminutive stature means they present no danger commits a grave " +
                        "error – the kind that can end his career permanently. These denizens of dark and ancient woods are some of the most dangerous monsters known to man. Legends often " +
@@ -1241,7 +1231,7 @@ namespace Bestiary
                        , "Assets\\chort.png") ;
 
                     //CRONES
-                    Relicts[1] = new Entry(
+                    EntriesDone.Relicts[1] = new Entry(
                         "Crones"
                         , "The isolated corners of our world harbor creatures older than humans, older than academies and mages, older even than elves and dwarves. The Crones of Crookback Bog " +
                         "are such creatures. No one knows their true names, nor what breed of monstrosity they in fact are. Common folk have given these three sisters the names Weavess, Brewess " +
@@ -1256,7 +1246,7 @@ namespace Bestiary
                         , "Assets\\crones.png");
 
                     //DOPPLER
-                    Relicts[2] = new Entry(
+                    EntriesDone.Relicts[2] = new Entry(
                         "Doppler"
                         , "Dopplers, also known as vexlings or changelings, are beings able to take on the form of any humanoid or animal they please. This transformation is no mere illusion able " +
                         "to be shattered with a simple spell, but an authentic and complete metamorphosis. This means no protective amulets or witcher medallions will signal a doppler's presence - " +
@@ -1268,7 +1258,7 @@ namespace Bestiary
                         , "Assets\\doppler.png");
 
                     //FIEND
-                    Relicts[3] = new Entry(
+                    EntriesDone.Relicts[3] = new Entry(
                         "Fiend"
                         , "Fiends are walking mountains of muscle capped with horned, tooth-filled heads. Like their rarer cousins, bumbakvetches, they live in thick forests, swamps and bogs. When " +
                         "possible they avoid humans, but when not possible, they kill them, and without much difficulty. Their size alone makes fiends and bumbakvetches extremely dangerous – one blow " +
@@ -1284,7 +1274,7 @@ namespace Bestiary
                         , "Assets\\fiend.png");
 
                     //FUGAS
-                    Relicts[4] = new Entry(
+                    EntriesDone.Relicts[4] = new Entry(
                         "Fugas"
                         , "The devil Fugas held a very prestigious and responsible position during the Crones' sabbath: that of goon restricting access to the peak. He in no way resembled Torque, " +
                         "the irritating but harmless \"deovel\" Geralt and I had encountered many, many years prior. Fugas' size resembled that of a somewhat overgrown troll, and he likewise displayed" +
@@ -1297,7 +1287,7 @@ namespace Bestiary
                         , "Assets\\fugas.png");
 
                     //GODLING
-                    Relicts[5] = new Entry(
+                    EntriesDone.Relicts[5] = new Entry(
                         "Godling"
                         , "Godlings (sometimes mistaken for lutin) are woodland creatures dwelling in burrows and moss-covered hollow stumps on the outskirts of human settlements. They are similar to " +
                         "children in behavior and appearance, and, like children, delight in mischief. Godlings are deeply rooted in their home territory and perform acts of care and guardianship to " +
@@ -1312,7 +1302,7 @@ namespace Bestiary
                         , "Assets\\godling.png");
 
                     //GROTTORE
-                    Relicts[6] = new Entry(
+                    EntriesDone.Relicts[6] = new Entry(
                         "Grottore"
                         , "No one knows exactly when the spriggan called \"Grottore\" first made its home in the caves at the foot of Mount Gorgon. Spriggans usually prefer isolated backwoods and rarely " +
                         "make dens in caverns. Yet Grottore seemed to have taken a liking to \"grottos,\" giving rise to its nickname. The monster was quite well - known among Beauclair knights, who often " +
@@ -1326,7 +1316,7 @@ namespace Bestiary
                         , "Assets\\grottore.png");
 
                     //HOWLER
-                    Relicts[7] = new Entry(
+                    EntriesDone.Relicts[7] = new Entry(
                         "Howler"
                         , "One is hard-pressed to name another area of our world more thoroughly riddled with monsters than Velen. There is on silver lining to this sad fact, however: the beasts living there " +
                         "must compete fiercely for hunting territory, meaning monsters often end up killing other monsters. An aggressive chort known as Howler went on just such a fratricidal rampage, tearing " +
@@ -1340,7 +1330,7 @@ namespace Bestiary
                         , "Assets\\Howler.png");
 
                     //IMP
-                    Relicts[8] = new Entry(
+                    EntriesDone.Relicts[8] = new Entry(
                         "Imp"
                         ,"The imp pestering the merchants of Novigrad turned out to be a doppler. These monsters usually avoid confrontation - to everyone's great relief, for when pinned they become extremely " +
                         "dangerous. Fighting them quickly turns into a fight against oneself. Or, to be precise, against a mirror image gifted with one's own strengths and abilities. In a conflict with such " +
@@ -1351,7 +1341,7 @@ namespace Bestiary
                         , "Assets\\imp.png");
 
                     //KERNUN
-                    Relicts[9] = new Entry(
+                    EntriesDone.Relicts[9] = new Entry(
                         "Kernun"
                         , "Novigrad - the greatest metropolis in the world, the acme of civilization, material proof - or so one is tempted to think - of mankind's ability to tame and control nature. Yet right " +
                         "outside the city walls lies the Novigrad Wilderness - and whoever sets foot in it soon finds out that man's primacy does not extend past the city walls. One of the monsters who made its " +
@@ -1366,7 +1356,7 @@ namespace Bestiary
                         , "Assets\\Kernun.png");
 
                     //LESHEN
-                    Relicts[10] = new Entry(
+                    EntriesDone.Relicts[10] = new Entry(
                         "Leshen"
                         , "Leshens dwell in dense, primeval woods. Fiercely territorial creatures, they hunt with stealth and cunning as their only companions. They use their inborn magic to control the plants and " +
                         "animals within their territory – and so, when stalking them, half the battle is merely getting near enough to strike. Leshens old enough to earn the appellation \"ancient\" wield advanced skills " +
@@ -1377,7 +1367,7 @@ namespace Bestiary
                         , "Assets\\leshen.png");
 
                     //MORVUDD
-                    Relicts[11] = new Entry(
+                    EntriesDone.Relicts[11] = new Entry(
                         "Morvudd"
                         , "hey say every journey made in the Skellige Isles ends in adventure. And sometimes, that adventure ends in death. Such was the case for a group of adventure-seeking Skelligers who set out in " +
                         "search of treasure in forgotten ruins - which turned out to lie in the hunting grounds of a powerful fiend known as Morvudd. The witcher knew there was little room for error in a fight with " +
@@ -1390,7 +1380,7 @@ namespace Bestiary
                         , "Assets\\morvudd.png");
 
                     //SHAELMAAR
-                    Relicts[12] = new Entry(
+                    EntriesDone.Relicts[12] = new Entry(
                         "Shaelmaar"
                         , "Shaelmaars spend most of their lives deep underground, having no contact with the world up above. At times, however, a shaelmaar will dig its way to the surface and devour any men within its" +
                         " reach. Some shaelmaars also burrow tunnels close to the surface, collapsing buildings and causing tremors in the process. Since shaelmaars are blind, they find their way by sensing vibrations " +
@@ -1406,8 +1396,8 @@ namespace Bestiary
                         , "Assets\\morvudd.png");
 
                     //SHAELMAAR FROM THE EMPEROR OF NILFGAARD
-                    Relicts[13] = new Entry(
-                        "Shaelmaar from the Emperor of Nilfgaard"
+                    EntriesDone.Relicts[13] = new Entry(
+                        "Shaelmaar from the \nEmperor of Nilfgaard"
                         , "Gladiator fights in massive arenas are a popular form of entertainment in Nilfgaard. Usually the fighters are slaves specially trained for this purpose, yet at times the arena masters pit humans " +
                         "against monsters. The shaelmaar Geralt had to fight in the tourney grounds was a present from the emperor to his relative, Duchess Anna Henrietta. It had been caught while young and prepared for its " +
                         "ultimate purpose by Nilfgaardian trainers. That does not mean it was tame, however – in fact, its wildness and inborn ferocity had not been dulled one whit. Like all creatures of its species, it was " +
@@ -1419,7 +1409,7 @@ namespace Bestiary
                         , "Assets\\emperor.png");
 
                     //SPRIGGANS
-                    Relicts[14] = new Entry(
+                    EntriesDone.Relicts[14] = new Entry(
                         "Spriggans"
                         , "Spriggans are a subspecies of the monsters known as leshens. One is liable to come across them in inaccessible, unfrequented woodlands. They do not usually attack humans if unprovoked, but when " +
                         "irritated they can be quite fearsome, and, as they possess considerable strength, they are capable of doing great damage. Their appetite is such that they can devour more flesh than an army at a wedding." +
@@ -1430,7 +1420,7 @@ namespace Bestiary
                         , "Assets\\spriggan.png");
 
                     //SYLVANS
-                    Relicts[15] = new Entry(
+                    EntriesDone.Relicts[15] = new Entry(
                         "Sylvans"
                         , "Sylvans and Yakshas, a kindred species, are extremely rare woodland creatures whose appearance combines traits of goats and rotund men. These beings usually pose little danger, for they limit their contact " +
                         "with humans to playing harmless (though often bothersome) tricks and eating crops from their fields."
@@ -1440,7 +1430,7 @@ namespace Bestiary
                         , "Assets\\sylvan.png");
 
                     //The Caretaker
-                    Relicts[16] = new Entry(
+                    EntriesDone.Relicts[16] = new Entry(
                         "The Caretaker"
                         , "The Caretaker served with the indifference of a golem, and proved as fierce in battle as it was diligent in its labors. It felt no pain – in fact, each blow it received seemed to give it strength, as did " +
                         "each blow it landed on Geralt with the spade it wielded as a weapon. What is more, the Caretaker was able to summon powerful spirits from the graves it had dug and could heal itself by absorbing them. The witcher " +
@@ -1454,7 +1444,7 @@ namespace Bestiary
                         , "Assets\\caretaker.png");
 
                     //THE MONSTER OF TUFO
-                    Relicts[17] = new Entry(
+                    EntriesDone.Relicts[17] = new Entry(
                         "The Monster of Tufo"
                         , "Imagine a creature that kills men, feeds on kikimore eggs and digs underground tunnels so wide they'd fit the emperor of Nilfgaard's coronation carriage along with a team of six horses. And now imagine this creature " +
                         "digs with such force, the earth quakes and the houses up above tremble and collapse. Noting these symptoms, Geralt was at first unsure what sort of a beast he could be dealing with, knowing only that he needed to be very, " +
@@ -1468,7 +1458,7 @@ namespace Bestiary
                         ,"Assets\\tufo.png");
 
                     //WICKED WITCH
-                    Relicts[18] = new Entry(
+                    EntriesDone.Relicts[18] = new Entry(
                         "Wicked Witch"
                         , "Though evil witches are often considered creatures born of the overactive imaginations of fabulists and mythologists, cartoonish characters only a child would ever be frightened of, there are accounts of men who claim to " +
                         "have happened across one of these improbable beings. All these accounts agree that the witch not only did in fact eat men, but had mastered the cooking of humans to a fine art. They are said to be particularly fond of " +
@@ -1480,7 +1470,7 @@ namespace Bestiary
                         , "Assets\\wickedwitch.png") ;
 
                     //WOODLAND SPIRIT
-                    Relicts[19] = new Entry(
+                    EntriesDone.Relicts[19] = new Entry(
                         "Woodland Spirit"
                         , "Some monsters are so powerful local populaces begin worshiping them as gods. Such was the case with the leshen dwelling in the woods near the Skellige village of Fayrlund. The elders were absolutely convinced the monster " +
                         "watched over them by defending them from their enemies and training their hunters. The witcher had his doubts, however.Leshens are mean, self - serving creatures - and the ancient one living in the woods near Fayrlund was " +
@@ -1500,7 +1490,7 @@ namespace Bestiary
                 Click to Expand*/{
 
                     //BARGHEST
-                    Specters[0] = new Entry(
+                    EntriesDone.Specters[0] = new Entry(
                         "Barghests"
                         , "Folk of simple or superstitious minds claim committing particularly rotten acts will bring down the wrath of the gods in the form of \"barghests, \" phantom dogs " +
                         "which stalk the roads at night. Even if this were their origin, barghests saints and sinners alike would need fear barghests, for they attack both with equal " +
@@ -1515,7 +1505,7 @@ namespace Bestiary
                         , "Assets\\barghest.png");
 
                     //Beann'shies
-                    Specters[1] = new Entry(
+                    EntriesDone.Specters[1] = new Entry(
                         "Beann'shies"
                         , "Old gossips claim beann'shies are the spirits of women stuck between life and death due to traumatic experiences. Their wails and howls are considered ill omens of " +
                         "imminent, inevitable death, though they are said not to attack the living themselves. Most often they appear in the form of pale, tear-streaked women with shriveled faces " +
@@ -1526,7 +1516,7 @@ namespace Bestiary
                         , "Assets\\banshe.png");
 
                     //DAPHNE'S WRAITH
-                    Specters[2] = new Entry(
+                    EntriesDone.Specters[2] = new Entry(
                         "Daphne's Wraith"
                         , "During his stay in Toussaint, Geralt became involved with a curiuos case of gynodendromorphy - that is to say, a woman who had been turned into a tree. When one cut into " +
                         "this tree's bark, it bled, and when the wind blew through its leaves, one could hear muffled sobs. Geralt investigated the matter and learned magic (or possibly a curse) was " +
@@ -1541,7 +1531,7 @@ namespace Bestiary
                         , "Assets\\daphne.png");
 
                     //DEVIL BY THE WELL
-                    Specters[3] = new Entry(
+                    EntriesDone.Specters[3] = new Entry(
                         "Devil by the Well"
                         , "The residents of White Orchard have suffered more than their fair share of misfortunes. Passing armies had trampled their spring planting, a griffin had begun abducting their " +
                         "livestock, and, the rotten icing on this painful cake, a noonwraith haunted a nearby well. No wonder the locals called this final evil a 'devil'. The witcher could sense something bound " +
@@ -1558,7 +1548,7 @@ namespace Bestiary
 
 
                     //ETHEREAL
-                    Specters[4] = new Entry(
+                    EntriesDone.Specters[4] = new Entry(
                         "Ethereal"
                         , "The painted world created in the mind of Iris von Everec was mainly populated by figures from her memories, but was also home to dangerous, predatory creatures: the embodiments of" +
                         " her fears. The most dangerous of these, the Ethereal, invoked her greatest fear – and wore the face of her husband. The Ethereal resembled Olgierd in appearance and also fought using " +
@@ -1572,7 +1562,7 @@ namespace Bestiary
                         , "Assets\\Ethereal.png");
 
                     //HYM
-                    Specters[5] = new Entry(
+                    EntriesDone.Specters[5] = new Entry(
                         "Hym"
                         , "Monsters most commonly claim innocents as their victims: tardy merchants, reckless children and travelers who wander into dark woodlands out of misplaced curiosity. None of the above need " +
                         "fear hyms, however. These wraiths only latch onto particularly despicable individuals who have committed some unspeakable crime. To all others, they remain completely invisible. When they do " +
@@ -1587,7 +1577,7 @@ namespace Bestiary
                         , "Assets\\hym.png");
 
                     //Jenny o'the Woods
-                    Specters[6] = new Entry(
+                    EntriesDone.Specters[6] = new Entry(
                         "Jenny o'the Woods"
                         , "It is said true love's flame is never extinguished. This sad truth is the reason why Zula of Midcopse, whom an early death had separated from her beloved, was unable to find peace in the next " +
                         "life, and instead returned to haunt her former environs as a nightwraith. Fighting such an apparition is extremely difficult. A nightwraith will form mirror images of herself to confuse her opponent " +
@@ -1600,7 +1590,7 @@ namespace Bestiary
                         , "Assets\\jenny.png");
 
                     //LONGLOCKS
-                    Specters[7] = new Entry(
+                    EntriesDone.Specters[7] = new Entry(
                         "Longlocks"
                         , "Everyone knows love stories can have tragic endings, but few would think this also applies to princesses from fairy tales created to relieve a set happy ending over and over again. Longlocks had " +
                         "the misfortune of becoming just such an unlikely tragic heroine. After the duke's daughters grew up and the Land of a Thousand Fables went feral, Longlocks, whose prince never came and who suffered " +
@@ -1611,7 +1601,7 @@ namespace Bestiary
                         , "Assets\\Longlocks.png");
 
                     //NIGHTWRAITH
-                    Specters[8] = new Entry(
+                    EntriesDone.Specters[8] = new Entry(
                         "Nightwraith"
                         , "Compared to other creatures of the night – katakans, nekurats and werewolves, for example – nightwraiths (and their rarer cousins, duskwraiths) might not seem all that dangerous. After all, one " +
                         "might ask, how much harm could a pale, withered woman in a tattered dress do? The answer: quite a bit. Instead of finding this out the hard way, avoid crossing fields and meadows at night at all costs. " +
@@ -1626,7 +1616,7 @@ namespace Bestiary
                         , "Assets\\nightwrath.png");
 
                     //NOONWRAITH
-                    Specters[9] = new Entry(
+                    EntriesDone.Specters[9] = new Entry(
                         "Noonwraith"
                         , "On particularly searing summer days, when the sun reaches its zenith, wraiths will at times appear, resembling sun-scorched women dressed in long, white robes. These are noonwraiths – the spirits of young " +
                         "women and girls who died violent deaths right before their weddings. Driven mad with pain and anger, they wander the fields searching for their unfaithful lovers or backstabbing rivals, though they will kill " +
@@ -1643,7 +1633,7 @@ namespace Bestiary
                         , "Assets\\noon.png");
 
                     //PENITENT
-                    Specters[10] = new Entry(
+                    EntriesDone.Specters[10] = new Entry(
                         "Penitent"
                         , "It turned out the monster haunting the isle of Eldberg and its lighthouse was a rare type of specter known as a penitent. Wherever this wraith haunts immediately becomes enveloped in thick fog and darkness - " +
                         "and those that wander into it usually never return. In order to defeat a penitent, one must remain in constant motion in order to avoid being struck by this agile creature, which can disappear and reappear in " +
@@ -1655,7 +1645,7 @@ namespace Bestiary
                         , "Assets\\penitent.png");
 
                     //PLAGUE MAIDEN
-                    Specters[11] = new Entry(
+                    EntriesDone.Specters[11] = new Entry(
                         "Plague Maiden"
                         , "When plague ravages a region, a spirit will sometimes walk its lands, a ghost resembling an ill woman whose flesh rots off her bones and in whose wake crawls a cavalcade of rats. No one knows whether this spirit " +
                         "brings the pox with her or is merely drawn to it like a moth to a light. Yet it is certain that she delights in dealing pain and suffering, in hearing the howling and moaning of men. Many have called into question " +
@@ -1669,7 +1659,7 @@ namespace Bestiary
                         , "Assets\\plague.png");
 
                     //UMBRA
-                    Specters[12] = new Entry(
+                    EntriesDone.Specters[12] = new Entry(
                         "Umbra"
                         , "According to some philosophers, everything we do in life leaves a permanent trace in the delicate matter which makes up our souls. Evil deeds, especially harm done to innocent creatures, can torment the soul of " +
                         "a sinner an cause it to remain restless, even after death. While traveling through Toussaint, Geralt discovered there might a be grain of truth in these theories and folk beliefs.He came across a hermit whose sleep " +
@@ -1682,7 +1672,7 @@ namespace Bestiary
                         , "Assets\\umbra.png");
 
                     //THE WHITE LADY
-                    Specters[13] = new Entry(
+                    EntriesDone.Specters[13] = new Entry(
                         "The White Lady"
                         , "The apparition haunting the fields outside Novigrad turned out to be a noonwraith. Some powerful emotion must have bound it to that place - love, hate, anger or perhaps all three at once. Like every wraith of " +
                         "this type, she was surely capable of forming mirror images of herself, which served to mislead opponents and restore her vitality. Luckily, these mirages could be dispelled with a quick slash from a silver blade. " +
@@ -1697,8 +1687,8 @@ namespace Bestiary
                         , "Assets\\lady.png");
 
                     //THE WRAITH FROM THE PAINTING
-                    Specters[14] = new Entry(
-                        "The Wraith from the Painting"
+                    EntriesDone.Specters[14] = new Entry(
+                        "The Wraith from \nthe Painting"
                         , "While wandering the von Everecs' abandoned estate, Geralt came into contact with a woman's wraith haunting the house. The restless spirit had mastery over the house's furnishings and in particular over the paintings " +
                         "hanging from its walls. It moved freely between their canvasses, entering one and exiting through another. At first it tried to scare Geralt into giving up his search, then, when it was clear this strategy would not " +
                         "work, it attacked him directly. Geralt's battle against the wraith proved very difficult, for it was fueled by rage and launched its attacks with heated aggression. Geralt was forced to move with lightning speed in " +
@@ -1711,7 +1701,7 @@ namespace Bestiary
                         , "Assets\\paint.png");
 
                     //WRAITH
-                    Specters[15] = new Entry(
+                    EntriesDone.Specters[15] = new Entry(
                         "Wraith"
                         , "Clerics and scholars are forever debating whether spirits do in fact journey to another world after death, one where eternal joy or suffering awaits. Both groups agree, however, on what happens to spirits who, for one " +
                         "reason or another, remain in our world after their body breathes its last: they transform into wraiths. To hear their mournful howls, one can surmise this is not a fate to be envied. Wraiths are usually encountered at " +
@@ -1731,7 +1721,7 @@ namespace Bestiary
                 Click to Expand*/{
 
                     //ALPHA GARKAIN
-                    Vampires[0] = new Entry(
+                    EntriesDone.Vampires[0] = new Entry(
                         "Alpha Garkain"
                         , "When a vampire gives a witcher a contract to kill another vampire, you can be certain neither of the two is entirely normal. The contract seemed simple enough, " +
                         "though Geralt knew his target was a vampire.Yet one must bear in mind vampires are a very diverse group and their various species differ from one another greatly." +
@@ -1747,7 +1737,7 @@ namespace Bestiary
                         , "Assets\\alpha.png");
 
                     //ALP
-                    Vampires[1] = new Entry(
+                    EntriesDone.Vampires[1] = new Entry(
                         "Alp"
                         , "Alps are vampires that resemble bruxae in appearance. They are called phantoms by some, a name which fits well enough, for like phantoms they haunt and torment men. " +
                         "They usually take on the form of a woman, though they can also appear as animals. They are most often found prowling near villages. They attack at night and are most " +
@@ -1764,7 +1754,7 @@ namespace Bestiary
                         , "Assets\\alp.png");
 
                     //BRUXAE
-                    Vampires[2] = new Entry(
+                    EntriesDone.Vampires[2] = new Entry(
                         "Bruxae"
                         , "Fortunately for us all, bruxae are rare creatures. Most live far from population centers, for they care greatly for their own safety and make their lairs in places where " +
                         "they cannot be taken by surprise. Those who decide to live near men avoid crowds and emerge from their shelters only at night. When they do, one could almost mistake them " +
@@ -1781,7 +1771,7 @@ namespace Bestiary
                         , "Assets\\bruxae.png");
 
                     //DETTLAFF VAN DER ERETEIN
-                    Vampires[3] = new Entry(
+                    EntriesDone.Vampires[3] = new Entry(
                         "Dettlaff van der Eretein"
                         , "Dettlaff is a higher vampire and one of the most terrifying creatures the world has ever known. Some vampires of his sort live among men easily and inconspicuously, sometimes " +
                         "even gaining the respect and admiration of their community. Yet even the most civilized vampire can be incredibly dangerous if provoked, and Dettlaff... Dettlaff was far from " +
@@ -1796,7 +1786,7 @@ namespace Bestiary
                         , "Assets\\eretein.png");
 
                     //EKIMMARAS
-                    Vampires[4] = new Entry(
+                    EntriesDone.Vampires[4] = new Entry(
                         "Ekkimaras"
                         , "Like other vampires, ekimmaras are not, despite what village gossips might say, undead humans. They are instead post-Conjunction monsters who have no particular feelings about " +
                         "garlic, holy water or religious symbols. Unlike their portrayals in ballads and legends, they look nothing like handsome, pale aristocrats with charming eastern accents, though, like " +
@@ -1811,7 +1801,7 @@ namespace Bestiary
                         , "Assets\\ekimma.png");
 
                     //FLEDER
-                    Vampires[5] = new Entry(
+                    EntriesDone.Vampires[5] = new Entry(
                         "Fleder"
                         , "Fleders are classified as lesser vampires. Though weaker than the rest of their ilk in every aspect from the physiomagic to they physiognomic, they should not be underestimated – " +
                         "for they are very, very dangerous. Fleders cannot be mistaken for any other creature, with their wide, toothy jaws, flat, unpleasant faces and completely hairless, often warty bodies. " +
@@ -1825,7 +1815,7 @@ namespace Bestiary
                         , "Assets\\fleder.png");
 
                     //GAEL
-                    Vampires[6] = new Entry(
+                    EntriesDone.Vampires[6] = new Entry(
                         "Gael"
                         , "Contrary to popular belief, monsters are not all alike. Like people, individual members of the same species can each have their own unique traits, preferences and weaknesses. A good " +
                         "example of this is the katakan which once fed on the inhabitants of Oxenfurt. Perhaps influenced by its close proximity to the hard-drinking student youth of the city, this vampire had" +
@@ -1840,7 +1830,7 @@ namespace Bestiary
                         , "Assets\\gael.png");
 
                     //GARKAINS
-                    Vampires[7] = new Entry(
+                    EntriesDone.Vampires[7] = new Entry(
                         "Garkains"
                         , "Garkains, like fleders, belong to the class of particularly dangerous vampires whose strength exceeds even that of fiends. An encounter with one of their number almost always ends in " +
                         "death, which is why there are not many eye-witness accounts of them. From the city guard reports written up in Lan Exeter describing the attacks committed in that city in 1104 by three " +
@@ -1856,7 +1846,7 @@ namespace Bestiary
                         , "Assets\\garkain.png");
 
                     //HIGHER VAMPIRE
-                    Vampires[8] = new Entry(
+                    EntriesDone.Vampires[8] = new Entry(
                         "Higher Vampire"
                         , "Only a mutual thirst for blood links higher vampires to their distant and much more primitive cousins: ekimmaras, alps, katakans and the like. Higher vampires are, in fact, much more " +
                         "similar to humans than to those bat-like blood slurpers. They not only resemble us in appearance, but also share our intelligence and behavioral patterns. This means they do not squat in " +
@@ -1873,7 +1863,7 @@ namespace Bestiary
                         , "Assets\\higher.png");
 
                     //KATAKAN
-                    Vampires[9] = new Entry(
+                    EntriesDone.Vampires[9] = new Entry(
                         "Katakans"
                         , "Katakans and their more dangerous kin, nekurats, are the embodiments of human fear. They hide in the shadows. They feed on blood. They resemble enormous bats – though with long fangs and even " +
                         "longer talons. And, as if that weren't terror enough, they can turn invisible, waiting unseen while dread of their unpreventable attack overwhelms their victim. When fighting a katakan one must " +
@@ -1886,7 +1876,7 @@ namespace Bestiary
                         , "Assets\\katakan.png");
 
                     //PROTOFEDLER
-                    Vampires[10] = new Entry(
+                    EntriesDone.Vampires[10] = new Entry(
                         "Protofleder"
                         , "Protofleders are relatives of fleders which came from the world of the higher vampires to our own during the Conjunction of the Spheres. The members of this species are characterized by their " +
                         "considerable strength and agility as well as the strange glow they emit, a trait most likely tied to their otherworldly nature.Protofleders have never had significant contact with the outside world, " +
@@ -1897,7 +1887,7 @@ namespace Bestiary
                         , "Assets\\Protofleder.png");
 
                     //SARASTI
-                    Vampires[11] = new Entry(
+                    EntriesDone.Vampires[11] = new Entry(
                         "Sarasti"
                         , "Raiders of elven tombs either get rich quickly, or die trying. The Aen Seidhe's disintegrating temples and palaces hold priceless treasures, true, but within them many a foul monster waits in " +
                         "deep slumber. Such was the case in Byways, where a few peasants, unaware of the dangers they faced, awoke an unusually dangerous ekimmara. The witcher knew this monster would be no easy kill. That " +
@@ -1910,7 +1900,7 @@ namespace Bestiary
                         , "Assets\\Sarasti.png");
 
                     //THE BRUXA OF CORVO BIANCO
-                    Vampires[12] = new Entry(
+                    EntriesDone.Vampires[12] = new Entry(
                         "The Bruxa of Corvo Bianco"
                         , "The bruxa Geralt encountered and killed in self-defense at Corvo Bianco differed from other creatures of this sort. Firstly, it was more intelligent, capable even of articulating words in human language " +
                         "without much difficulty. What's more, this bruxa was tied to the Beast, the mysterious murderer prowling Beauclair at the time. Fighting it presented Geralt with quite the challenge.Like other bruxae, this" +
@@ -1927,66 +1917,91 @@ namespace Bestiary
 
 
             this.InitializeComponent();
+            txt_Title.Text = EntriesDone.Draconids[4].Name;
 
-            txt_Title.Text = Beasts[5].Name;
+            
         }
 
         private void Button_Beasts_Click(object sender, RoutedEventArgs e)
         {
-            
-            
+
+            EntriesDone.SelectedEntry = EntriesDone.Beasts;
+            EntriesDone.SelectedEntryType = "Beasts";
             this.Frame.Navigate(typeof(SelectedEntryMenu));
             
         }
 
         private void Button_Cursed_Click(object sender, RoutedEventArgs e)
         {
+            EntriesDone.SelectedEntry = EntriesDone.CursedOnes;
+            EntriesDone.SelectedEntryType = "Cursed Ones";
+            this.Frame.Navigate(typeof(SelectedEntryMenu));
 
         }
 
         private void Button_Draconids_Click(object sender, RoutedEventArgs e)
         {
-
+            EntriesDone.SelectedEntry = EntriesDone.Draconids;
+            EntriesDone.SelectedEntryType = "Draconids";
+            this.Frame.Navigate(typeof(SelectedEntryMenu));
         }
 
         private void Button_Elementa_Click(object sender, RoutedEventArgs e)
         {
+            EntriesDone.SelectedEntry = EntriesDone.Elementa;
+            EntriesDone.SelectedEntryType = "Elementa";
+            this.Frame.Navigate(typeof(SelectedEntryMenu));
 
         }
 
         private void Button_Hybrids_Click(object sender, RoutedEventArgs e)
         {
+            EntriesDone.SelectedEntry = EntriesDone.Hybrids;
+            EntriesDone.SelectedEntryType = "Hybrids";
+            this.Frame.Navigate(typeof(SelectedEntryMenu));
 
         }
 
         private void Button_Insectoids_Click(object sender, RoutedEventArgs e)
         {
-
+            EntriesDone.SelectedEntry = EntriesDone.Insectoids;
+            EntriesDone.SelectedEntryType = "Insectoids";
+            this.Frame.Navigate(typeof(SelectedEntryMenu));
         }
 
         private void Button_Necrophages_Click(object sender, RoutedEventArgs e)
         {
-
+            EntriesDone.SelectedEntry = EntriesDone.Necrophages;
+            EntriesDone.SelectedEntryType = "Necrophages";
+            this.Frame.Navigate(typeof(SelectedEntryMenu));
         }
 
         private void Button_Ogroids_Click(object sender, RoutedEventArgs e)
         {
-
+            EntriesDone.SelectedEntry = EntriesDone.Ogroids;
+            EntriesDone.SelectedEntryType = "Ogroids";
+            this.Frame.Navigate(typeof(SelectedEntryMenu));
         }
 
         private void Button_Relicts_Click(object sender, RoutedEventArgs e)
         {
-
+            EntriesDone.SelectedEntry = EntriesDone.Relicts;
+            EntriesDone.SelectedEntryType = "Relicts";
+            this.Frame.Navigate(typeof(SelectedEntryMenu));
         }
 
         private void Button_Specters_Click(object sender, RoutedEventArgs e)
         {
-
+            EntriesDone.SelectedEntry = EntriesDone.Specters;
+            EntriesDone.SelectedEntryType = "Specters";
+            this.Frame.Navigate(typeof(SelectedEntryMenu));
         }
 
         private void Button_Vampires_Click(object sender, RoutedEventArgs e)
         {
-
+            EntriesDone.SelectedEntry = EntriesDone.Vampires;
+            EntriesDone.SelectedEntryType = "Vampires";
+            this.Frame.Navigate(typeof(SelectedEntryMenu));
         }
     }
 }
