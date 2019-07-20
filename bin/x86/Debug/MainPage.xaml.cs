@@ -23,9 +23,22 @@ namespace Bestiary
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        Entry[] Beasts { get; set; } = new Entry[8];
+        Entry[] CursedOnes { get; set; } = new Entry[7];
+        Entry[] Draconids { get; set; } = new Entry[10];
+        Entry[] Elementa { get; set; } = new Entry[11];
+        Entry[] Hybrids { get; set; } = new Entry[9];
+        Entry[] Insectoids { get; set; } = new Entry[13];
+        Entry[] Necrophages { get; set; } = new Entry[16];
+        Entry[] Ogroids { get; set; } = new Entry[9];
+        Entry[] Relicts { get; set; } = new Entry[20];
+        Entry[] Specters { get; set; } = new Entry[16];
+        Entry[] Vampires { get; set; } = new Entry[13];
+
         public MainPage()
         {
-            Entry[] Beasts=new Entry[8];
+
+            /*Entry[] Beasts = new Entry[8];
             Entry[] CursedOnes = new Entry[7];
             Entry[] Draconids = new Entry[10];
             Entry[] Elementa = new Entry[11];
@@ -35,16 +48,16 @@ namespace Bestiary
             Entry[] Ogroids = new Entry[9];
             Entry[] Relicts = new Entry[20];
             Entry[] Specters = new Entry[16];
-            Entry[] Vampires = new Entry[13];
-         
+            Entry[] Vampires = new Entry[13];*/
+            
             
 
-            /*PERSONAL NOTE
-             * I MUST SET THE VARIATIONS AFTER FINISHING ALL ENTRIES"*/
 
 
 
             //Declaration of all creatures
+
+
             /*Click to expand*/{
 
                 /*CONSTRUCTOR:
@@ -669,9 +682,1311 @@ namespace Bestiary
 
 
                 }
+
+                /*--------------Insectoids-------------------
+                 
+                Click To Expand*/{
+
+                    //ARACHASAE
+                    Insectoids[0] = new Entry(
+                        "Arachasae"
+                        , "Powerful pincers, a maw filled with razor-sharp teeth and venom glands packed with deadly toxins – these creatures constitute the arachas' deadly arsenal. " +
+                        "Since people and farm animals make up an important part of these creatures' diet, contracts on arachasae in turn constitute an important source of witcher " +
+                        "coin. Once native to the far south, this invasive species migrated north over the course of decades, adjusting as it went to new climates and temperatures.It " +
+                        "found damp woodlands and swamps most hospitable and made them its home, making use of the much and moss found there as blankets during its winter hiberation. The " +
+                        "arachas hides its unprotected, sack - like abdomen under a covering of hollow tree - trunks worn on its back. At first glance, a stationary arachas often looks " +
+                        "like a part of the forest undergrowth, a fact it uses to deadly advantage when hunting.It usually begins a battle by spitting venom, then tries to grab its prey" +
+                        " with prehensile feelers in order to drag it within reach of its crushing pincers."
+                        , "Arachas Eyes, Chitinous Shell, Arachas Venom, and Lesser Red Mutagen"
+                        , null
+                        , "Golden Oriole, and Insectoid Oil"
+                        , "Assets\\arachasae.png");
+
+                    //ARACHNOMORPHS
+                    Insectoids[1] = new Entry(
+                        "Arachnomorphss"
+                        , "A similar saying could gain ground in our land concerning arachnomorphs and everything unable to flee them – meaning most every creature in the world. True, the " +
+                        "tillers of the earth and fellers of trees need not fear them in their daily labors, for arachnomorphs, as distant, post-Conjunction cousins of common spiders, " +
+                        "strongly prefer deep, dark caves and unfrequented sodden swamps. Anyone who does come across them, however, had best hope his conscience is clear and his worldly " +
+                        "affairs are in order, for his life shall soon end, as not even the fastest man in the world can outrun them and only a few witchers can hope to slay them. Even " +
+                        "worse are the more aggressive and dangerous kind known as arachnomorph colossi, which are capable of devouring an entire ox in seconds."
+                        , "Chitinous Shell, Lesser Blue Mutagen, Lesser Green Mutagen, Monster Blood, Monster Hair, Monster Heart, Monster Saliva, Monster Tooth, and Venom Extract"
+                        , null
+                        , "Aard, Axii, and Insectoid Oil"
+                        , "Assets\\arachonomorphs.png");
+
+                    //ARMORED ARACHASAE
+                    Insectoids[2] = new Entry(
+                        "Armored Arachasae"
+                        , "An arachas' only weakness is its soft, sensitive abdomen. Some arachasae hide this under hollow tree stumps, while other, \"armored\" varieties exist which have grown " +
+                        "a thick carapace that covers all the more delicate parts of their bodies. An armored arachas is a true behemoth.It uses its enormous mass to knock over and trample its " +
+                        "victims then devours their crushed remains.Like all arachasae, it is highly venomous, and this Golden Oriole should always be consumed before fighting it. It is also " +
+                        "worthwhile to stock up on healing potions and crossbow bolts before setting out, for this arachas' thick plating can withstand a great deal of damage, making battles " +
+                        "with it a long and exhausting affair."
+                        , "Arachas Eyes, Chitinous Shell, and Arachas Venom"
+                        , "Novigrad, and Skellige"
+                        , "Golden Oriole, and Insectoid Oil"
+                        , "Assets\\ArmoredAra.png");
+
+                    //ENDREGA DRONES
+                    Insectoids[3] = new Entry(
+                        "Endrega Drones"
+                        , "Endrega males – called 'drones' – are gluttonous creatures whose only aim in life is to eat, fight and reproduce. Yet when venturing outside their nests, these aggressive " +
+                        "hunters attack any and every creature they come across. Endrega drones live but brief lives, the culmination of which comes in the autumn when they fertilize the queen.They " +
+                        "pass the time leading to that moment protecting the colony's territory. Weaker drones die in these battles, while the largest and strongest survive. These elect ndividuals' " +
+                        "genes are passed down to the next generation of endregas, while they themselves are killed after fertilization takes place and their bodies used to feed the hive during the " +
+                        "long winter months. Drones are easy to identify thanks to their distinctive, cone - shaped abdomens.Unlike other endregas they can attack from a distance, sending out volleys " +
+                        "of poisoned quills. As with all of their kind, bleeding has no effect on them and insectoid oil does them great harm."
+                        , "Chitinous Shell, Endrega Armor Plates, and Lesser Red Mutagen"
+                        , "Novigrad, Skellige, and Toussaint"
+                        , "Golden Oriole, and Insectoid Oil"
+                        , "Assets\\drones.png");
+
+                    //ENDREGA WARRIORS
+                    Insectoids[4] = new Entry(
+                        "Endrega Warriors"
+                        , "Endless waves of endrega workers are enough to overcome most attackers, but when confronting more dangerous foes, endrega colonies unleash their larger, stronger members – " +
+                        "the so-called warriors. This caste lives only to fight, and gets ample opportunity to do so while defending the colony's borders or conquering new territory. An endrega warrior's " +
+                        "main weapon is its long tail, which is tipped with a club-like growth and spiked with venomous quils. Powerful abdominal muscles allow it to swing this tail with enough force " +
+                        "to kill most lesser opponents in one blow. Endrega warriors also use their mass and strength as a weapon by charging their opponents in an attempted to knock them over. As " +
+                        "invertebrates with sectioned carapaces, endrega warriors do not bleed profusely, yet recoil in great pain when hit with a blade coated in insectoid oil."
+                        , "Chitinous Shell, Endrega Armor Plates, Endrega Heart, Lesser Blue Mutagen, Lesser Green Mutagen, and Venom Extract"
+                        , "Velen, and Skellige"
+                        , "Golden Oriole, and Insectoid Oil"
+                        , "Assets\\warrior.png");
+
+                    //ENDREGA WORKERS
+                    Insectoids[5] = new Entry(
+                        "Endrega Workers"
+                        , "Workers are the most numerous, and thus the most frequently encountered, caste of endrega. Within the colony their duty lies in building nests and cocoons, acquiring food and " +
+                        "caring for eggs and larvae. When threatened they will summon warriors to aid them, yet if forced to defend themselves they will – and do so surprisingly well. Endrega workers " +
+                        "are most often found traveling in groups of half - dozen or more members.They move slowly, yet when attacking, they are capable of covering the distance to their victim in the " +
+                        "blink of an eye.Like all of their kind, endrega workers are highly venomous.Their bite is toxic, as are any wounds dealt by the bony growths on the ends of their limbs.They can " +
+                        "also spew acid to great effect from a distance of several paces.Their usual tactic is to surround their enemy and attack him from several sides at once.Like all insectoids they " +
+                        "do not suffer particularly from bleeding, yet are caused great harm by insectoid oil."
+                        , "Venom Extract, Endrega Embryo, Endrega Heart, Lesser Blue Mutagen, Lesser Green Mutagen, Chitinous Shell, and Monster Saliva"
+                        , "Velen, and Skellige"
+                        , "Golden Oriole, and Insectoid Oil"
+                        , "Assets\\worker.png");
+
+                    //GIANT CENTIPEDES
+                    Insectoids[6] = new Entry(
+                        "Giant Centipede"
+                        , "Giant centipedes are enormous, insect-like monsters which can be found in many places in the world, but are particularly common in the lands (or more precisely, under the lands) of " +
+                        "Toussaint. There they often dwell in close comity with shaelmaars, for a sort of monstrous symbiosis has developed between them: giant centipedes feed on the small creatures which eat " +
+                        "Shaelmaar dung. Hard chitinous armor covers nearly the entire body of a giant centipede.Sticking out from under this carapace are rows of hooked limbs.Giant centipedes are able to burrow " +
+                        "into the ground with shocking speed, only to then appear back on the surface in another place.Once they select a target, they will circle it determinedly, trying to get close enough to " +
+                        "deliver a blow.They attack primarily with their powerful mandibles, but they also possess glands allowing them to spew acid. The greatest obstacle when fighting giant centipedes is their " +
+                        "thick armor, which deflects most blows not only from weapons, but also from magical means – such as those dealt by simple spells or witcher Signs. When attacked with a weapon, they will " +
+                        "often parry the strike, then quickly reply with their own forceful counter.Thus the best method for fighting them is to chatch them in an Yrden trap, keeping them from protecting themselves " +
+                        "with their armor or burrowing into the ground."
+                        , "Giant Centipede Discharge, Giant Centipede Mandible, and Monster Blood"
+                        , "Toussaint"
+                        , "Insectoid Oil, and Yrden"
+                        , "Assets\\GiantCentipede.png");
+
+                    //HARRISI
+                    Insectoids[7] = new Entry(
+                        "Harrisi"
+                        , "Velen's woods and bogs brim with monsters. This fact is well known, and thus when the war drove refugees into this hostile land, certain of their number thought to avoid the dangers of the " +
+                        "lowlands by hiding in an abandoned mine. They were in for an unfortunate surprise. The shaft they chose for their sanctuary was inhabited by a poisonous arachas - a merciless and bloodthirsty " +
+                        "monster. The witcher knew he was in for a tough fight.The arachas had dwelled in the mine for years and had grown large and particularly strong and resilient in that time.Like other members of " +
+                        "its vile species, it would be dangerous both at close quarters and at a distance.What's more, it was almost certainly venomous - he would need to imbibe Swallow or Golden Oriole (or both) before " +
+                        "attacking if he was to stand a chance of surviving. As a small consolation, the witcher knew the monster would be vulnerable to his Signs - especially Igni, Aard and Yrden - as well as to the " +
+                        "Northern Wind bomb. The witcher arrived at the cave too late to save the refugees - but he could still avenge their fate.He slew the powerful arachas and destroyed the eggs bearing its vile offspring."
+                        , "Chitinous Shell, Arachas Eyes, Arachas Mutagen, Arachas Trophy, Arachas Venom, Rotting Flesh, and Mahakaman Trousers"
+                        , null
+                        , "Golden Oriole, and Insectoid Oil"
+                        , "Assets\\Harrisi.png");
+
+                    //KIKIMORE WARRIOR
+                    Insectoids[8] = new Entry(
+                        "Kikimore Warrior"
+                        , "It is unknown how exactly it is kikimores communicate with each other. Autopsies are hampered by the high toxicity of their subjects. Scholars have established that kikimores do not seem to possess " +
+                        "any detectable auricles. One amateur researcher, Count di Salvaress, put forth a theory in his treatise \"A Microscope Among Monsters\" suggesting kikimores have a highly developed since of smell and use " +
+                        "airborne particles undetectable to humans to transmit information. This theory has yet to be proved or disproved. Kikimore warriors defend their nests from attackers.They attack somewhat slower than kikimore" +
+                        " workers.They are able to spew streams of caustic venom a great distance and leap to attack.This venom is highly unique in that it reacts with a witcher's body to raise the level of his potion toxicity. " +
+                        "They are covered with thick, hard armor which easily deflects blows from even the sharpest sword. Kikimore warriors are protected by swarms of workers which obey their orders until they are themselves" +
+                        " eradicated. They are completely immune to the effects of the Axii Sign, but vulnerable to Igni, oils and bombs harming insectoids and blows dealt by a silver sword."
+                        , "Kikimore Discharge"
+                        , "Toussaint"
+                        , "Insectoid Oil, White Honey, and Igni"
+                        , "Assets\\kikiWa.png");
+
+                    //KIKIMORE WORKER
+                    Insectoids[9] = new Entry(
+                        "Kikimore Worker"
+                        , "Kikimores form colonies, making them similar to communal insects such as ants. A kikimore colony is ruled by a queen and organized into something of a social hierarchy. Kikimore workers take care of " +
+                        "hunting food and bringing it back to the nest, while kikimore warriors defend the nest against attackers. A worker on its own can be easily killed by even a weak person or a child.It is rare indeed, however, " +
+                        "to come across an isolated individual, for kikimore workers usual move in groups of a few to a dozen or so members.The only defense against a swarm of kikimores available to a normal person is to flee. " +
+                        "And not even that is guaranteed to work. Kikimore workers listen to orders given by kikimore warriors.On command, a swarm of workers might begin burrowing tunnels near potential prey to allow for a surprise " +
+                        "mass attack.Eliminate the warrior guiding a swarm, however, and the workers will disperse and cease digging. Kikimore workers are nimbler and quicker than warrriors. They show complete immunity to the " +
+                        "Axii Sign, and when they dig tunnels, they are invulnerable to all the other Signs as well.Poison also does them no harm. A good method for fighting them is to use the Igni Sign as well as oils and bombs " +
+                        "meant to damage insectoids."
+                        , "Kikimore Discharge"
+                        , "Toussaint"
+                        , "Insectoid Oil, White Honey, and Igni"
+                        , "Assets\\kikiWo.png");
+
+                    //PALE WIDOWS
+                    Insectoids[10] = new Entry(
+                        "Pale Widows"
+                        , "This rare variety of giant centipede dwells in underground lairs and owes its name to its unusual, pale white coloring. Like the more common giant centipede, its body is covered in hard chitinous armor, " +
+                        "with numerous hooked limbs sticking out from underneath. Some scholars raise these creatures in laboratory conditions for the properties of their albumen, which makes an excellent base for the brewing " +
+                        "of mutagenic potions."
+                        , "Chitinous Shell, Giant Centipede Discharge, Giant Centipede Mandible, Monster Carapace, Monster Stomach, Red Mutagen, and Greater Red Mutagen"
+                        , "Toussaint"
+                        , "Insectoid Oil, and Yrden"
+                        , "Assets\\PaleWidow.png");
+
+                    //SANDCRABS
+                    Insectoids[11] = new Entry(
+                        "Sandcrabs"
+                        , "Sandcrabs have well-developed carapaces, and two pairs of legs and a pair of wings, even though it is unknown whether the creatures are able to fly. A most eye-catching feature is the very long horn on " +
+                        "their heads."
+                        , "Sulfur, Rotting Flesh, Monster Blood, Monster Bone, Monster Saliva, and Monster Brain"
+                        , "Ddiddiwedht Desert"
+                        , "Samum, Northern Wind, Dancing Star, and Grapeshot"
+                        , "Assets\\sandcrab.jpg");
+
+                    //VENOMOUS ARACHASAE
+                    Insectoids[12] = new Entry(
+                        "Venomous Arachasae"
+                        , "Though all arachasae are highly venomous, this breed produces an especially strong toxin. A few drops are enough to kill a grown man – unless that man is a witcher, whose mutations will neutralize small " +
+                        "amounts of this venom. Large quantities, however, will kill anything they touch, with mutations only prolonging an inevitable and painful death in such instances. Venomous arachasae produce colossal amounts " +
+                        "of this toxin and deploy it during combat in many ways.Before striking a venomous arachas will cover its pincers and teeth with a thick coating of the deadly liquid.It will then squirt the venom at its opponent " +
+                        "to weaken it, and once locked in direct combat, will continue spraying the noxious ooze all around itself, meaning every breath brings its victim closer to death.Like other members of this species, venomous " +
+                        "arachasae use prehensile feelers to grab and immobilize their prey.When attempting to fight such a creature a witcher should drink Golden Oriole, which will reduce his body's vulnerability to poison, and then " +
+                        "attack from a safe distance with crossbow or bombs before dealing the finishing blows with a silver sword enhanced with a coating of insectoid oil."
+                        , "Arachas Eyes, Chitinous Shell, and Arachas Venom"
+                        , "Novigrad, and Skellige"
+                        , "Golden Oriole, and Insectoid Oil"
+                        , "Assets\\venochasae.png");
+
+                }
+
+                /*--------------Necrophages------------------
+                 
+                Click To Expand*/{
+
+                    //ABAYA
+                    Necrophages[0] = new Entry(
+                        "Abaya"
+                        , "The bay below Kaer Trolde had a pernicious reputation. At times fishermen who chose to cast their nets in its waters would never come home again. " +
+                        "Something would drag oarsmen off their longships or knock the ships themselves over. The locals blamed this on sea devils - the Skelligers' " +
+                        "name for drowners. The truth, however, proved far worse. A water hag had made her lair in the caves beneath the cliffs of Kjerag.An old and " +
+                        "experienced water hag.With powerful claws able to demolish any attempt to block or parry.And the ability to blind opponents from a distance, " +
+                        "then strike with a lightning - quick counterattack.Signs would be needed to best her - Yrden, to slow her, and Quen, to protect from her blows. " +
+                        "Needed most of all, however, would be a great deal of luck. The witcher, though, never was one to count on luck alone.Instead, he pulled a few " +
+                        "tricks from up his sleeve to even the odds.By masking his scent, he managed to catch the monster by surprise... and slay it."
+                        , "Water Hag Mutagen, Water Hag Tooth, and Water Hag Trophy"
+                        , "Underwater cave off Kaer Trolde Harbor"
+                        , "Northern Wind, Necrophage Oil, Quen, and Igni"
+                        , "Assets\\abaya.png");
+
+                    //ALGHOUL
+                    Necrophages[1] = new Entry(
+                        "Elghoul"
+                        , "Alghouls differ from normal ghouls in size, strength, coloring and, most importantly, intelligence. Whereas ghouls and graveirs are primitive " +
+                        "creatures unfit to plan even the simplest ambush, alghouls and their kindred (such as cemetaurs) are capable of forethought, and are thus much " +
+                        "more dangerous. Ghouls seem to possess wits enough to at least know a brighter mind when they see it, and so let alghouls and cemetaurs lead their " +
+                        "packs.A pack so led will terrorize all in its path, attacking not only lone travelers but also caravans and even farmsteads.When encountering such " +
+                        "a pack the alghoul should be eliminated as a first priority, leaving the other beasts for once their leader is gone.One be particularly careful " +
+                        "when fighting alghouls around dusk and at night, when they fight with doubled strength. During combat alghouls and cemetaurs try risky maneuvers " +
+                        "aimed at knocking their opponents to the ground so the others can finish the job by tearing them to shreds. Like a normal ghoul, an injured alghoul " +
+                        "can fall into a frenzy and attack with blind fury. An experienced witcher knows to get out of its way on such occasions and strike from behind, " +
+                        "while for an inexperienced witcher, such a turn of events often marks the end of his Path."
+                        , "Alghoul Bone Marrow, Alghoul Claw, and Alghoul Mutagen"
+                        , "Battlefields and any location where a large number of corpses can be found in shallow graves or left out to rot."
+                        , "Necrophage Oil, and Axii"
+                        , "Assets\\alghoul.png");
+
+                    //DEVOURER
+                    Necrophages[2] = new Entry(
+                        "Devourer"
+                        , "evourers are often called night witches, because they resemble old, ugly women and are famous for their witch-like viciousness. These creatures " +
+                        "gorge themselves on human flesh; although they willingly eat carcasses, above all they crave flesh that is fresh and warm. Devourers hunt after dark " +
+                        "in groups that peasants refer to as sabbaths. They like to deceive their victims and torture them, but there is no truth to the tales of their midnight " +
+                        "flights on broomsticks and their gingerbread houses."
+                        , "Devourer's Blood, Necrophage Hide, Rotfiend Blood, Monster Brain, Monster Bone, Monster Heart, Monster Liver, Monster Saliva, Monster Tongue, and Monster Tooth"
+                        , "With rotfiends, near corpses"
+                        , "Necrophage Oil"
+                        , "Assets\\devourer.png");
+
+                    //DROWNER
+                    Necrophages[3] = new Entry(
+                        "Drowners"
+                        , "A drowner resembles a corpse dredged from the bottom of a pond. It is sickly blue or green in color, with slime and sludge oozing out of every pore and the " +
+                        "acrid stench of rot wafting off of it. That is why it is often thought drowners - along with their more dangerous cousins: vodniks, mucknixers and drowned " +
+                        "dead – arise from the bodies of those who drown in shallow water: lost travelers falling into bogs, children who swim too far from the shore or, in the " +
+                        "case of vodniks, inebriated peasants who stumble off narrow swamp trails. Like so many other beliefs about monsters, this one is false.While drowners do " +
+                        "look like humans from a distance, witchers, who have the dubious pleasure of examining them from close quarters, have reported the numerous ways in which " +
+                        "their anatomy differs from our own.Their scaly skin, gills and dorsal fins suggest drowners and their like are an entirely foreign species. The adaptations " +
+                        "mentioned below make drowners excellent swimmers, well-suited to the muddy waters of the ponds and lakes in which they dwell.They often cluster near human " +
+                        "settlements, which are for them an excellent source of food. Cowardly creatures by nature, they usually stick to eating scraps they dig out of rubbish piles " +
+                        "and animal carcasses.Yet if a lone traveler or careless fisherman strays into their territory, they turn from scavengers to fearsome predators.They can attack " +
+                        "with lightning speed, taking their victim by surprise and pulling him into the water to drown. If not particularly hungry at the moment, they will keep their " +
+                        "prey under the water for a few days, aging it until it grows deliciously tender and rotten.Drowners are particularly active at dusk and during the night, " +
+                        "especially if the rain is falling – at such times they will even leave their watery homes and venture inland."
+                        , "Drowner Brain, Drowner Tongue, Monster Blood, Monster Heart, Monster Hair, Monster Saliva, Monster Tooth, and Water Essence"
+                        , "Novigrad, Skellige, Toussaint, Velen, and White Orchard"
+                        , "Necrophage Oil, and Igni"
+                        , "Assets\\drowner.png");
+
+                    //DROWNED DEAD
+                    Necrophages[4] = new Entry(
+                        "Drowned Dead"
+                        , "Particularly strong and dangerous drowners are known as the drowned dead. Simple people see no difference between the drowner and the drowned dead – encountering " +
+                        "either of them is equally deadly. We might suppose, though, that the most gloomy legends concern the drowned dead rather than drowners."
+                        , null
+                        , "Kaer Morhen Valley, Novigrad, Skellige, and Velen"
+                        , null
+                        , "Assets\\Drowdead.png");
+
+                    //FOGLET
+                    Necrophages[5] = new Entry(
+                        "Foglet"
+                        , "Fog is the traveler's foe. In the forest, it can make one lose one's way, at sea, it can send one sailing into the rocks. Yet such dangers are nothing compared to" +
+                        " the monsters known as foglets which sometimes lurk within it. These creatures have powerful arms and claws like Zerrikanian kinjals, yet what makes them truly " +
+                        "dangerous is their mastery of deception, beguilement and disorientation. Many times they need not attack at all, instead simply driving their prey to madness or into" +
+                        " boggy marshlands, after which they wait patiently for it to drown in the muddy waters."
+                        , "Foglet Teeth, Foglet Mutagen, and Lesser Blue Mutagen."
+                        , "Isle of Mists, Kaer Morhen, and Velen"
+                        , "Moon Dust, Necrophage Oil, and Quen"
+                        , "Assets\\foglet.png");
+
+                    //GHOUL
+                    Necrophages[6] = new Entry(
+                        "Ghoul"
+                        , "Ghouls and graveirs are hard to describe. In part, they resemble humans - yet on the whole, they are the utter negation of all that is human. Though they have arms " +
+                        "and legs like men, they walk on all fours like dogs or badgers. Though they have eerily familiar faces, one searches them in vain for any sign of sentiment, reason or " +
+                        "even a spark of consciousness. They are driven by one thing and one thing only: an insatiable craving for human flesh. Ghouls and their more dangerous cousins, graveirs," +
+                        " usually feed in small groups, at times led by an alghoul.Since they delight most in the taste of fresh carcasses, they appear wherever newly - dug graves are to be " +
+                        "found: cemeteries, crypts, catacombs and battlefields.Whenever the opportunity arises they hunt the living as well, especially when they have strength in numbers. In a " +
+                        "one - on - one fight with a trained witcher, a ghoul poses little threat, but one must remember that wounded individuals can erupt in a mad frenzy.At such times they " +
+                        "attack fiercely, paying no heed to their own safety and brushing off all wounds.One must likewise bear in mind that ghouls and graveirs are particular dangerous around " +
+                        "dusk and at night."
+                        , "Ghoul's Blood, Monster Blood, Monster Claw, Monster Eye, Monster Liver, Monster Saliva, Monster Tongue, Monster Tooth, and Venom Extract"
+                        , "Anywhere near corpses"
+                        , "Necrophage Oil"
+                        , "Assets\\ghoul.png");
+
+                    //GRAVE HAG
+                    Necrophages[7] = new Entry(
+                        "Grave Hag"
+                        , "Few monsters' names fit as well as the grave hags'. As one might guess, these creatures resemble aged, deformed women and loiter near graveyards and battlefields. Grave " +
+                        "hags feed on human corpses and in particular on the rotten marrow which they slurp from human bones using their long, prehensile tongues. Once a hag has devoured all corpses" +
+                        " within reach, she turns to killing men and burying them in the cemetery as she waits for them to decompose."
+                        , "Grave Hag's Ear, and Grave Hag Mutagen"
+                        , "Velen, and Skellige"
+                        , "Black Blood, Necrophage Oil, Yrden, and Quen"
+                        , "Assets\\Grags.png");
+
+                    //IGNIS FATUUS
+                    Necrophages[8] = new Entry(
+                        "Ignis Fatuus"
+                        , "The monster haunting the peat bogs of Velen turned out to be an ancient foglet. These are exceptionally long-lived creatures - some have even dwelt on this earth for over " +
+                        "two hundred years, growing stronger and stronger all the while. Blows dealt by foglets of such an age carry so much power blocking them is out of the question. These foglets " +
+                        "possess the ability to move extremely quickly, and not even Yrden can slow them down. Furthermore, they can meld completely into the mist, then suddenly rematerialize to strike " +
+                        "from behind. Wearing heavy armor or making good use of the Quen Sign is highly recommended. This ancient foglet proved particularly adept in the art of forming illusions. Only a " +
+                        "professional monster slayer skilled with Signs and swords could best such a foe.Luckily, Geralt fit that description."
+                        , "Foglet Teeth, Foglet Mutagen, Lesser Blue Mutagen, and Foglet Trophy"
+                        , "Cave in Velen"
+                        , "Moon Dust, Necrophage Oil, and Quen"
+                        , "Assets\\Ignituus.png");
+
+                    //MOURNTART
+                    Necrophages[9] = new Entry(
+                        "Mourntart"
+                        , "Most grave hags rarely attack humans, preferring instead to feed on the rotten remains they dig out of graves. Yet some individuals grow bold over the years and begin sneaking " +
+                        "into huts to steal children and kill the elderly. Just such a monster was tormenting the inhabitants of Lindenvale. The witcher knew this grave hag would put up a fierce fight. He " +
+                        "would have to watch out for her powerful claws, capable of smashing through any block or parry, and her long, venomous tongue.He also realized her attacks would be so quick not " +
+                        "even his mutated reflexes would be able to keep pace - meaning only judicious use of the Yrden Sign would all[sic] him to survive and conquer. The outcome of the fight was not hard " +
+                        "to predict. The grave hag perished in the very graveyard which had heretofore served as her feeding grounds, and her body was dumped in a grave she had dug with her own claws."
+                        , "Grave Hag Trophy, Grave Hag Mutagen, Grave Hag's Ear, Monster Bone, Monster Claw, Monster Tongue, and Addan Deith"
+                        , "Lindenvale"
+                        , "Black Blood, Necrophage Oil, Yrden, and Quen"
+                        , "Assets\\Mourntart.png");
+
+                    //MUCKNIXER
+                    Necrophages[10] = new Entry(
+                        "Mucknixer"
+                        , "A drowner resembles a corpse dredged from the bottom of a pond. It is sickly blue or green in color, with slime and sludge oozing out of every pore and the acrid stench of rot" +
+                        " wafting off of it. That is why it is often thought drowners -along with their more dangerous cousins: vodniks, mucknixers and drowned dead — arise from the bodies of those who " +
+                        "drown in shallow water: lost travelers falling into bogs, children who swim too far from the shore or, in the case of vodniks, inebriated peasants who stumble off narrow swamp trails."
+                        , "Monster Saliva, Drowner Tongue, and Drowner Brain"
+                        , "Swamps and riverbanks in Velen"
+                        , "Necrophage Oil and Igni"
+                        , "Assets\\mucknixer.png");
+
+                    //ROTFIEND
+                    Necrophages[11] = new Entry(
+                        "Rotfiend"
+                        , "Rotfiends resemble decomposing human bodies that have been stripped of their skin. Their presence is given away by the overwhelming stench of the rot which gives them their name." +
+                        " Devourers are a particularly dangerous kind of rotfiend marked by an insatiable appetite for human flesh. Rotfiends and devourers were once rarities, but in the present age of constant " +
+                        "warfare and violence they have become a veritable plague, particularly around battlefields and in disease - stricken areas.Though they feed mainly on carrion, they will at times attack " +
+                        "the living.They usually feed in large groups and thus present a danger to lone travelers – especially considering their speed, which is more than a match for a horse at full gallop. " +
+                        "The rotfiend's decomposing body is filled with gasses which are poisonous even to those who, like witchers, are immune to most other toxins. These emissions are also highly flammable, " +
+                        "meaning any spark, not to mention a carelessly-cast Igni sign, can lead to an explosion. This is particularly likely after a rotfiend dies, when its body thrashes around in uncontrollable " +
+                        "tremors. Rotfiends and devourers feed in the twilight hours and at night, when they become much more dangerous than during the day."
+                        , "Rotfiend Blood, Necrophage Hide, Monster Brain, Monster Bone, Monster Heart, Monster Liver, Monster Saliva, Monster Tongue, and Monster Tooth"
+                        , "Velen, White Orchard, Skellige, and Toussaint"
+                        , "Necrophage Oil"
+                        , "Assets\\rotfiend.png");
+
+                    //SCURVERS
+                    Necrophages[12] = new Entry(
+                        "Scurvers"
+                        , "Scurvers are rotfiends' larger cousins. The bodies of these hideous, vaguely humanoid creatures are covered with rotten scraps of flesh, under which lurk even more rotten muscles stretched " +
+                        "around a strong, flexible skeleton. Scurvers, which feed on old, rotting corpses, prefer to make their hunting grounds in abandoned torture sites, forgotten graveyards and old battlefields. " +
+                        "They are very aggressive and, though they feed on corpses, if they come across a living person they are likely to attack. Thus when wandering near any of the above-mentioned places, one must " +
+                        "be especially cautious. Scurvers usually feed underground, but sometimes, when they catch the scent of a human, they crawl to the surface in a matter of seconds and attack their potential prey." +
+                        " While fighting them one cannot afford to forget about their special boney spines, razor - sharp protuberances sticking out from their skeletons.When a scurver is near death, the gasses and " +
+                        "enzymes gathered within its body cause it to explode, flinging these spines out at great speed, turning them into one last deadly weapon in their arsenal. To protect oneself against damage from " +
+                        "these spines, one should make prodigious use of the Quen Sign."
+                        , null
+                        , "Toussaint"
+                        , "Necrophage Oil"
+                        , "Assets\\scurvers.png");
+
+                    //SPOTTED WIGHT
+                    Necrophages[13] = new Entry(
+                        "Spotted Wight" 
+                        , "Spotted wights were a subspecies of wight which the witchers drove to extinction. They were larger than their unspotted kin and owed their names to their numerous blotches and effusions. Spotted " +
+                        "wights would most often dwell in derelict cemeteries and empty wildernesses, yet at times took to living in abandoned human domiciles. There they would indulge in their greatest passion: creating " +
+                        "brews from their own emissions. When not disturbed, spotted wights would not act aggressively.If threatened, however, they became very dangerous indeed.In the colder months or when faced with an " +
+                        "unseasonable chill, they would slip into a state of lethargy, making them easy targets.Even during their active periods, it is said the witchers found a surefire way of besting them, based around " +
+                        "careful casting of the Yrden Sign – or at least, so claims witcher lore... Whenever on the one hand witchers swear they have driven a certain species of monster into extinction and one the other " +
+                        "someone claims to have seen a member of that species walking around in apparent health, most likely we are dealing with a curse.This rule of thumb showed its worth with the spotted wight from the " +
+                        "Trastamara estate.It turned out this creature was in fact a woman transformed into a monster by a curse many years prior, as punishment for refusing food and shelter to a wandering beggar."
+                        , "Wight Ear, Wight Hair, Wight Saliva Gland, Wight Trophy, Fork, Disgusting Wight Key"
+                        , "Toussaint"
+                        , "Necrophage Oil, Igni, and Yrden"
+                        , "Assets\\Spotted Wight.png");
+
+                    //WATER HAG
+                    Necrophages[14] = new Entry(
+                        "Water Hag"
+                        , "Some tales mention water hags and swamp bints masquerading as lost old women to lure travelers back to the rickety shacks they build in the wetlands. In truth, only a blind man, or a sighted man " +
+                        "blinded with drink, could mistake the rank sludge and rotting carrion of a water hag's den for a cozy cottage, and the hideous hag herself for an innocent grandmother. Their wrinkled, wart-covered " +
+                        "bodies stand nearly two yards tall, with skin the color of a long-dead cadaver and stinking of muck and fish. Bony growths two spans long stick out from their backs, with hair like a tangle of seaweed " +
+                        "and claws that would make a werewolf proud completing the picture."
+                        , "Monster Saliva, Monster Tongue, Venom Extract, Water Essence, Water Hag Mutagen, Water Hag Tooth"
+                        , "Velen, White Orchard, and Skellige"
+                        , "Northern Wind, Necrophage Oil, Quen, and Igni"
+                        , "Assets\\WaterHag.png");
+
+                    //WIGHTS
+                    Necrophages[15] = new Entry(
+                        "Wights"
+                        , "Though wights are ghastly and threatening in appearance, one should not approach them with sword drawn or attack them unprovoked. Left alone, they present no serious danger to anyone and are far more " +
+                        "interested in mixing noxious brews in cauldrons than in fighting. This species mainly lives around ancient burial sites, though they have also been spotted near more recently-founded cemeteries and " +
+                        "wherever mass graves can be found. Wights spend the winter months in a state of lethargy very similar to human sleep.They live strictly solitary lives-- in fact, it is practically unheard of for these " +
+                        "creatures to appear in groups.Yet when they fear their territory is threatened(and it is enough for one to step foot in a wight's territory for it to feel threatened), wights transform into dangerous foes " +
+                        "and even abandon their solitary ways to summon other monsters to their aid. It is a certainty that if a wight finds itself in danger, it will immediately spew out an ectoplasmic solution which near " +
+                        "instantaneously transforms into barghests.These beasts obey the wight and attack anyone it deems a foe. If one of them is killed, the wight tries to replace it at once. The best strategy when fighting " +
+                        "such a wight is to take out the monsters guarding it with the Axii sign before attacking the wight itself.Wights are resistant to poison, but vulnerable to silver."
+                        , "Monster Tongue, Wight Hair, Wight Ear, Greater Triglav Runestone, Green Mutagen"
+                        , "Toussaint"
+                        , "Necrophage Oil, and Axii"
+                        , "Assets\\Wights.png");
+
+                }
+
+                /*--------------Ogroid-----------------------
+                 
+                 Click To Expand*/{
+
+                    //CLOUD GIANT
+                    Ogroids[0] = new Entry(
+                        "Cloud Giant"
+                        , "The Cloud Giant is most likely a degenerated illusory being. He is an inhabitant of the castle in the sky in the Land of a Thousand Fables. This land was " +
+                        "abandoned and left untended for years, during which time it began to rot, fester and degrade. The Cloud Giant was most likely meant to be a pleasant - " +
+                        "natured strongman who would carry the duke's young daughters on his shoulders and never grow tired. When he became degenerated and overgrown, however, he " +
+                        "turned into a dangerous monster. After Jack stole his goose that laid golden eggs, the Cloud Giant decided in the future anyone who climbed onto his cloud " +
+                        "would be tossed off, without a word of warning."
+                        , "Infused Shards, Cyclop's Eye, Orens, and Greater Red Mutagen"
+                        , "Land of a thousand Fables Cloud Giant's Castle"
+                        , "Ogroid Oil, Igni, and Dancing Star"
+                        , "Assets\\CloudGiant.png");
+
+                    //CYCLOPSES
+                    Ogroids[1] = new Entry(
+                        "Cyclopses"
+                        , "Cyclopses can easily be recognized by the single eye located in the center of their foreheads. If for some reason that is not visible, other tell-tale signs " +
+                        "are their enormous size, incredible strength and a seething hatred for all humans."
+                        , "Cyclop's Eye, Old Bear Hide, Infused Shard, Monster Brain, Monster Blood, Monster Bone, Monster Ear, Monster Hair, Monster Hide, Monster Hear, Monster Liver," +
+                        "Monster Saliva, Monster Tongue, Monster Tooth, and Orens"
+                        , "Kaer Morhen, Skellige, and Velen"
+                        , "Ogroid Oil, Quen, and Axii"
+                        , "Assets\\Cyclopses.png");
+
+                    //GOLYAT
+                    Ogroids[2] = new Entry(
+                        "Golyat"
+                        , "According to legend, Golyat had once been a knight who violated his vows, for which he was punished by the Lady of the Lake. Transformed into a giant, he fled " +
+                        "into the mountains and would only descend into the inhabited lowlands when hunger forced him to it. There's no knowing how much truth lies in that legend, yet it " +
+                        "is incontrovertible fact that this dangerous giant gobbled up shepherds and sheep alike, and was so widely feared, governesses used him to scare children into eating " +
+                        "their vegetables. Though he came across as a wild, unthinking beast, Golyat used simple tools and any item could turn into a deadly weapon in his powerful hands. " +
+                        "When fighting Geralt, Golyat wielded a millstone, making his every blow truly crushing.Luckily, Geralt already had some experience slaying giants and made quick work " +
+                        "of Golyat as well, with the much appreciated help of three knights - Milton de Peyrac Peyran, Palmerin de Launfal and Guillaume de Launfal."
+                        , "Golyat Trophy, Dahlia, and Greater Red Mutagen"
+                        , "Dulcinea Windmill in Toussaint"
+                        , "Ogroid Oil, and Quen"
+                        , "Assets\\Golyat.png");
+
+                    //HAGUBMAN
+                    Ogroids[3] = new Entry(
+                        "Hagubman"
+                        , "Your average nekker is cowardly and weak and only ever attacks in groups, even then only when the group greatly outnumbers its opponents. Yet at times there will " +
+                        "appear among them an individual who towers over the rest in terms of strength, stamina and cunning. Such nekkers are usually called warriors, though that name is misleading. " +
+                        "Warriors fight with honor, face to face. These overgrown nekkers act more like assassins - they strike by surprise, from hiding, in the back, or when their opponent " +
+                        "exposes himself while attacking. Luckily, like other nekkers warriors are vulnerable to all the Signs, and their blows can be easily parried or countered. Such a monster " +
+                        "lived near the village of Larvik on Hindarsfjall - and not even the strongest of islanders were capable of slaying it.A witcher though... A witcher's another story."
+                        , "Nekker Claw, Nekker Heart, Nekker Warrio's Liver, Nekker Warrior Mutagen, Nekker Warrior Trophy, Devine, Venom Extract"
+                        , "Near the village of Larvik on Hindarsfjall"
+                        , "Northern Wind and Ogroid Oil"
+                        , "Assets\\Hagubman.png");
+
+                    //ICE GIANT
+                    Ogroids[4] = new Entry(
+                        "Ice Giant"
+                        , "This powerful, primeval monster is quite possibly the last of its race. The Ice Giant resembles a man in many respects, but is blue as frost and taller than a tree. " +
+                        "Though it seems capable of reason, all attempts to communicate with it to date have ended the same way – in a quick and painful death."
+                        , "Elemental Essence, Monster Brain, and Monster Eye"
+                        , "Skellige"
+                        , "Ogroid Oil and Quen"
+                        , "Assets\\IceGiant.png");
+
+                    //ICE TROLL
+                    Ogroids[5] = new Entry(
+                        "Ice Trolls"
+                        , "Climbing to the top of snow-covered peaks is never a safe endeavor. One can slip and fall into a ravine, be buried in an avalanche – or stumble across ice trolls." +
+                        " Unlike the rock trolls found at lower altitudes, these permafrost-dwelling monsters treat every man they encounter as a possible ingredient for a tasty meal. Luckily ice " +
+                        "trolls live atop high mountain ridges so inaccessible they rarely encounter humans, and some suppose this is why they have not mastered the basics of Common Speech. " +
+                        "Others claim their harsh mountain home has stripped them of an ability they once possessed, for in a land of never - ending cold there is no room for mercy or understanding. " +
+                        "Ice trolls are crueler than their rocky kin.Though they use similar tactics in battle – tossing stones and swinging with their mighty fists – they are heartier and stronger " +
+                        "than rock trolls and thus more dangerous.Like rock trolls, their backs are covered in thick protective armor, meaning one should never strike them from the rear. Meanwhile " +
+                        "their mass means that the Aard Sign cannot move them.Lastly, never think of attacking them during a blizzard.At such times they draw power from the surrounding cold and fight with increased strength."
+                        , "Troll Hide, Troll Mutagen, and Elemental Essence"
+                        , "Skellige"
+                        , "Ogroid Oil and Quen"
+                        , "Assets\\IceGiant.png");
+
+                    //NEKERS
+                    Ogroids[6] = new Entry(
+                        "Nekkers"
+                        , "A lone nekker is harmless. Five are dangerous. Ten can kill even a veteran monster slayer. Particularly troublesome are the larger, stronger individuals known as warriors, " +
+                        "as well as the rare breed of nekkers known as phoocas. Nekkers and phoocas live in the dark woods that grow in damp, mist - filled valleys, in colonies of one to several dozen " +
+                        "individuals.They dig deep burrows for lairs and connect them with a network of narrow tunnels.Using these passageways they are able to move at great speed within and around their " +
+                        "colonies. Nekkers always attack in groups and by surprise.They try to surround their prey as quickly as possible, cutting off all escape routes.Luckily their attack is for the most " +
+                        "part disorganized, for nekkers are not gifted with great courage and individual nekkers will often hesitate before overcoming their fear and striking.When fighting them one can use " +
+                        "this moment of hesitation to kill the braver individuals before finishing off those who remain in the back."
+                        , "Nekker Blood, Nekker Claw, Nekker Eyes, Nekker Heart, Lesser Blue Mutagen, and Lesser Green Mutagen"
+                        , "Velen, White Orchard, Skellige, and Toussaint"
+                        , "Northern Wind, and Ogroid Oil"
+                        , "Assets\\Nekker.png");
+
+                    //ROCK TROLL
+                    Ogroids[7] = new Entry(
+                        "Rock Troll"
+                        , "If while hiking high in the mountains you come across a walking stone, do not think your eyes deceive you. Instead, draw your sword – for before you stands a rock troll. True, not" +
+                        " every encounter with these creatures ends in a fight - while not particularly intelligent, trolls are capable of reason – but it is better to prepare for the worst. Otherwise, your" +
+                        " hike might end not on the summit, but in their stew. Trolls are able to use fire and simple tools, and some of them have even mastered the basics of Common Speech.Though linguistic " +
+                        "nuances such as conjugations and declinations escape them, they are extremely fond of riddles, rhymes and all sorts of wordplay, a fact a witcher in possession of a bit of wit can use " +
+                        "to his advantage. If a fight proves inevitable, one must watch out for the stones these trolls throw with great strength and shocking precision.Their powerful, heavy fists also present " +
+                        "a danger, for they can buckle even the sturdiest breastplate or cuirass.Since their backs are covered in a layer of rocky growth, blows delivered from behind will not do them much damage. " +
+                        "They must thus be fought directly, standing face to face – and preferably armed with a sword covered in a fresh coating of ogroid oil."
+                        , "Cave Troll Liver, Troll Hide, Troll Mutagen, and Monster Heart"
+                        , "Novigrad, Kaer Morhen Valley, Skellige, and Velen"
+                        , "Ogroid Oil, and Quen"
+                        , "Assets\\RockTroll.png");
+
+                    //WHAM-a-WHAM
+                    Ogroids[8] = new Entry(
+                        "Wham-a-Wham"
+                        , "Rock trolls come across as dim-witted, ponderous, slow - stupid, to be frank. It's easy to dismiss them - and even easier to enrage them. When this happens, one's best bet is to run as " +
+                        "fast as possible, for an angered rock troll is as deadly as a thundering landslide. The truth held in the case of the massive rock troll known as Wham-a-Wham. His every blow struck like a " +
+                        "battering ram - meaning one needed either avoid them entirely or protect oneself with the Quen Sign. Its hard skin meant it was near invulnerable to sword strikes - especially those dealt " +
+                        "from behind, where its rock armor is the thickest. The only hope for defeating it lay in taking advantage of its typical troll slowness - especially if further exploited using the Yrden Sign. " +
+                        "A certain set of Skellige miners learned first - hand just how dangerous rock trolls can be.Ignoring all warnings, they started to mine a rich silver vein in the cave which Wham - a - Wham" +
+                        " called home.They died soon thereafter - crushed or torn to rough bits.This time, a troll's killings were a justified act of self-defense - after all, the witcher reasoned, every troll's cave " +
+                        "is his castle."
+                        , "Troll Hide, Troll Mutagen, and Cave Troll Trophy"
+                        , "Cave near Blandare"
+                        , "Ogroid Oil, and Quen"
+                        , "Assets\\wham.png");
+
+                 }
+
+                /*--------------Relicts----------------------
+
+                Click to Expand*/{
+
+                    //CHORT
+                    Relicts[0] = new Entry(
+                       "Chort"
+                       , "Chorts are the somewhat smaller kin of fiends and bumbakvetches. Yet any witcher who thinks their diminutive stature means they present no danger commits a grave " +
+                       "error – the kind that can end his career permanently. These denizens of dark and ancient woods are some of the most dangerous monsters known to man. Legends often " +
+                       "mistake chorts for sylvans, ascribing to them the ability to speak, stand on two legs, gobble up cabbage, play pranks and work mischief around the household. The " +
+                       "arrival of a true chort in a region soon puts an end to such tales.The creatures do not speak, at best communicating with each other through grunts, snorts and moans. " +
+                       "They get about on four legs and as for their \"mischief\"... they destroy farmsteads, devouring anything that can be devoured, including cabbage, if such is available," +
+                       " but also extending to poultry, pork, the family dog and then the family itself. Chorts fight with little finesse, running straight towards their opponent and trying " +
+                       "to knock him to the ground with the force of their charge.After downing their foe they bite, kick and strike with their claw - tipped paws.Due to their size and " +
+                       "four-legged posture, they are mostly unperturbed by the force of the Aard Sign, and the regenerative powers of their body allow any wounds they receive to heal at a " +
+                       "rapid pace."
+                       , "Chort Hide, Raw Meat, and Chort Mutagen"
+                       , "Velen, Skellige, and Kaer Morhen"
+                       , "Devil's Puffball and Relict Oil"
+                       , "Assets\\chort.png") ;
+
+                    //CRONES
+                    Relicts[1] = new Entry(
+                        "Crones"
+                        , "The isolated corners of our world harbor creatures older than humans, older than academies and mages, older even than elves and dwarves. The Crones of Crookback Bog " +
+                        "are such creatures. No one knows their true names, nor what breed of monstrosity they in fact are. Common folk have given these three sisters the names Weavess, Brewess " +
+                        "and Whispess, and call the threesome \"The Ladies of the Wood\" or simply \"The Good Ladies.\" The Crones act as the true sovereigns of Velen, whose inhabitants they " +
+                        "help survive through harsh times in return for unquestioning obedience. They wield powerful magic, but one different from that of mages.They draw power from water and " +
+                        "earth and are bound to the land in which they live.The Crones can hear everything that happens in their woods, predict the future, twist the threads of human lives and " +
+                        "bring blessings as well as curses. The Crones seem for all intents and purposes to be immortal.Magic elixirs keep them from aging and allow them to take the appearance " +
+                        "of young women.These elixirs and their mystical ties to the swamps in which they live also give them supernatural strength and vitality."
+                        , null
+                        , "Velen, Crookback Bog, and Bald Mountain"
+                        , "Relict Oil and Quen"
+                        , "Assets\\crones.png");
+
+                    //DOPPLER
+                    Relicts[2] = new Entry(
+                        "Doppler"
+                        , "Dopplers, also known as vexlings or changelings, are beings able to take on the form of any humanoid or animal they please. This transformation is no mere illusion able " +
+                        "to be shattered with a simple spell, but an authentic and complete metamorphosis. This means no protective amulets or witcher medallions will signal a doppler's presence - " +
+                        "they emanate the same aura as the being whose form they have assumed. This, combined with their incredible intellect and cunning, would make dopplers supreme assassins or " +
+                        "thieves - had not nature endowed them with generous and timid spirits which make them avoid the shedding of blood at all costs."
+                        , "Doppler Mutagen"
+                        , "Novigrad and Skellige"
+                        , "Relict Oil"
+                        , "Assets\\doppler.png");
+
+                    //FIEND
+                    Relicts[3] = new Entry(
+                        "Fiend"
+                        , "Fiends are walking mountains of muscle capped with horned, tooth-filled heads. Like their rarer cousins, bumbakvetches, they live in thick forests, swamps and bogs. When " +
+                        "possible they avoid humans, but when not possible, they kill them, and without much difficulty. Their size alone makes fiends and bumbakvetches extremely dangerous – one blow " +
+                        "from their powerful paws can kill a knight along with it's fully armored mount. Their enormous heft also makes them invulnerable to Aard: even witchers specializing in the " +
+                        "power of Signs could not move one even an inch. Furthermore, any wounds they receive heal at lightning speed. If that weren't trouble enough, fiends need not rely on their " +
+                        "strength and stamina alone with fighting. They can also call on a more refined weapon: the third eye located in the center of their forehead, which they use to draw their " +
+                        "prey into a state of hypnosis. During these times their victim does not see anything beyond this single burning eye – the last thing they see before their death. A fiend's " +
+                        "only weakness is its fear of loud noises – bombs such as Samum or Devil's Puffball are thus quite effective when fighting this monster.Furthermore, a blade covered in relict " +
+                        "oil can increase a witcher's chances of victory – or at least of walking away from the fight."
+                        , "Fiend Mutagen, Fiend Trophy, Fiend's Eye, Fiend Dung, Fifth Essence, Lesser Blue Mutagen, Monster Bone, Monster Hair, and Raw Meat"
+                        , "Velen and Skellige"
+                        , "Samum, Devil's Puffball, and Relict Oil"
+                        , "Assets\\fiend.png");
+
+                    //FUGAS
+                    Relicts[4] = new Entry(
+                        "Fugas"
+                        , "The devil Fugas held a very prestigious and responsible position during the Crones' sabbath: that of goon restricting access to the peak. He in no way resembled Torque, " +
+                        "the irritating but harmless \"deovel\" Geralt and I had encountered many, many years prior. Fugas' size resembled that of a somewhat overgrown troll, and he likewise displayed" +
+                        " a troll's lack of subtlety.There was not a jot of mischievous puck or cunning verbal trickster about this \"devil.\" Instead, he carried out his task with the commitment and " +
+                        "professionalism of a Novigrad bouncer. Trying to stop Geralt, though, turned out to be Fugas' dumbest and final idea, ending both his life and his flourishing career in the " +
+                        "Crones' employ."
+                        , null
+                        , null
+                        , null
+                        , "Assets\\fugas.png");
+
+                    //GODLING
+                    Relicts[5] = new Entry(
+                        "Godling"
+                        , "Godlings (sometimes mistaken for lutin) are woodland creatures dwelling in burrows and moss-covered hollow stumps on the outskirts of human settlements. They are similar to " +
+                        "children in behavior and appearance, and, like children, delight in mischief. Godlings are deeply rooted in their home territory and perform acts of care and guardianship to " +
+                        "those dwelling near their burrows. They watch over people as well as animals, but, shy creatures by nature, they try to do so while remaining unseen. Godlings are drawn to " +
+                        "joy and innocence, and so delight in the company of children and usually only show themselves to the young. These hard - working and clever creatures gladly perform small " +
+                        "services for those in their care, asking only for respect and payment in the form of food or cast - off tools in return.They are easily offended by churlish, ungrateful or " +
+                        "simply rude behavior.Godlings also treasure their peace and quiet.When the village a godling watches over becomes too populous or its inhabitants forget the old ways, it will " +
+                        "abandon its burrow for good and walk off to destinations unknown."
+                        , null
+                        , null
+                        , null
+                        , "Assets\\godling.png");
+
+                    //GROTTORE
+                    Relicts[6] = new Entry(
+                        "Grottore"
+                        , "No one knows exactly when the spriggan called \"Grottore\" first made its home in the caves at the foot of Mount Gorgon. Spriggans usually prefer isolated backwoods and rarely " +
+                        "make dens in caverns. Yet Grottore seemed to have taken a liking to \"grottos,\" giving rise to its nickname. The monster was quite well - known among Beauclair knights, who often " +
+                        "talked of it as a potential source of great glory.None were particularly eager to actually engage the monster in combat, however – none, that is, except for the young Knight " +
+                        "François Grottore proved to be a demanding foe.It possessed the ability to teleport, meaning it would appear directly in front of Geralt and mount a surprise attack, dealing strong " +
+                        "blows that were impossible to parry.It used primeval magic to control tree roots, which would shoot from the ground on its command, dealing significant damage to any in their way. " +
+                        "It was resistant to the Aard Sign, but vulnerable to burning.Blows from a silver sword would do it harm, despite the bark - like hide covering it like armor."
+                        , "Grottore Trophy, Fen'aeth, Greather Blue Mutagen, Leshen Resin, Fiber, Monster Bone, and Hardened Timber"
+                        , "Toussaint"
+                        , "Dimeritium Bomb, Relict Oil, and Igni"
+                        , "Assets\\grottore.png");
+
+                    //HOWLER
+                    Relicts[7] = new Entry(
+                        "Howler"
+                        , "One is hard-pressed to name another area of our world more thoroughly riddled with monsters than Velen. There is on silver lining to this sad fact, however: the beasts living there " +
+                        "must compete fiercely for hunting territory, meaning monsters often end up killing other monsters. An aggressive chort known as Howler went on just such a fratricidal rampage, tearing " +
+                        "a pack of wolves to shreds before attacking and killing a fiend significantly larger than itself. Howler was a truly fearsome foe.Each one of its blows was enough to kill - only heavy " +
+                        "armor or the Quen Sign could protect one from mortal damage.Particularly to be avoided was its charge - and whenever possible, the monster was best attacked from the side. Geralt slayed " +
+                        "the Howler without much trouble, yet killing such a fierce fighter might very well have proved impossible, had not its previous conflicts with its monstrous kin weakened it considerably. " +
+                        "The lesson, I suppose, is that when two monsters fight, a witcher wins."
+                        , "Chort Trophy, Chort Mutagen, Chort Hide, and Azure Wrath"
+                        , "South of Lindenvale"
+                        , "Devil's Puffball and Relict Oil"
+                        , "Assets\\Howler.png");
+
+                    //IMP
+                    Relicts[8] = new Entry(
+                        "Imp"
+                        ,"The imp pestering the merchants of Novigrad turned out to be a doppler. These monsters usually avoid confrontation - to everyone's great relief, for when pinned they become extremely " +
+                        "dangerous. Fighting them quickly turns into a fight against oneself. Or, to be precise, against a mirror image gifted with one's own strengths and abilities. In a conflict with such " +
+                        "even odds, only luck - or destiny - decides the victor."
+                        , "Doppler Mutagen and Doppler Trophy"
+                        , "Novigrad"
+                        , "Relict Oil"
+                        , "Assets\\imp.png");
+
+                    //KERNUN
+                    Relicts[9] = new Entry(
+                        "Kernun"
+                        , "Novigrad - the greatest metropolis in the world, the acme of civilization, material proof - or so one is tempted to think - of mankind's ability to tame and control nature. Yet right " +
+                        "outside the city walls lies the Novigrad Wilderness - and whoever sets foot in it soon finds out that man's primacy does not extend past the city walls. One of the monsters who made its " +
+                        "lair in that thick tangle was an old, powerful leshen.It killed any who strayed into its territory with its species' characteristic cruelty: lacerating them with razor-sharp claws, sending " +
+                        "strangling plants shooting out of the ground or feeding them to packs of hungry wolves. If not for its vulnerability to fire, the Igni Sign included, and the protection of the Quen Sign, " +
+                        "one could wager not even the toughest witcher would be able to slay the beast. Geralt of Rivia was only able to finally put an end to this leshen after a long and exhausting battle. Once " +
+                        "the beast died, the way was clear for loggers to move into its former domain.The woods now gradually fall to the ax.Perhaps one day they'll disappear altogether - and their monstrous denizens " +
+                        "along with them."
+                        , null
+                        , "near Loggers'Hut"
+                        , "Dimeritium Bomb, Relict Oil, and Igni"
+                        , "Assets\\Kernun.png");
+
+                    //LESHEN
+                    Relicts[10] = new Entry(
+                        "Leshen"
+                        , "Leshens dwell in dense, primeval woods. Fiercely territorial creatures, they hunt with stealth and cunning as their only companions. They use their inborn magic to control the plants and " +
+                        "animals within their territory – and so, when stalking them, half the battle is merely getting near enough to strike. Leshens old enough to earn the appellation \"ancient\" wield advanced skills " +
+                        "and tactics that make them particularly dangerous."
+                        , "Leshen Resin, Leshen Mutagen, Monster Bone,  Leshen Trophy, and Fiber"
+                        , "Velen and Skellige"
+                        , "Dimeritium Bomb, Relict Oil, and Igni"
+                        , "Assets\\leshen.png");
+
+                    //MORVUDD
+                    Relicts[11] = new Entry(
+                        "Morvudd"
+                        , "hey say every journey made in the Skellige Isles ends in adventure. And sometimes, that adventure ends in death. Such was the case for a group of adventure-seeking Skelligers who set out in " +
+                        "search of treasure in forgotten ruins - which turned out to lie in the hunting grounds of a powerful fiend known as Morvudd. The witcher knew there was little room for error in a fight with " +
+                        "such a creature.A moment of carelessness and the beast could hypnotize him with its third eye, then tear him to shreds while he remained in a trance. Morvudd was a particularly large individual, " +
+                        "so one could presume fast attacks would not prove effective against it - and that its blows would kill anyone not protected with heavy armor or the Quen Sign. Though Morvudd killed the Skellige " +
+                        "warriors without much trouble, it proved no match for the witcher.It even tried to save its life by fleeing at one point, but that only delayed its inevitable death by the witcher's silver blade."
+                        , "Fiend's Eye, Fiend Dung, Fiend Mutagen, Rotting Flesh, Longclaw, and Fiend Trophy"
+                        , "Boxholm"
+                        , "Samum, Devil's Puffball, and Relict Oil"
+                        , "Assets\\morvudd.png");
+
+                    //SHAELMAAR
+                    Relicts[12] = new Entry(
+                        "Shaelmaar"
+                        , "Shaelmaars spend most of their lives deep underground, having no contact with the world up above. At times, however, a shaelmaar will dig its way to the surface and devour any men within its" +
+                        " reach. Some shaelmaars also burrow tunnels close to the surface, collapsing buildings and causing tremors in the process. Since shaelmaars are blind, they find their way by sensing vibrations " +
+                        "and listening for sounds.Thus the best tactic when fighting such a monster is to hurl something heavy or noisy against a nearby boulder or wall.Then pray silently that the beast will roll towards " +
+                        "the sound and knock itself out upon striking into the obstacle. Clumsy shaelmaars might seem easy targets to hit, but when even your strongest blows bounce off the thick armor plating their backs, " +
+                        "you realize they've little need to dodge. When threatened, a shaelmaar will curl up in a ball and roll forward with tremendous impetus, becoming an unstoppable force crushing everything in its " +
+                        "path. A witcher's best bet is to stay out of a charging shaelmaar's way and strike after its charge fails, revealing its vulnerable underbelly. A witcher of particular cunning and agility will use " +
+                        "the Aard Sign or a bomb(Samum works particularly well for this purpose) to cause the shaelmaar to slam into an obstacle at full speed, significantly lowering its fighting ability and opening the " +
+                        "witcher's path to victory. Trying to disorient a shaelmaar in this way is a risky maneuver, but can be effective, especially when third parties are threatened."
+                        , null
+                        , "Toussaint and Mahakam"
+                        , "Samum, Relict Oil, and Aard"
+                        , "Assets\\morvudd.png");
+
+                    //SHAELMAAR FROM THE EMPEROR OF NILFGAARD
+                    Relicts[13] = new Entry(
+                        "Shaelmaar from the Emperor of Nilfgaard"
+                        , "Gladiator fights in massive arenas are a popular form of entertainment in Nilfgaard. Usually the fighters are slaves specially trained for this purpose, yet at times the arena masters pit humans " +
+                        "against monsters. The shaelmaar Geralt had to fight in the tourney grounds was a present from the emperor to his relative, Duchess Anna Henrietta. It had been caught while young and prepared for its " +
+                        "ultimate purpose by Nilfgaardian trainers. That does not mean it was tame, however – in fact, its wildness and inborn ferocity had not been dulled one whit. Like all creatures of its species, it was " +
+                        "blind but could unerringly pinpoint its opponents' location using echolocation. The shaelmaar had thick armor and near impenetrable skin. It could also roll into a ball and charge its opponents. Its " +
+                        "underbelly, however, was relatively vulnerable and became exposed when its charge failed."
+                        , null
+                        , "Tourney Grounds"
+                        , "Samum, Relict Oil, and Aard"
+                        , "Assets\\emperor.png");
+
+                    //SPRIGGANS
+                    Relicts[14] = new Entry(
+                        "Spriggans"
+                        , "Spriggans are a subspecies of the monsters known as leshens. One is liable to come across them in inaccessible, unfrequented woodlands. They do not usually attack humans if unprovoked, but when " +
+                        "irritated they can be quite fearsome, and, as they possess considerable strength, they are capable of doing great damage. Their appetite is such that they can devour more flesh than an army at a wedding." +
+                        " Each spriggan has mastery over plants and is inextricably tied to them.Thus if someone destroys greenery in its domain, it immediately comes to punish the disturber."
+                        , null
+                        , "Toussaint"
+                        , "Dimeritium Bomb, Relict Oil, and Igni"
+                        , "Assets\\spriggan.png");
+
+                    //SYLVANS
+                    Relicts[15] = new Entry(
+                        "Sylvans"
+                        , "Sylvans and Yakshas, a kindred species, are extremely rare woodland creatures whose appearance combines traits of goats and rotund men. These beings usually pose little danger, for they limit their contact " +
+                        "with humans to playing harmless (though often bothersome) tricks and eating crops from their fields."
+                        , null
+                        , "Velen"
+                        , "Samum, Devil's Puffball, Relict Oil, and Igni"
+                        , "Assets\\sylvan.png");
+
+                    //The Caretaker
+                    Relicts[16] = new Entry(
+                        "The Caretaker"
+                        , "The Caretaker served with the indifference of a golem, and proved as fierce in battle as it was diligent in its labors. It felt no pain – in fact, each blow it received seemed to give it strength, as did " +
+                        "each blow it landed on Geralt with the spade it wielded as a weapon. What is more, the Caretaker was able to summon powerful spirits from the graves it had dug and could heal itself by absorbing them. The witcher " +
+                        "had a hard time evading the devastating strikes of its weapon, and his only chance at wounding the creature came when it would stick its spade in the ground to draw on otherworldly energy in an attempt to petrify " +
+                        "its foes with fright. The being known as the Caretaker had been summoned to the von Everec estate from another realm, making \"demon\" its most accurate designation.The Caretaker had been forced into servitude by " +
+                        "magic.Its tasks - to care for the house and protect it from intruders.It performed these pedantically, tending the flowers, repairing the fences, tidying the yard... and murdering all intruders who set foot on the" +
+                        " grounds, then burying their corpses in neat rows on untended land just beyond the manor garden's bounds."
+                        , "The Caretaker's Spade"
+                        , "von Everec Estate"
+                        , "Relict Oil and Quen"
+                        , "Assets\\caretaker.png");
+
+                    //THE MONSTER OF TUFO
+                    Relicts[17] = new Entry(
+                        "The Monster of Tufo"
+                        , "Imagine a creature that kills men, feeds on kikimore eggs and digs underground tunnels so wide they'd fit the emperor of Nilfgaard's coronation carriage along with a team of six horses. And now imagine this creature " +
+                        "digs with such force, the earth quakes and the houses up above tremble and collapse. Noting these symptoms, Geralt was at first unsure what sort of a beast he could be dealing with, knowing only that he needed to be very, " +
+                        "very careful. Only after he carefully examined the monster's tracks did he realize it had to be an aged female shaelmaar. The monster destroying Tufo turned out to be an old shaelmaar matriarch.Geralt hunted it down and " +
+                        "fought it deep under the ground. Though blind like all members of its species, this creature could easily maneuver by sensing vibrations and noises.As long as Geralt stood quiet and motionless, he was safe.Yet if he took " +
+                        "one step or breathed a bit too loud, the matriarch would start moving in his direction with great speed. Geralt had a very difficult time taking out this monster, whose armor could not be pierced by any of his weapons. " +
+                        "In the end, however, he succeeded and the monster of Tufo was no more."
+                        , "Shaelmaar Trophy, Ami, Shaelmaar Dust, Shaelmaar Hair, Monster Carapace, and Greater Blue Mutagen"
+                        , "Tufo, Toussaint"
+                        , "Samum, Relict Oil, and Aard"
+                        ,"Assets\\tufo.png");
+
+                    //WICKED WITCH
+                    Relicts[18] = new Entry(
+                        "Wicked Witch"
+                        , "Though evil witches are often considered creatures born of the overactive imaginations of fabulists and mythologists, cartoonish characters only a child would ever be frightened of, there are accounts of men who claim to " +
+                        "have happened across one of these improbable beings. All these accounts agree that the witch not only did in fact eat men, but had mastered the cooking of humans to a fine art. They are said to be particularly fond of " +
+                        "children's liver fried in butter and served in a saffron sauce, balsamic vinegar-marinated fingers roasted to a golden crisp and, yes, even freshly-squeezed corpse juice. It should be noted here that all the above-mentioned " +
+                        "witnesses who swore they saw such a witch were patients of the Ellander Institute for the Mentally Ill, thus the veracity of their testimony is highly debatable."
+                        , "Cookies, Gingerbread, Gingerbread Man, Magic Dust, Poisoned Apple, Bone Ashes, and Grave Hag's Ear"
+                        , "Land of a Thousand Fables"
+                        , "Relicts Oils"
+                        , "Assets\\wickedwitch.png") ;
+
+                    //WOODLAND SPIRIT
+                    Relicts[19] = new Entry(
+                        "Woodland Spirit"
+                        , "Some monsters are so powerful local populaces begin worshiping them as gods. Such was the case with the leshen dwelling in the woods near the Skellige village of Fayrlund. The elders were absolutely convinced the monster " +
+                        "watched over them by defending them from their enemies and training their hunters. The witcher had his doubts, however.Leshens are mean, self - serving creatures - and the ancient one living in the woods near Fayrlund was " +
+                        "surely no exception. Geralt knew freeing the villagers from their supposed protector's grasp would be no easy task - if he decided to even try. The leshen known as the Woodland Spirit was so powerful as to have mastered the " +
+                        "art of marking. This meant the monster had inserted his essence into one of the residents of Fayrlund. As long as this unfortunate soul remained alive and near the settlement, the leshen would always be reborn near its lair. " +
+                        "Yet even with the marked one eliminated, killing the leshen would be no easy task.The monster commanded the obedience of the denizens of the woods - it could thus call on wolves, ravens or even the trees themselves for help. " +
+                        "Luckily, it had a weakness as well: it was vulnerable to fire, that born of the Igni Sign in particular."
+                        , "Leshen Resin, Ancient Leshen Mutagen, and Leshen Trophy"
+                        , "Fayrlund"
+                        , "Dimeritium Bomb, Relict Oil, and Igni"
+                        , "Assets\\woodland.png");
+
+                }
+
+                /*--------------Specters---------------------
+
+                Click to Expand*/{
+
+                    //BARGHEST
+                    Specters[0] = new Entry(
+                        "Barghests"
+                        , "Folk of simple or superstitious minds claim committing particularly rotten acts will bring down the wrath of the gods in the form of \"barghests, \" phantom dogs " +
+                        "which stalk the roads at night. Even if this were their origin, barghests saints and sinners alike would need fear barghests, for they attack both with equal " +
+                        "ferocity. Witchers rarely believe in the gods, but they do accept that barghests exist and are always connected with some sequence of tragic events that happened in " +
+                        "the past. Their explanation, however, holds that barghests result from a curse or a concentration of ill will. Barghests, like wolves, are stronger in packs. " +
+                        "Together they surround their prey, leaping at it and tearing it apart with their teeth.If their prey defends itself too determinedly, they strike it with a blast of " +
+                        "phantom fire.Since they are fast and agile, they can easily evade attacks directed at them. They cannot be burned, but fire hurts them as if they were of flesh and " +
+                        "blood. The Axii Sign also works on them."
+                        , "Barghest Essence, Infused Dust, and Lesser Blue Mutagen"
+                        , "Toussaint"
+                        , "Moon Dust, Specter Oil, Axii, and Yrden"
+                        , "Assets\\barghest.png");
+
+                    //Beann'shies
+                    Specters[1] = new Entry(
+                        "Beann'shies"
+                        , "Old gossips claim beann'shies are the spirits of women stuck between life and death due to traumatic experiences. Their wails and howls are considered ill omens of " +
+                        "imminent, inevitable death, though they are said not to attack the living themselves. Most often they appear in the form of pale, tear-streaked women with shriveled faces " +
+                        "and wrinkled, corpse-like bodies."
+                        , "Essence of Wraith, Specter Dust, Infused Dust, and Lunar Shards"
+                        , "Toussaint"
+                        , "Specter Oil"
+                        , "Assets\\banshe.png");
+
+                    //DAPHNE'S WRAITH
+                    Specters[2] = new Entry(
+                        "Daphne's Wraith"
+                        , "During his stay in Toussaint, Geralt became involved with a curiuos case of gynodendromorphy - that is to say, a woman who had been turned into a tree. When one cut into " +
+                        "this tree's bark, it bled, and when the wind blew through its leaves, one could hear muffled sobs. Geralt investigated the matter and learned magic (or possibly a curse) was " +
+                        "responsible for the transformation, and it surely had something to do with a certain sad episode form the woman's past. The love of Daphne's life, a knight errant, had gone to " +
+                        "the witch of Lynx Crag and never returned, leaving her to wait for him forever, filled with sadness and longing. \n\nIf Geralt threatens the witch: \nOur hero visited the witch and " +
+                        "decided to force her to disenchant the woman stuck in the tree, but this did not end well.The witch freed Daphne, but the shock was too much for her tortured soul.Daphne's crazed soul " +
+                        "turned out to be highly dangerous. It possessed the first living being it came across, a dog, then killed Jacob the woodcutter. Geralt put an end to the wraith's rampage by killing " +
+                        "the possessed hound and walked away with a heavy heart, ruing the fate of woman, woodcutter and dog alike."
+                        , null
+                        , "Toussaint"
+                        , "Specter Oil"
+                        , "Assets\\daphne.png");
+
+                    //DEVIL BY THE WELL
+                    Specters[3] = new Entry(
+                        "Devil by the Well"
+                        , "The residents of White Orchard have suffered more than their fair share of misfortunes. Passing armies had trampled their spring planting, a griffin had begun abducting their " +
+                        "livestock, and, the rotten icing on this painful cake, a noonwraith haunted a nearby well. No wonder the locals called this final evil a 'devil'. The witcher could sense something bound " +
+                        "her to this place, and that in order to send her off into ethereal realms he would first need to learn her secret. Once that was done, he would have to prepare for battle - and a " +
+                        "noonwraith is a demanding opponent.She can disorient her victim by blinding him and creating mirror images of herself.These copies slowly suck their victim's life energy - while their " +
+                        "mistress remains untouchable. In order to defeat her, the witcher could not rely on his silver sword alone - the Yrden sign would also be needed to trap her and force her to take on " +
+                        "material form. Witchers don't normally feel a limited range of emotions regarding the monsters they slay. They despise the particularly cruel ones and are repulsed by the disgusting " +
+                        "ones, but rare indeed is the monster for which they feel sympathy. Yet that is exactly what Geralt felt for the noonwraith of White Orchard. For a long time he was haunted by thoughts " +
+                        "of the young woman whose horrible death and powerful emotions had transformed her into that terrible monster."
+                        , "Emerald Dust, Essence of Wraith, Light Essence, Specter Dust, Noonwraith Mutagen, Noonwraith Trophy, Amethyst Dust, and Infused Dust"
+                        , "Hovel"
+                        , "Moon Dust, Specter Oil, and Yrden"
+                        , "assets\\devil.png");
+
+
+                    //ETHEREAL
+                    Specters[4] = new Entry(
+                        "Ethereal"
+                        , "The painted world created in the mind of Iris von Everec was mainly populated by figures from her memories, but was also home to dangerous, predatory creatures: the embodiments of" +
+                        " her fears. The most dangerous of these, the Ethereal, invoked her greatest fear – and wore the face of her husband. The Ethereal resembled Olgierd in appearance and also fought using " +
+                        "a technique similar to his.A group of six such creatures lay in wait for Geralt, yet at first only one engaged him in battle.This one's death awoke the next, which was more powerful than " +
+                        "the first, and so it went to the end, with a stronger ethereal replacing a fallen weaker brother until all were defeated. Yet Geralt had to be careful, for the slightest amount of damage " +
+                        "dealt to a being awaiting his turn would cause him to come alive and join his still-living comrade in the fight. In the end, the best tactic against these nightmarish beings proved to be " +
+                        "a well - timed counterattack."
+                        , null
+                        , "von Everec Estate"
+                        , "Specter Oil and Blizzard"
+                        , "Assets\\Ethereal.png");
+
+                    //HYM
+                    Specters[5] = new Entry(
+                        "Hym"
+                        , "Monsters most commonly claim innocents as their victims: tardy merchants, reckless children and travelers who wander into dark woodlands out of misplaced curiosity. None of the above need " +
+                        "fear hyms, however. These wraiths only latch onto particularly despicable individuals who have committed some unspeakable crime. To all others, they remain completely invisible. When they do " +
+                        "show themselves to the one they torment, they appear as a tall, shadow-clad, humanoid silhouette with long, sharp claws. Yet hyms do not sink these claws into their victims. Instead, they sap " +
+                        "their strength directly, through inflicting suffering.Speaking in a voice only the victim hears, they drive him to commit acts of violence, aggression and self - harm.A hym will seize on a " +
+                        "guilty person's worst fears and weave out of them hideous visions, slowing[sic] driving the poor soul into madness. Those tormented by a hym are incapable of restful sleep, for they are tormented " +
+                        "by ever - more - frequent, incredibly - realistic nightmares.At times the victim will become extremely on edge, yelling pleas or threats at invisible phantoms or confessing his guilt out loud " +
+                        "in the hope this will end his torment.This act does not, however, bring any relief, for the hym will not leave until it has addled its victim's wits completely or driven him to suicide."
+                        , "Crystalized Essence, Emerald Dust, Specter Dust, Essence of Wraith, and Lesser Veles Runestone"
+                        , "Skellige and Gaunter's World"
+                        , "Moon Dust, Specter Oil, and Igni Sign"
+                        , "Assets\\hym.png");
+
+                    //Jenny o'the Woods
+                    Specters[6] = new Entry(
+                        "Jenny o'the Woods"
+                        , "It is said true love's flame is never extinguished. This sad truth is the reason why Zula of Midcopse, whom an early death had separated from her beloved, was unable to find peace in the next " +
+                        "life, and instead returned to haunt her former environs as a nightwraith. Fighting such an apparition is extremely difficult. A nightwraith will form mirror images of herself to confuse her opponent " +
+                        "and aid her in battle.She herself can take on immaterial form, rendering her invulnerable to blows.The best way to force her out of this state is to set a trap with the Yrden Sign, then quickly " +
+                        "followup with Igni while she is caught.Most important of all, however, is this: never attempt to fight one in the middle of the night, when the moon hangs high in the sky. This vengeful wraith might " +
+                        "very well have killed every last inhabitant of the village, had not a famous witcher, Geralt of Rivia, appeared in Velen - and been in need of a bit of coin."
+                        , "Dark Essence, Nightwraith Hair, Nightwraith Mutagen, Nightwraith Trophy, Forgotten Vran Sword"
+                        , "Midcopse"
+                        , "Moon Dust, Specter Oil, and Yrden"
+                        , "Assets\\jenny.png");
+
+                    //LONGLOCKS
+                    Specters[7] = new Entry(
+                        "Longlocks"
+                        , "Everyone knows love stories can have tragic endings, but few would think this also applies to princesses from fairy tales created to relieve a set happy ending over and over again. Longlocks had " +
+                        "the misfortune of becoming just such an unlikely tragic heroine. After the duke's daughters grew up and the Land of a Thousand Fables went feral, Longlocks, whose prince never came and who suffered " +
+                        "greatly from her loneliness, decided to hang herself by her own braid. After she died, her ghost stayed to haunt the castle in which she had awaited her suitor."
+                        , "Lunar Shards, Infused Dust, Specter Dust, and Essence of Wraith"
+                        , "Land of a Thousand Fables"
+                        , "Specter Oil"
+                        , "Assets\\Longlocks.png");
+
+                    //NIGHTWRAITH
+                    Specters[8] = new Entry(
+                        "Nightwraith"
+                        , "Compared to other creatures of the night – katakans, nekurats and werewolves, for example – nightwraiths (and their rarer cousins, duskwraiths) might not seem all that dangerous. After all, one " +
+                        "might ask, how much harm could a pale, withered woman in a tattered dress do? The answer: quite a bit. Instead of finding this out the hard way, avoid crossing fields and meadows at night at all costs. " +
+                        "Like noonwraiths, nightwraiths are only found in rural areas.Travelers fall victim to them most often, but if legends are to be believed they also sneak into huts at times and murder peasants in their " +
+                        "sleep. When they attack nightwraiths remain immaterial for most of the time, meaning physical blows pass right through them.They only take on more tangible form for the brief moments in which they strike." +
+                        " When weakened, they will create several projections of themselves which cannot attack directly but act as transmitters of sorts through which the nightwraith can sap her victim's vital energy. Nightwraiths " +
+                        "can turn immaterial and are at such times very difficult to wound.In order to force one to take on corporeal form, trap it with the Yrden Sign or hit it with the blast of a Moon Dust bomb. Do not believe " +
+                        "the old wife tales and think yourself completely safe from nightwraiths during the day.They appear under the light of the sun as well - but are much weaker then than after dusk."
+                        , "Nightwraith Mutagen, Specter Dust, Nightwraith Hair, Infused Dust, Dark Essence, and Lunar Shards"
+                        , "Velen"
+                        , "Moon Dust, Specter Oil, and Yrden"
+                        , "Assets\\nightwrath.png");
+
+                    //NOONWRAITH
+                    Specters[9] = new Entry(
+                        "Noonwraith"
+                        , "On particularly searing summer days, when the sun reaches its zenith, wraiths will at times appear, resembling sun-scorched women dressed in long, white robes. These are noonwraiths – the spirits of young " +
+                        "women and girls who died violent deaths right before their weddings. Driven mad with pain and anger, they wander the fields searching for their unfaithful lovers or backstabbing rivals, though they will kill " +
+                        "anyone who does not get out of their way in time. They are often held in this world by some object of intense emotional significance. That is why, if one ever finds a wedding ring or torn veil in the middle of " +
+                        "a field, one should not pick it up, but instead back away as quickly as possible. Noonwraiths are only known to haunt rural places, and usually stay near the place of their deaths.They prey on peasants working " +
+                        "in the fields or children playing nearby. Noonwraiths do not bleed and are for the most part immune to the effects of Witcher Signs.They can create mirror images of themselves which circle their victims in a " +
+                        "kind of morbid parody of a dance.This ghastly ritual drains their victims' life energy while adding to their own strength. Noonwraiths are also able to manipulate the physical world to a limited degree, kicking " +
+                        "up clouds of dust which temporarily blind and disorient their opponents. Noonwraiths can turn immaterial and are at such times very difficult to wound.In order to force a noonwraith to take corporeal form, one " +
+                        "must first trap it with the Yrden Sign or strike it with a Moon Dust bomb.Once the monster has regained physical presence, one can mount a fast attack with a silver blade, preferably one coated in specter oil. " +
+                        "Contrary to popular belief, noonwraiths can also be encountered at night, but are much weaker then than during the day."
+                        , "Noonwraith Mutagen, Noonwraith Trophy, Light Essence, and Specter Dust"
+                        , "Velen and White Orchard"
+                        , "Moon Dust, Specter Oil, and Yrden"
+                        , "Assets\\noon.png");
+
+                    //PENITENT
+                    Specters[10] = new Entry(
+                        "Penitent"
+                        , "It turned out the monster haunting the isle of Eldberg and its lighthouse was a rare type of specter known as a penitent. Wherever this wraith haunts immediately becomes enveloped in thick fog and darkness - " +
+                        "and those that wander into it usually never return. In order to defeat a penitent, one must remain in constant motion in order to avoid being struck by this agile creature, which can disappear and reappear in " +
+                        "the blink of an eye to attack from behind. Most importantly of all, however, one must discover what keeps they monster bound to its haunting grounds - and break that bond as soon as possible. With the lighthouse " +
+                        "keeper's help, Geralt drove the mist from the isle - then dispatched the penitent from our world for good. Now ships were once again able to sail to Arinbjorn's port, and the witcher's coin pouch grew a little fuller."
+                        , "Specter Dust, Wraith Mutagen, Essence of Wraith, Wraith Trophy, and Ashrune"
+                        , "Eldberg Lighthouse"
+                        , "Moon Dust, Specter Oil, Yrden, and Quen"
+                        , "Assets\\penitent.png");
+
+                    //PLAGUE MAIDEN
+                    Specters[11] = new Entry(
+                        "Plague Maiden"
+                        , "When plague ravages a region, a spirit will sometimes walk its lands, a ghost resembling an ill woman whose flesh rots off her bones and in whose wake crawls a cavalcade of rats. No one knows whether this spirit " +
+                        "brings the pox with her or is merely drawn to it like a moth to a light. Yet it is certain that she delights in dealing pain and suffering, in hearing the howling and moaning of men. Many have called into question " +
+                        "the very existence of plague maidens, or pestae, as they are sometimes called.Only two sightings of such a creature have ever been recorded, both during times of raging epidemic. As the name \"plague maiden\" " +
+                        "suggests, these wraiths take the appearance of females, though exactly why that is remains a mystery.Some speculate they, like other such specters, arise from the powerful emotional charge associated with certain " +
+                        "circumstances of death, such as death preceded by a long and particularly painful illness. Not much is known about how to fight a plague maiden, though one can assume they possess many traits in common with other " +
+                        "phantoms and wraiths.They undoubtedly pose a great danger, though a witcher's immunities should at least prevent him from catching the contagious illnesses they carry."
+                        , null
+                        , "Fyke Isle and Velen"
+                        , "Specter Oil and Yrden"
+                        , "Assets\\plague.png");
+
+                    //UMBRA
+                    Specters[12] = new Entry(
+                        "Umbra"
+                        , "According to some philosophers, everything we do in life leaves a permanent trace in the delicate matter which makes up our souls. Evil deeds, especially harm done to innocent creatures, can torment the soul of " +
+                        "a sinner an cause it to remain restless, even after death. While traveling through Toussaint, Geralt discovered there might a be grain of truth in these theories and folk beliefs.He came across a hermit whose sleep " +
+                        "was troubled by some invisible phantom. Geralt determined this phantom was an umbra, the ghost of a recently - deceased knight who had committed a terrible deed while alive and now visited the hermit to demand " +
+                        "forgiveness. In his wraithly form he drank her blood and systematically deprived her of life energy. The umbra appeared to the hermit as a horse, for the evil deed the knight had committed was to flog his own mount " +
+                        "to death.The knight's spirit was unaware of the demonic role he had assumed in the afterlife."
+                        , "Umbra Trophy"
+                        , "Toussaint"
+                        , "Specter Oils"
+                        , "Assets\\umbra.png");
+
+                    //THE WHITE LADY
+                    Specters[13] = new Entry(
+                        "The White Lady"
+                        , "The apparition haunting the fields outside Novigrad turned out to be a noonwraith. Some powerful emotion must have bound it to that place - love, hate, anger or perhaps all three at once. Like every wraith of " +
+                        "this type, she was surely capable of forming mirror images of herself, which served to mislead opponents and restore her vitality. Luckily, these mirages could be dispelled with a quick slash from a silver blade. " +
+                        "Like any noonwraith, she would undoubtedly seek to assume immaterial form while fighting, making her almost impossible to injure - unless she is first caught in a trap laid by the Yrden Sign, or blasted with a special " +
+                        "bomb. Once thus forced into materiality, she should be attacked with strong blows or the Igni Sign. Finally, one must always keep in mind two witcher sayings: \"The longer you fight a noonwraith, the lower your " +
+                        "chances of surviving,\" and \"Fight a noonwraith at midday and you'll be dead before dusk.\" The vengeful wraith known as the White Lady had roamed the fields for a long times, murdering anyone she came across. " +
+                        "Though the grain hung heavy from the stalks, the frightened peasants were kept from harvesting it and thus faced famine.They gathered their last bit of savings and went in together on a bounty for a witcher. That was " +
+                        "coin well - spent."
+                        , "Emerald Dust, Amethyst Dust, Essence of Wraith, Noonwraith Mutagen, and Noonwraith Trophy"
+                        , "Fields south of Farcorners"
+                        , "Moon Dust, Specter Oilm and Yrden"
+                        , "Assets\\lady.png");
+
+                    //THE WRAITH FROM THE PAINTING
+                    Specters[14] = new Entry(
+                        "The Wraith from the Painting"
+                        , "While wandering the von Everecs' abandoned estate, Geralt came into contact with a woman's wraith haunting the house. The restless spirit had mastery over the house's furnishings and in particular over the paintings " +
+                        "hanging from its walls. It moved freely between their canvasses, entering one and exiting through another. At first it tried to scare Geralt into giving up his search, then, when it was clear this strategy would not " +
+                        "work, it attacked him directly. Geralt's battle against the wraith proved very difficult, for it was fueled by rage and launched its attacks with heated aggression. Geralt was forced to move with lightning speed in " +
+                        "order to parry its blows, without time to take a breath or launch an attack of his own. What's more, the wraith had created a bond with the paintings around it and, until the witcher severed this tie, it would continually " +
+                        "regain any lost strength. The key to victory over the Wraith from the Painting was to focus on parrying its blows and only attack sporadically, at exactly the right moments.Any attempt to attack in a flurry was always " +
+                        "punished with a deadly counterattack."
+                        , null
+                        , "Von Everec Estate"
+                        , "Specter Oil and Yrden"
+                        , "Assets\\paint.png");
+
+                    //WRAITH
+                    Specters[15] = new Entry(
+                        "Wraith"
+                        , "Clerics and scholars are forever debating whether spirits do in fact journey to another world after death, one where eternal joy or suffering awaits. Both groups agree, however, on what happens to spirits who, for one " +
+                        "reason or another, remain in our world after their body breathes its last: they transform into wraiths. To hear their mournful howls, one can surmise this is not a fate to be envied. Wraiths are usually encountered at " +
+                        "night, near cemeteries, catacombs and other such burial places, or else near the places that were important to them in life: abandoned homes, crumbling castles or forgotten bridges. Wraiths suffer endless, indescribable " +
+                        "pain. Filled with anger and a sense of having been wronged, they both envy the living and brim with overwhelming hatred for them.Like other specters, they are immaterial, meaning they are not harmed by fire, poison or weapons " +
+                        "designed to provoke bleeding. Wraiths can turn immaterial and are at times very difficult to wound.One can, however, force them to reassume a physical presence by trapping them with the Yrden Sign or by hitting them with " +
+                        "slivers from a Moon Dust bomb.As with any such ghostly being, one should fight them using silver swords, preferably ones smeared with a thick coat of specter oil.Note as well that wraiths are particularly dangerous on moonless " +
+                        "nights."
+                        , "Specter Dust, Emerald Dust, Amethyst Dust, Infused Dust, Wraith Mutagen, and Essence of Wraith"
+                        , "Velen, WHite Orchard, Skellige, and Toussaint"
+                        , "Moon Dust, Specter Oil, Yrden, and Quen"
+                        , "Assets\\wraith.png");
+                }
+
+                /*--------------Vampires---------------------
+
+                Click to Expand*/{
+
+                    //ALPHA GARKAIN
+                    Vampires[0] = new Entry(
+                        "Alpha Garkain"
+                        , "When a vampire gives a witcher a contract to kill another vampire, you can be certain neither of the two is entirely normal. The contract seemed simple enough, " +
+                        "though Geralt knew his target was a vampire.Yet one must bear in mind vampires are a very diverse group and their various species differ from one another greatly." +
+                        " The witcher established the individual he sought had long, hooked claws with which it could tear apart a body with ease, leaving behind venom which hindered the" +
+                        " clotting of blood.What's more, it could use these claws to scale even the sheer outer wall of a building, giving others the impression it possessed mind-boggling" +
+                        " powers. Geralt also realized his opponent was an experienced predator able to set ambushes for its prey and attack it unexpectedly. The monster he was tracking " +
+                        "turned out to be a powerful type of garkain, a pack leader or alpha. As the witcher expected, in addition to its ability to emit waves of mental energy, this alpha " +
+                        "garkain also had powerful venom at its disposal. The monster killed for pleasure, not just to satisfy its hunger.It must be admitted that Geralt also gained a measure" +
+                        " of satisfaction from eradicating this beast, for he could still remember the massacre in the orphanage for which this garkain was responsible."
+                        , "Monster Ear, Monster Brain, Vampire Fang, Vampire Saliva, Vampire Blood, Lesser Green Mutagen, and Garkain Trophy"
+                        , "Blood Simple"
+                        , "Moon Dust, Samum, Vampire Oil, and Black Blood"
+                        , "Assets\\alpha.png");
+
+                    //ALP
+                    Vampires[1] = new Entry(
+                        "Alp"
+                        , "Alps are vampires that resemble bruxae in appearance. They are called phantoms by some, a name which fits well enough, for like phantoms they haunt and torment men. " +
+                        "They usually take on the form of a woman, though they can also appear as animals. They are most often found prowling near villages. They attack at night and are most " +
+                        "active when the moon is full. Alp saliva can make one fall asleep, and when applied to a sleeping man, can invoke horrible nightmares. Some suggest they are the cause " +
+                        "of legends about men who go to sleep healthy and are found in the morning white as snow, not a drop of blood in their veins. In combat alps display supernatural speed " +
+                        "and incredible(even by vampire standards) stamina.One must aim one's sword with great precision, for alps are unequaled in the art of evading blows. The Yrden Sign is" +
+                        " recommended, for it weakens an alp's defenses.Another strategy is to drink the Black Blood potion, for alps suck the blood of their victims to deprive them of strength " +
+                        "and regenerate their own powers. Unlike bruxae, alps cannot turn invisible, yet like bruxae, they emit a shrieking noise whose shock wave can incapacitate.Their greatest" +
+                        " asset is their agility and they can leap with uncanny lightness that appears to border on the power of flight.When in human form, they easily blend in with the surrounding" +
+                        " community, which makes them very dangerous indeed."
+                        , null
+                        , "Toussaint"
+                        , "Yrden, Vampire Oil, Moon Dust, and Black Blood"
+                        , "Assets\\alp.png");
+
+                    //BRUXAE
+                    Vampires[2] = new Entry(
+                        "Bruxae"
+                        , "Fortunately for us all, bruxae are rare creatures. Most live far from population centers, for they care greatly for their own safety and make their lairs in places where " +
+                        "they cannot be taken by surprise. Those who decide to live near men avoid crowds and emerge from their shelters only at night. When they do, one could almost mistake them " +
+                        "for delayed travelers hurrying towards their night's lodging, yet subtle details give them away: their close ties to birds, their piercing voices and the breathtaking speed " +
+                        "of their movements. Bruxae are far swifter and stronger than men, but their greatest asset is their ability to turn invisible. Bruxae dart about with uncanny speed, and with " +
+                        "their power of invisibility they can easily confuse opponents and attack unexpectedly or from behind.Thus when fighting these vampires the Moon Dust bomb is a great aid – while " +
+                        "it cannot eliminate the vampire's invisibility altogether, it can make it easier to track its motions. A generous smearing of vampire oil is also effective. Bruxae use their " +
+                        "sharp claws to attack and can easily break through an opponent's guard by buffeting him with a hail of blows from all directions. They will try to bite their prey and drink its" +
+                        " blood once it is weakened, so every witcher who expects to encounter such a monster should swallow a Black Blood potion beforehand. Bruxae are also known for their sonic " +
+                        "attacks, which knock down and stun their prey."
+                        , null
+                        , "Toussaint"
+                        , "Moon Dust, Black Blood, Vampire Oil, and Yrden"
+                        , "Assets\\bruxae.png");
+
+                    //DETTLAFF VAN DER ERETEIN
+                    Vampires[3] = new Entry(
+                        "Dettlaff van der Eretein"
+                        , "Dettlaff is a higher vampire and one of the most terrifying creatures the world has ever known. Some vampires of his sort live among men easily and inconspicuously, sometimes " +
+                        "even gaining the respect and admiration of their community. Yet even the most civilized vampire can be incredibly dangerous if provoked, and Dettlaff... Dettlaff was far from " +
+                        "civilized. When in his two - legged form, Dettlaff strikes in surprising and unique ways, so one must be extremely alert and attentive.His razor - sharp claws, wielded with great " +
+                        "strength and precision, are his chief weapons, yet he can also wield weapons of human devising with extraordinary skill. Like all higher vampires, Dettlaff can turn into fog and " +
+                        "envelop opponents.When fighting a vampire in this form, one must watch out for magic puddles and attacks from the air.When wounded, Detlaff tends to assume his winged form, using " +
+                        "these powerful appendages to stun his foes near effortlessly. One must remember higher vampires are immortal creatures and thus do not fear for their lives while fighting, meaning " +
+                        "they take every risk.They are able to turn invisible and can regenerate strength during combat. All in all, they are supremely difficult foes, even for a witcher."
+                        , null
+                        , null
+                        , "Toussaint"
+                        , "Assets\\eretein.png");
+
+                    //EKIMMARAS
+                    Vampires[4] = new Entry(
+                        "Ekkimaras"
+                        , "Like other vampires, ekimmaras are not, despite what village gossips might say, undead humans. They are instead post-Conjunction monsters who have no particular feelings about " +
+                        "garlic, holy water or religious symbols. Unlike their portrayals in ballads and legends, they look nothing like handsome, pale aristocrats with charming eastern accents, though, like " +
+                        "katakans and nekurats, they do bear a strong resemblance to overgrown bats. They also do not suck blood from the necks of virgins with a delicate, kiss-like bite – they tear them " +
+                        "to shreds using long, sharp claws and then slurp the splattered blood off the ground. Ekimmaras are unusually cruel and exceptionally swift.They are able to quickly land blow after " +
+                        "blow capable of smashing even the best Mahakaman-made armor into tiny shards. They should be fought with a silver sword, remembering that they can regenerate back health over time. " +
+                        "One should thus never attempt to tire them out or, gods forbid, wait for it to bleed to death.Instead, cut then down as quickly as possible and, if possible, burn the body to ash and " +
+                        "scatter it to the four winds."
+                        , "Ekimmara Hide, Ekimmara Mutagen, Lesser Blue Mutagen, Monster Ear, Monster Eye, Monster Hair, Monster Tongue, Vampire Fang, and Vampire Saliva"
+                        , "Novigrad and Velen"
+                        , "Devil's Puffball, Vampire Oil, and Igni"
+                        , "Assets\\ekimma.png");
+
+                    //FLEDER
+                    Vampires[5] = new Entry(
+                        "Fleder"
+                        , "Fleders are classified as lesser vampires. Though weaker than the rest of their ilk in every aspect from the physiomagic to they physiognomic, they should not be underestimated – " +
+                        "for they are very, very dangerous. Fleders cannot be mistaken for any other creature, with their wide, toothy jaws, flat, unpleasant faces and completely hairless, often warty bodies. " +
+                        "These vampires mainly fight with their teeth and claws, flailing them blindly and not stopping even when their victim is already dead. Even a solitary fleder is strong enough to take " +
+                        "down a trained soldier. Compared to other vampires, fleders display meager intelligence, seen most clearly in the mindless rage which causes them to try with all their might to attack" +
+                        " and tear to shreds any weaker being. When fighting fleders, it is best to take advantage of their particular method of movement. These creatures do not run, but they do try to catch" +
+                        " their prey and knock it over by leaping. Knowing this behavior, one can plan the fight appropriately and not let oneself be caught by surprise."
+                        , "Lesser Red Mutagen, Monster Eye, Monster Hair, and Vampire Blood"
+                        , "Toussaint"
+                        , "Vampire Oil, and Black Blood"
+                        , "Assets\\fleder.png");
+
+                    //GAEL
+                    Vampires[6] = new Entry(
+                        "Gael"
+                        , "Contrary to popular belief, monsters are not all alike. Like people, individual members of the same species can each have their own unique traits, preferences and weaknesses. A good " +
+                        "example of this is the katakan which once fed on the inhabitants of Oxenfurt. Perhaps influenced by its close proximity to the hard-drinking student youth of the city, this vampire had" +
+                        " developed a keen appetite for blood spiked with a hefty dose of hard alcohol - and also baubles and gaudy jewelry of all kinds. The vampire had clearly thrived on its high - octane diet. " +
+                        "It had grown exceptionally strong and gained the ability to regenerate lost life quickly, cause heavy bleeding with its claws and, if all that were not enough, meld into the air and appear" +
+                        " again behind its opponent's back. Luckily the Quen Sign meant the witcher was well-equipped to defend against this surprise attack, and the Yrden Sign would let him catch the monster in " +
+                        "a trap. To bait the vampire, Geralt took note of its dietary preferences and seasoned his blood to match by loading up on cheap wine. This made it somewhat harder to aim his blows, true," +
+                        " but he still managed to defeat the beast -then had another battle awaiting him the next morning, this one against a powerful hangover."
+                        , "Katakan Mutagen, Katakan Trophy, Lesser Blue Mutagen, Monster Hide, Monster Ear, Monster Bone, Vampire Saliva, Deargdeith, Key to Katakan's Hideout"
+                        , "Oxenfurt"
+                        , "Moon Dust, Devil's Puffball, Vampire Oil, Yrden, and Igni"
+                        , "Assets\\gael.png");
+
+                    //GARKAINS
+                    Vampires[7] = new Entry(
+                        "Garkains"
+                        , "Garkains, like fleders, belong to the class of particularly dangerous vampires whose strength exceeds even that of fiends. An encounter with one of their number almost always ends in " +
+                        "death, which is why there are not many eye-witness accounts of them. From the city guard reports written up in Lan Exeter describing the attacks committed in that city in 1104 by three " +
+                        "garkains (later killed by a certain Olivier of Gulet, witcher), it seems these horrible monsters do not content themselves with drinking the blood of their victims. The investigators " +
+                        "concluded from the blood and guts strewn around the crime scenes that garkains tear their victims to shreds with great delight and muck about in their bloody entrails. Garkains belong to " +
+                        "the group of creatures known as lesser vampires.They often gather around themselves members of other subspecies of lesser vampires, acting in such situations as leaders of the pack. They " +
+                        "are by and large unable to run, but can jump a great distance and often attack their prey in that way.During combat, they usually keep their distance from their foes, trying to incapacitate" +
+                        " them using a blast of mental energy provoking visions that beguile and disorient. Before grappling a garkain, one should drink the Black Blood potion and stock up on vampire oil. It should" +
+                        " also be remembered that the Samum and Moon Dust bombs are always effective weapons against any mental attacks."
+                        , null
+                        , "Toussaint"
+                        , "Moon Dust, Samum, Vampire Oil, and Black Blood"
+                        , "Assets\\garkain.png");
+
+                    //HIGHER VAMPIRE
+                    Vampires[8] = new Entry(
+                        "Higher Vampire"
+                        , "Only a mutual thirst for blood links higher vampires to their distant and much more primitive cousins: ekimmaras, alps, katakans and the like. Higher vampires are, in fact, much more " +
+                        "similar to humans than to those bat-like blood slurpers. They not only resemble us in appearance, but also share our intelligence and behavioral patterns. This means they do not squat in " +
+                        "distant forest or hide in the shadows. On the contrary, they are particularly fond of cities, where they live out deceivingly normal lives. Even witchers are not capable of recognizing them " +
+                        "at once, for their medallions remain perfectly motionless in the presence of higher vampires. Yet all these similarities should not blind us to an essential difference: unlike men, higher " +
+                        "vampires are immortal. Those who have faced them in combat and survived can be counted on one hand. It is a witcher's good fortune that higher vampires are extremely rare – and not all are " +
+                        "dangerous to humans. Though they do have a taste for blood, they do not need to drink it to survive. Some higher vampires have renounced feeding on humans altogether and do no harm to anyone," +
+                        " but others give in to their desires. A witcher who braves fighting a higher vampire must bear in mind that he faces a monster endowed with incredible strength, one able to manipulate men and" +
+                        " animals, turn invisible and transform into a giant bat - and furthermore one which it is nearly impossible to kill. In other words, even an experienced monster slayer should think twice before" +
+                        " accepting a contract on one of these creatures, even if half a kingdom and a princess' hand is in the offing."
+                        , null
+                        , "Novigrad and Toussaint"
+                        , "Vampire Oil and Igni"
+                        , "Assets\\higher.png");
+
+                    //KATAKAN
+                    Vampires[9] = new Entry(
+                        "Katakans"
+                        , "Katakans and their more dangerous kin, nekurats, are the embodiments of human fear. They hide in the shadows. They feed on blood. They resemble enormous bats – though with long fangs and even " +
+                        "longer talons. And, as if that weren't terror enough, they can turn invisible, waiting unseen while dread of their unpreventable attack overwhelms their victim. When fighting a katakan one must " +
+                        "pay particular attention to its shadow – often the only way to know its location. Katakans are invulnerable to steel, regenerate quickly, hear acutely and move at incredible speed.To even the odds" +
+                        " one can temporarily immobilize katakans using the Yrden sign, then seize that moment to attack with all one's might – for there might not be another chance. Unfortunately, the legends are wrong " +
+                        "and the sun's rays do not turn katakans to ash. They are vulnerable to sunlight, however, and when the sun stands at its zenith their regeneration is considerably slowed."
+                        , "Monster Heart, Monster Bone, Vampire Fang, Vampire Saliva, Lesser Blue Mutagen, and Katakan Mutagen"
+                        , "Novigrad, Oxenfurt, and Toussaint"
+                        , "Moon Dust, Devil's Puffball, Vampire Oil, Yrden, and Igni"
+                        , "Assets\\katakan.png");
+
+                    //PROTOFEDLER
+                    Vampires[10] = new Entry(
+                        "Protofleder"
+                        , "Protofleders are relatives of fleders which came from the world of the higher vampires to our own during the Conjunction of the Spheres. The members of this species are characterized by their " +
+                        "considerable strength and agility as well as the strange glow they emit, a trait most likely tied to their otherworldly nature.Protofleders have never had significant contact with the outside world, " +
+                        "having spent their entire time on our planet in the Unseen Elder's cave, whose atmosphere is very similar to that of their home world."
+                        , "Protofleder Mutagen, Monster Blood, Monster Brain, Monster Eye, Monster Heart, Vampire Fang, and Vampire Saliva"
+                        , "only in Hen Gàidh cave in Toussaint"
+                        , "Vampire Oil and Black Blood"
+                        , "Assets\\Protofleder.png");
+
+                    //SARASTI
+                    Vampires[11] = new Entry(
+                        "Sarasti"
+                        , "Raiders of elven tombs either get rich quickly, or die trying. The Aen Seidhe's disintegrating temples and palaces hold priceless treasures, true, but within them many a foul monster waits in " +
+                        "deep slumber. Such was the case in Byways, where a few peasants, unaware of the dangers they faced, awoke an unusually dangerous ekimmara. The witcher knew this monster would be no easy kill. That " +
+                        "the vampire would quickly regenerate, that its blows would cause heavy bleeding, that it was able to disappear into thin air.Yet he also knew he could overcome these advantages.He needed merely to " +
+                        "use Yrden and Quen Signs and strike heavy blows.Oh, and avoid getting killed. The vampire had already managed to kill several peasants and a patrol of heavily - armed Nilfgaardians.The list of victims " +
+                        "would surely have grown even longer, had not Geralt of Rivia, the White Wolf, happened to waltz into town."
+                        , "Ekimmara Mutagen, Ekimmara Hide, Ekimmara Trophy, and Bloed Aedd"
+                        , "Elven ruins beneath Byways"
+                        , "Devil's Puffball, Vampire Oil, and Igni"
+                        , "Assets\\Sarasti.png");
+
+                    //THE BRUXA OF CORVO BIANCO
+                    Vampires[12] = new Entry(
+                        "The Bruxa of Corvo Bianco"
+                        , "The bruxa Geralt encountered and killed in self-defense at Corvo Bianco differed from other creatures of this sort. Firstly, it was more intelligent, capable even of articulating words in human language " +
+                        "without much difficulty. What's more, this bruxa was tied to the Beast, the mysterious murderer prowling Beauclair at the time. Fighting it presented Geralt with quite the challenge.Like other bruxae, this" +
+                        " one possessed strength and speed far above that of any human, could turn invisible and could attack using a sonic wave. As is typical for all vampires, it sought to suck its victim's blood. This meant the" +
+                        " usual defense against those creatures, the Black Blood potion, was an effective weapon against it, as were the Moon Dust bomb and, naturally, the witcher's trusty silver blade."
+                        , "Monster Eye, Monster Heart, Vampire Fang, Vampire Saliva, Vampire Blood, and Greater Blue Mutagen"
+                        , "Corvo Bianco"
+                        , "Moon Dust, Black Blood, Vampire Oil, and Yrden"
+                        , "Assets\\Sarasti.png");
+
+                }
             }
 
+
+
             this.InitializeComponent();
-              }
+
+            txt_Title.Text = Beasts[5].Name;
+        }
+
+        private void Button_Beasts_Click(object sender, RoutedEventArgs e)
+        {
+            
+            
+            this.Frame.Navigate(typeof(SelectedEntryMenu));
+            
+        }
+
+        private void Button_Cursed_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Draconids_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Elementa_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Hybrids_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Insectoids_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Necrophages_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Ogroids_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Relicts_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Specters_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Vampires_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

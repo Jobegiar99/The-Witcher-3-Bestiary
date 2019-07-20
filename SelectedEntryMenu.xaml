@@ -1,0 +1,37 @@
+﻿<Page
+    x:Class="Bestiary.SelectedEntryMenu"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Bestiary"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Height="auto" Width="auto">
+        <Image Name="img_back" HorizontalAlignment="Center" Height="1007.3" Width="1962.479" Source="Assets\Background.png" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,20,80,0" Text="_NAME_" FontFamily="Faith COllapsing" FontSize="50" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <Button Name="button_entry1" Content="_NAME_" Margin="200,100,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button Name="button_entry2" Content="_NAME_" Margin="500,100,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button Name="button_entry3" Content="_NAME_" Margin="800,100,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:Name="button_entry4" Content="_NAME_" Margin="1100,100,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:Name="button_entry5" Content="_NAME_" Margin="200,200,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:Name="button_entry6" Content="_NAME_" Margin="500,200,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:Name="button_entry7" Content="_NAME_" Margin="800,200,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:Name="button_entry8" Content="_NAME_" Margin="1100,200,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:Name="button_entry9" Content="_NAME_" Margin="200,300,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:Name="button_entry10" Content="_NAME_" Margin="500,300,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:Name="button_entry11" Content="_NAME_" Margin="800,300,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:Name="button_entry12" Content="_NAME_" Margin="1100,300,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:Name="button_entry13" Content="_NAME_" Margin="200,400,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:Name="button_entry14" Content="_NAME_" Margin="500,400,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:Name="button_entry15" Content="_NAME_" Margin="800,400,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:Name="button_entry16" Content="_NAME_" Margin="1100,400,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:Name="button_entry17" Content="_NAME_" Margin="200,500,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:Name="button_entry18" Content="_NAME_" Margin="500,500,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:Name="button_entry19" Content="_NAME_" Margin="800,500,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button x:Name="button_entry20" Content="_NAME_" Margin="1100,500,0,0" FontFamily="Faith Collapsing" FontSize="25" Width="auto" VerticalAlignment="Top"/>
+        <Button Name="button_return" Content="Return" FontFamily="Faith Collapsing" FontSize="25" Margin="660,600,0,0" VerticalAlignment="Top"/>
+    </Grid>
+
+</Page>

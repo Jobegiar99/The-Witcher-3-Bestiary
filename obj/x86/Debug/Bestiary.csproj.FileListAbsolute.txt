@@ -220,3 +220,8 @@ C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\obj\x86\De
 C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636758768200000000.json
 C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\bin\x86\Debug\MainPage.xaml.cs
 C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\bin\x86\Debug\Assets\Background.png
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\bin\x86\Debug\SelectedEntryMenu.xbf
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\obj\x86\Debug\SelectedEntryMenu.g.i.cs
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\obj\x86\Debug\SelectedEntryMenu.g.cs
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\obj\x86\Debug\SelectedEntryMenu.xaml
+C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Bestiary\obj\x86\Debug\SelectedEntryMenu.xbf

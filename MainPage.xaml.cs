@@ -23,9 +23,22 @@ namespace Bestiary
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        Entry[] Beasts { get; set; } = new Entry[8];
+        Entry[] CursedOnes { get; set; } = new Entry[7];
+        Entry[] Draconids { get; set; } = new Entry[10];
+        Entry[] Elementa { get; set; } = new Entry[11];
+        Entry[] Hybrids { get; set; } = new Entry[9];
+        Entry[] Insectoids { get; set; } = new Entry[13];
+        Entry[] Necrophages { get; set; } = new Entry[16];
+        Entry[] Ogroids { get; set; } = new Entry[9];
+        Entry[] Relicts { get; set; } = new Entry[20];
+        Entry[] Specters { get; set; } = new Entry[16];
+        Entry[] Vampires { get; set; } = new Entry[13];
+
         public MainPage()
         {
-            Entry[] Beasts=new Entry[8];
+
+            /*Entry[] Beasts = new Entry[8];
             Entry[] CursedOnes = new Entry[7];
             Entry[] Draconids = new Entry[10];
             Entry[] Elementa = new Entry[11];
@@ -35,12 +48,10 @@ namespace Bestiary
             Entry[] Ogroids = new Entry[9];
             Entry[] Relicts = new Entry[20];
             Entry[] Specters = new Entry[16];
-            Entry[] Vampires = new Entry[13];
-         
+            Entry[] Vampires = new Entry[13];*/
+            
             
 
-            /*PERSONAL NOTE
-             * I MUST SET THE VARIATIONS AFTER FINISHING ALL ENTRIES"*/
 
 
 
@@ -1913,7 +1924,69 @@ namespace Bestiary
                 }
             }
 
+
+
             this.InitializeComponent();
-              }
+
+            txt_Title.Text = Beasts[5].Name;
+        }
+
+        private void Button_Beasts_Click(object sender, RoutedEventArgs e)
+        {
+            
+            
+            this.Frame.Navigate(typeof(SelectedEntryMenu));
+            
+        }
+
+        private void Button_Cursed_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Draconids_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Elementa_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Hybrids_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Insectoids_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Necrophages_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Ogroids_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Relicts_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Specters_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_Vampires_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

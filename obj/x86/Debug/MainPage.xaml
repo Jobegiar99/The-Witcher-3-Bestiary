@@ -5,14 +5,27 @@
     xmlns:local="using:Bestiary"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Windows10FallCreatorsUpdate="http://schemas.microsoft.com/winfx/2006/xaml/presentation?IsApiContractPresent(Windows.Foundation.UniversalApiContract, 5)"
     mc:Ignorable="d"
     Background="Bisque"
     Height="auto" Width="auto">
 
     <Grid Height="Auto" Width="Auto">
-        <Image x:ConnectionId='2' Name="img_back" HorizontalAlignment="Center" Height="1010" Width="1710" Source="Assets\Background.png" VerticalAlignment="Top" Margin="0,-3,0,0"/>
-        <TextBlock x:ConnectionId='3' Name="txt_Title" Text="The Witcher 3 Bestiary" FontFamily="Faith Collapsing" FontSize="50" VerticalAlignment="Top" Margin="50" HorizontalAlignment="Center" />
+        <Image x:ConnectionId='2' Name="img_back" HorizontalAlignment="Center" Height="1007.3" Width="1962.479" Source="Assets\Background.png" VerticalAlignment="Center" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto"/>
 
+        <TextBlock x:ConnectionId='3' Name="txt_Title" Text="The Witcher 3 Bestiary"  FontFamily="Faith Collapsing" FontSize="50" VerticalAlignment="Top" Margin="50,25,0,0" HorizontalAlignment="Center" />
+        <Button x:ConnectionId='4' Name="button_Beasts" Content="Beasts"  FontSize="35"                             FontFamily="Faith Collapsing" Margin="250,150,0,0"  Height="Auto" Width="200" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='5' x:Name="button_Cursed" Content="Cursed Ones"  FontSize="35"                             FontFamily="Faith Collapsing" Margin="550,150,0,0"  Height="Auto" Width="200" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='6' x:Name="button_Draconids" Content="Draconids"  FontSize="35"                                FontFamily="Faith Collapsing" Margin="850,150,0,0"  Height="Auto" Width="200" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='7' x:Name="button_Elementa" Content="Elementa"  FontSize="35"                               FontFamily="Faith Collapsing" Margin="1150,150,0,0"  Height="Auto" Width="200" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='8' x:Name="button_Hybrids" Content="Hybrids"  FontSize="35"                              FontFamily="Faith Collapsing" Margin="400,300,0,0"  Height="Auto" Width="200" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='9' x:Name="button_Insectoids" Content="Insectoids"  FontSize="35"                                 FontFamily="Faith Collapsing" Margin="700,310,0,0"  Height="Auto" Width="200" VerticalAlignment="Top" />
+        <Button x:ConnectionId='10' x:Name="button_Necrophages" Content="Necrophages"  FontSize="35"                                  FontFamily="Faith Collapsing" Margin="1000,310,0,0"  Height="Auto" Width="200" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='11' x:Name="button_Ogroids" Content="Ogroids"  FontSize="35" FontFamily="Faith Collapsing"                              Margin="250,500,0,0"  Height="Auto" Width="200" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='12' x:Name="button_Relicts" Content="Relicts"  FontSize="35" FontFamily="Faith Collapsing"                              Margin="550,500,0,0"  Height="Auto" Width="200" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='13' x:Name="button_Specters" Content="Specters"  FontSize="35" FontFamily="Faith Collapsing"                               Margin="850,500,0,0"  Height="Auto" Width="200" VerticalAlignment="Top"/>
+        <Button x:ConnectionId='14' x:Name="button_Vampires" Content="Vampires"  FontSize="35" FontFamily="Faith Collapsing"                               Margin="1150,500,0,0"  Height="Auto" Width="200" VerticalAlignment="Top"/>
     </Grid>
+
 </Page>
 
