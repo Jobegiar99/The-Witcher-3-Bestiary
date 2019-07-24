@@ -1,0 +1,1237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-IB4FHFU</Machine>
+    <WindowsUser>Bernardo</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x64</SolutionConfiguration>
+    <PackageArchitecture>x64</PackageArchitecture>
+    <PackageIdentityName>7c12562b-1f99-4829-aad3-aab1fa88e31e</PackageIdentityName>
+    <PackageIdentityPublisher>CN=8FB54101-10ED-4C2C-B400-6933484D8716</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\obj\x64\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x64\Release\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x64\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x64\Release\Bestiary.exe">
+      <PackagePath>Bestiary.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\nativeassets\uap10.0.15138\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\Microsoft.CSharp.dll">
+      <PackagePath>Microsoft.CSharp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\Microsoft.VisualBasic.dll">
+      <PackagePath>Microsoft.VisualBasic.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\Microsoft.Win32.Primitives.dll">
+      <PackagePath>Microsoft.Win32.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.AppContext.dll">
+      <PackagePath>System.AppContext.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Buffers.dll">
+      <PackagePath>System.Buffers.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Collections.Concurrent.dll">
+      <PackagePath>System.Collections.Concurrent.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Collections.Immutable.dll">
+      <PackagePath>System.Collections.Immutable.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Collections.NonGeneric.dll">
+      <PackagePath>System.Collections.NonGeneric.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Collections.Specialized.dll">
+      <PackagePath>System.Collections.Specialized.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Collections.dll">
+      <PackagePath>System.Collections.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.ComponentModel.Annotations.dll">
+      <PackagePath>System.ComponentModel.Annotations.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.ComponentModel.Composition.dll">
+      <PackagePath>System.ComponentModel.Composition.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.ComponentModel.DataAnnotations.dll">
+      <PackagePath>System.ComponentModel.DataAnnotations.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.ComponentModel.EventBasedAsync.dll">
+      <PackagePath>System.ComponentModel.EventBasedAsync.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.ComponentModel.Primitives.dll">
+      <PackagePath>System.ComponentModel.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.ComponentModel.TypeConverter.dll">
+      <PackagePath>System.ComponentModel.TypeConverter.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.ComponentModel.dll">
+      <PackagePath>System.ComponentModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Configuration.dll">
+      <PackagePath>System.Configuration.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Console.dll">
+      <PackagePath>System.Console.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Core.dll">
+      <PackagePath>System.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Data.Common.dll">
+      <PackagePath>System.Data.Common.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Data.SqlClient.dll">
+      <PackagePath>System.Data.SqlClient.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Data.dll">
+      <PackagePath>System.Data.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Diagnostics.Contracts.dll">
+      <PackagePath>System.Diagnostics.Contracts.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Diagnostics.Debug.dll">
+      <PackagePath>System.Diagnostics.Debug.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Diagnostics.DiagnosticSource.dll">
+      <PackagePath>System.Diagnostics.DiagnosticSource.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Diagnostics.FileVersionInfo.dll">
+      <PackagePath>System.Diagnostics.FileVersionInfo.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Diagnostics.Process.dll">
+      <PackagePath>System.Diagnostics.Process.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Diagnostics.StackTrace.dll">
+      <PackagePath>System.Diagnostics.StackTrace.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Diagnostics.TextWriterTraceListener.dll">
+      <PackagePath>System.Diagnostics.TextWriterTraceListener.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Diagnostics.Tools.dll">
+      <PackagePath>System.Diagnostics.Tools.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Diagnostics.TraceSource.dll">
+      <PackagePath>System.Diagnostics.TraceSource.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Diagnostics.Tracing.dll">
+      <PackagePath>System.Diagnostics.Tracing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Drawing.Primitives.dll">
+      <PackagePath>System.Drawing.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Drawing.dll">
+      <PackagePath>System.Drawing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Dynamic.Runtime.dll">
+      <PackagePath>System.Dynamic.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Globalization.Calendars.dll">
+      <PackagePath>System.Globalization.Calendars.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Globalization.Extensions.dll">
+      <PackagePath>System.Globalization.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Globalization.dll">
+      <PackagePath>System.Globalization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.IO.Compression.FileSystem.dll">
+      <PackagePath>System.IO.Compression.FileSystem.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.IO.Compression.ZipFile.dll">
+      <PackagePath>System.IO.Compression.ZipFile.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.IO.Compression.dll">
+      <PackagePath>System.IO.Compression.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.IO.FileSystem.DriveInfo.dll">
+      <PackagePath>System.IO.FileSystem.DriveInfo.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.IO.FileSystem.Primitives.dll">
+      <PackagePath>System.IO.FileSystem.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.IO.FileSystem.Watcher.dll">
+      <PackagePath>System.IO.FileSystem.Watcher.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.IO.FileSystem.dll">
+      <PackagePath>System.IO.FileSystem.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.IO.IsolatedStorage.dll">
+      <PackagePath>System.IO.IsolatedStorage.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.IO.MemoryMappedFiles.dll">
+      <PackagePath>System.IO.MemoryMappedFiles.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.IO.Pipes.AccessControl.dll">
+      <PackagePath>System.IO.Pipes.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.IO.Pipes.dll">
+      <PackagePath>System.IO.Pipes.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.IO.Ports.dll">
+      <PackagePath>System.IO.Ports.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.IO.UnmanagedMemoryStream.dll">
+      <PackagePath>System.IO.UnmanagedMemoryStream.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.IO.dll">
+      <PackagePath>System.IO.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Linq.Expressions.dll">
+      <PackagePath>System.Linq.Expressions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Linq.Parallel.dll">
+      <PackagePath>System.Linq.Parallel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Linq.Queryable.dll">
+      <PackagePath>System.Linq.Queryable.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Linq.dll">
+      <PackagePath>System.Linq.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Memory.dll">
+      <PackagePath>System.Memory.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Net.Http.Rtc.dll">
+      <PackagePath>System.Net.Http.Rtc.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Net.Http.dll">
+      <PackagePath>System.Net.Http.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Net.HttpListener.dll">
+      <PackagePath>System.Net.HttpListener.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Net.Mail.dll">
+      <PackagePath>System.Net.Mail.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Net.NameResolution.dll">
+      <PackagePath>System.Net.NameResolution.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Net.NetworkInformation.dll">
+      <PackagePath>System.Net.NetworkInformation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Net.Ping.dll">
+      <PackagePath>System.Net.Ping.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Net.Primitives.dll">
+      <PackagePath>System.Net.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Net.Requests.dll">
+      <PackagePath>System.Net.Requests.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Net.Security.dll">
+      <PackagePath>System.Net.Security.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Net.ServicePoint.dll">
+      <PackagePath>System.Net.ServicePoint.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Net.Sockets.dll">
+      <PackagePath>System.Net.Sockets.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Net.WebClient.dll">
+      <PackagePath>System.Net.WebClient.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Net.WebHeaderCollection.dll">
+      <PackagePath>System.Net.WebHeaderCollection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Net.WebProxy.dll">
+      <PackagePath>System.Net.WebProxy.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Net.WebSockets.Client.dll">
+      <PackagePath>System.Net.WebSockets.Client.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Net.WebSockets.dll">
+      <PackagePath>System.Net.WebSockets.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Net.dll">
+      <PackagePath>System.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Numerics.Vectors.WindowsRuntime.dll">
+      <PackagePath>System.Numerics.Vectors.WindowsRuntime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Numerics.Vectors.dll">
+      <PackagePath>System.Numerics.Vectors.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Numerics.dll">
+      <PackagePath>System.Numerics.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.ObjectModel.dll">
+      <PackagePath>System.ObjectModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Private.DataContractSerialization.dll">
+      <PackagePath>System.Private.DataContractSerialization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Private.Reflection.Metadata.Ecma335.dll">
+      <PackagePath>System.Private.Reflection.Metadata.Ecma335.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Private.ServiceModel.dll">
+      <PackagePath>System.Private.ServiceModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Private.Uri.dll">
+      <PackagePath>System.Private.Uri.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Private.Xml.Linq.dll">
+      <PackagePath>System.Private.Xml.Linq.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Private.Xml.dll">
+      <PackagePath>System.Private.Xml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Reflection.Context.dll">
+      <PackagePath>System.Reflection.Context.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Reflection.DispatchProxy.dll">
+      <PackagePath>System.Reflection.DispatchProxy.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Reflection.Emit.ILGeneration.dll">
+      <PackagePath>System.Reflection.Emit.ILGeneration.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Reflection.Emit.Lightweight.dll">
+      <PackagePath>System.Reflection.Emit.Lightweight.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Reflection.Emit.dll">
+      <PackagePath>System.Reflection.Emit.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Reflection.Extensions.dll">
+      <PackagePath>System.Reflection.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Reflection.Metadata.dll">
+      <PackagePath>System.Reflection.Metadata.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Reflection.Primitives.dll">
+      <PackagePath>System.Reflection.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Reflection.TypeExtensions.dll">
+      <PackagePath>System.Reflection.TypeExtensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Reflection.dll">
+      <PackagePath>System.Reflection.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Resources.Reader.dll">
+      <PackagePath>System.Resources.Reader.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Resources.ResourceManager.dll">
+      <PackagePath>System.Resources.ResourceManager.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Resources.Writer.dll">
+      <PackagePath>System.Resources.Writer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Runtime.CompilerServices.Unsafe.dll">
+      <PackagePath>System.Runtime.CompilerServices.Unsafe.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Runtime.CompilerServices.VisualC.dll">
+      <PackagePath>System.Runtime.CompilerServices.VisualC.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Runtime.Extensions.dll">
+      <PackagePath>System.Runtime.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Runtime.Handles.dll">
+      <PackagePath>System.Runtime.Handles.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Runtime.InteropServices.RuntimeInformation.dll">
+      <PackagePath>System.Runtime.InteropServices.RuntimeInformation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Runtime.InteropServices.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.InteropServices.WindowsRuntime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Runtime.InteropServices.dll">
+      <PackagePath>System.Runtime.InteropServices.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Runtime.Numerics.dll">
+      <PackagePath>System.Runtime.Numerics.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Runtime.Serialization.Formatters.dll">
+      <PackagePath>System.Runtime.Serialization.Formatters.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Runtime.Serialization.Json.dll">
+      <PackagePath>System.Runtime.Serialization.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Runtime.Serialization.Primitives.dll">
+      <PackagePath>System.Runtime.Serialization.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Runtime.Serialization.Xml.dll">
+      <PackagePath>System.Runtime.Serialization.Xml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Runtime.Serialization.dll">
+      <PackagePath>System.Runtime.Serialization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Runtime.WindowsRuntime.UI.Xaml.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.UI.Xaml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Runtime.WindowsRuntime.dll">
+      <PackagePath>System.Runtime.WindowsRuntime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Security.AccessControl.dll">
+      <PackagePath>System.Security.AccessControl.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Security.Claims.dll">
+      <PackagePath>System.Security.Claims.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Security.Cryptography.Algorithms.dll">
+      <PackagePath>System.Security.Cryptography.Algorithms.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Security.Cryptography.Cng.dll">
+      <PackagePath>System.Security.Cryptography.Cng.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Security.Cryptography.Csp.dll">
+      <PackagePath>System.Security.Cryptography.Csp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Security.Cryptography.Encoding.dll">
+      <PackagePath>System.Security.Cryptography.Encoding.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Security.Cryptography.Primitives.dll">
+      <PackagePath>System.Security.Cryptography.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Security.Cryptography.X509Certificates.dll">
+      <PackagePath>System.Security.Cryptography.X509Certificates.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Security.Permissions.dll">
+      <PackagePath>System.Security.Permissions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Security.Principal.Windows.dll">
+      <PackagePath>System.Security.Principal.Windows.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Security.Principal.dll">
+      <PackagePath>System.Security.Principal.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Security.SecureString.dll">
+      <PackagePath>System.Security.SecureString.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Security.dll">
+      <PackagePath>System.Security.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.ServiceModel.Duplex.dll">
+      <PackagePath>System.ServiceModel.Duplex.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.ServiceModel.Http.dll">
+      <PackagePath>System.ServiceModel.Http.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.ServiceModel.NetTcp.dll">
+      <PackagePath>System.ServiceModel.NetTcp.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.ServiceModel.Primitives.dll">
+      <PackagePath>System.ServiceModel.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.ServiceModel.Security.dll">
+      <PackagePath>System.ServiceModel.Security.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.ServiceModel.Web.dll">
+      <PackagePath>System.ServiceModel.Web.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.ServiceModel.dll">
+      <PackagePath>System.ServiceModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.ServiceProcess.dll">
+      <PackagePath>System.ServiceProcess.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Text.Encoding.CodePages.dll">
+      <PackagePath>System.Text.Encoding.CodePages.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Text.Encoding.Extensions.dll">
+      <PackagePath>System.Text.Encoding.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Text.Encoding.dll">
+      <PackagePath>System.Text.Encoding.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Text.RegularExpressions.dll">
+      <PackagePath>System.Text.RegularExpressions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Threading.Overlapped.dll">
+      <PackagePath>System.Threading.Overlapped.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Threading.Tasks.Dataflow.dll">
+      <PackagePath>System.Threading.Tasks.Dataflow.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Threading.Tasks.Extensions.dll">
+      <PackagePath>System.Threading.Tasks.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Threading.Tasks.Parallel.dll">
+      <PackagePath>System.Threading.Tasks.Parallel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Threading.Tasks.dll">
+      <PackagePath>System.Threading.Tasks.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Threading.Thread.dll">
+      <PackagePath>System.Threading.Thread.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Threading.ThreadPool.dll">
+      <PackagePath>System.Threading.ThreadPool.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Threading.Timer.dll">
+      <PackagePath>System.Threading.Timer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Threading.dll">
+      <PackagePath>System.Threading.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Transactions.Local.dll">
+      <PackagePath>System.Transactions.Local.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Transactions.dll">
+      <PackagePath>System.Transactions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.ValueTuple.dll">
+      <PackagePath>System.ValueTuple.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Web.HttpUtility.dll">
+      <PackagePath>System.Web.HttpUtility.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Web.dll">
+      <PackagePath>System.Web.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Windows.dll">
+      <PackagePath>System.Windows.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Xml.Linq.dll">
+      <PackagePath>System.Xml.Linq.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Xml.ReaderWriter.dll">
+      <PackagePath>System.Xml.ReaderWriter.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Xml.Serialization.dll">
+      <PackagePath>System.Xml.Serialization.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Xml.XDocument.dll">
+      <PackagePath>System.Xml.XDocument.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Xml.XPath.XDocument.dll">
+      <PackagePath>System.Xml.XPath.XDocument.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Xml.XPath.dll">
+      <PackagePath>System.Xml.XPath.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Xml.XmlDocument.dll">
+      <PackagePath>System.Xml.XmlDocument.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Xml.XmlSerializer.dll">
+      <PackagePath>System.Xml.XmlSerializer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.Xml.dll">
+      <PackagePath>System.Xml.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\System.dll">
+      <PackagePath>System.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\WindowsBase.dll">
+      <PackagePath>WindowsBase.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\mscorlib.dll">
+      <PackagePath>mscorlib.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform\6.2.8\runtimes\win10-x64-aot\lib\uap10.0.15138\netstandard.dll">
+      <PackagePath>netstandard.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\abaya.png">
+      <PackagePath>Assets\abaya.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\alghoul.png">
+      <PackagePath>Assets\alghoul.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\alp.png">
+      <PackagePath>Assets\alp.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\alpha.png">
+      <PackagePath>Assets\alpha.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\apiarian.png">
+      <PackagePath>Assets\apiarian.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\arachasae.png">
+      <PackagePath>Assets\arachasae.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\arachnomorphs.png">
+      <PackagePath>Assets\arachnomorphs.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Archespore.png">
+      <PackagePath>Assets\Archespore.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\ArmoredAra.png">
+      <PackagePath>Assets\ArmoredAra.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Background.png">
+      <PackagePath>Assets\Background.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\banshe.png">
+      <PackagePath>Assets\banshe.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\barghest.png">
+      <PackagePath>Assets\barghest.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Basilisk.png">
+      <PackagePath>Assets\Basilisk.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Bear.png">
+      <PackagePath>Assets\Bear.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Berserker.png">
+      <PackagePath>Assets\Berserker.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Bianco.png">
+      <PackagePath>Assets\Bianco.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\BigBadWolf.png">
+      <PackagePath>Assets\BigBadWolf.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\botchling.png">
+      <PackagePath>Assets\botchling.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\bruxae.png">
+      <PackagePath>Assets\bruxae.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\caretaker.png">
+      <PackagePath>Assets\caretaker.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\chort.png">
+      <PackagePath>Assets\chort.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\CloudGiant.png">
+      <PackagePath>Assets\CloudGiant.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Cockatrice.png">
+      <PackagePath>Assets\Cockatrice.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\crones.png">
+      <PackagePath>Assets\crones.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Cyclopses.png">
+      <PackagePath>Assets\Cyclopses.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\daphne.png">
+      <PackagePath>Assets\daphne.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\devil.png">
+      <PackagePath>Assets\devil.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\devourer.png">
+      <PackagePath>Assets\devourer.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Djinn.png">
+      <PackagePath>Assets\Djinn.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Dog.png">
+      <PackagePath>Assets\Dog.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\doppler.png">
+      <PackagePath>Assets\doppler.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Dracolyzard.png">
+      <PackagePath>Assets\Dracolyzard.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\drones.png">
+      <PackagePath>Assets\drones.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Drowdead.png">
+      <PackagePath>Assets\Drowdead.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\drowner.png">
+      <PackagePath>Assets\drowner.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Earth.png">
+      <PackagePath>Assets\Earth.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\ekimma.png">
+      <PackagePath>Assets\ekimma.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\emperor.png">
+      <PackagePath>Assets\emperor.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\eretein.png">
+      <PackagePath>Assets\eretein.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Erynias.png">
+      <PackagePath>Assets\Erynias.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Ethereal.png">
+      <PackagePath>Assets\Ethereal.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\fiend.png">
+      <PackagePath>Assets\fiend.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\fire.png">
+      <PackagePath>Assets\fire.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\fleder.png">
+      <PackagePath>Assets\fleder.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\foglet.png">
+      <PackagePath>Assets\foglet.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Forktail.png">
+      <PackagePath>Assets\Forktail.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\fugas.png">
+      <PackagePath>Assets\fugas.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Fyresdal.png">
+      <PackagePath>Assets\Fyresdal.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\gael.png">
+      <PackagePath>Assets\gael.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\gargo.png">
+      <PackagePath>Assets\gargo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\garkain.png">
+      <PackagePath>Assets\garkain.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\ghoul.png">
+      <PackagePath>Assets\ghoul.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\GiantCentipede.png">
+      <PackagePath>Assets\GiantCentipede.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\godling.png">
+      <PackagePath>Assets\godling.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Golem.png">
+      <PackagePath>Assets\Golem.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Golyat.png">
+      <PackagePath>Assets\Golyat.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Grags.png">
+      <PackagePath>Assets\Grags.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Griffin.png">
+      <PackagePath>Assets\Griffin.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\grottore.png">
+      <PackagePath>Assets\grottore.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Hagubman.png">
+      <PackagePath>Assets\Hagubman.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Harpy.png">
+      <PackagePath>Assets\Harpy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Harrisi.png">
+      <PackagePath>Assets\Harrisi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\higher.png">
+      <PackagePath>Assets\higher.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Howler.png">
+      <PackagePath>Assets\Howler.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\hunt.png">
+      <PackagePath>Assets\hunt.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\hym.png">
+      <PackagePath>Assets\hym.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\ice.png">
+      <PackagePath>Assets\ice.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\IceGiant.png">
+      <PackagePath>Assets\IceGiant.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\icetroll.png">
+      <PackagePath>Assets\icetroll.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Ignituus.png">
+      <PackagePath>Assets\Ignituus.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\imp.png">
+      <PackagePath>Assets\imp.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\jenny.png">
+      <PackagePath>Assets\jenny.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\katakan.png">
+      <PackagePath>Assets\katakan.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Kernun.png">
+      <PackagePath>Assets\Kernun.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\kikiWa.png">
+      <PackagePath>Assets\kikiWa.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\kikiWo.png">
+      <PackagePath>Assets\kikiWo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\lady.png">
+      <PackagePath>Assets\lady.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\leshen.png">
+      <PackagePath>Assets\leshen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\logo.png">
+      <PackagePath>Assets\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Longlocks.png">
+      <PackagePath>Assets\Longlocks.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Lubberkin.png">
+      <PackagePath>Assets\Lubberkin.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Melusine.png">
+      <PackagePath>Assets\Melusine.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\moreau.png">
+      <PackagePath>Assets\moreau.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\morvudd.png">
+      <PackagePath>Assets\morvudd.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Mourntart.png">
+      <PackagePath>Assets\Mourntart.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\mucknixer.png">
+      <PackagePath>Assets\mucknixer.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Nekker.png">
+      <PackagePath>Assets\Nekker.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\nightwrath.png">
+      <PackagePath>Assets\nightwrath.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\noon.png">
+      <PackagePath>Assets\noon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Opinicus.png">
+      <PackagePath>Assets\Opinicus.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\paint.png">
+      <PackagePath>Assets\paint.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\PaleWidow.png">
+      <PackagePath>Assets\PaleWidow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\penitent.png">
+      <PackagePath>Assets\penitent.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Phanter.png">
+      <PackagePath>Assets\Phanter.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Pixies.png">
+      <PackagePath>Assets\Pixies.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\plague.png">
+      <PackagePath>Assets\plague.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Protofleder.png">
+      <PackagePath>Assets\Protofleder.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\RockTroll.png">
+      <PackagePath>Assets\RockTroll.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\rotfiend.png">
+      <PackagePath>Assets\rotfiend.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\royal.png">
+      <PackagePath>Assets\royal.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\salma.png">
+      <PackagePath>Assets\salma.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Sarasti.png">
+      <PackagePath>Assets\Sarasti.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\scurvers.png">
+      <PackagePath>Assets\scurvers.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\shaelmaar.png">
+      <PackagePath>Assets\shaelmaar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Shrieker.png">
+      <PackagePath>Assets\Shrieker.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Silver.png">
+      <PackagePath>Assets\Silver.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Siren.png">
+      <PackagePath>Assets\Siren.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Slyzard.png">
+      <PackagePath>Assets\Slyzard.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Spotted Wight.png">
+      <PackagePath>Assets\Spotted Wight.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\spriggan.png">
+      <PackagePath>Assets\spriggan.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Succubus.png">
+      <PackagePath>Assets\Succubus.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\sylvan.png">
+      <PackagePath>Assets\sylvan.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\TheBeastOfBeau.png">
+      <PackagePath>Assets\TheBeastOfBeau.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Therazane.png">
+      <PackagePath>Assets\Therazane.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\ThreePigs.png">
+      <PackagePath>Assets\ThreePigs.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Toad.png">
+      <PackagePath>Assets\Toad.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\tufo.png">
+      <PackagePath>Assets\tufo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\ulfhedinn.png">
+      <PackagePath>Assets\ulfhedinn.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\umbra.png">
+      <PackagePath>Assets\umbra.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\venochasae.png">
+      <PackagePath>Assets\venochasae.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\warrior.png">
+      <PackagePath>Assets\warrior.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\WaterHag.png">
+      <PackagePath>Assets\WaterHag.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Werewolf.png">
+      <PackagePath>Assets\Werewolf.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\wham.png">
+      <PackagePath>Assets\wham.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\wickedwitch.png">
+      <PackagePath>Assets\wickedwitch.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Wights.png">
+      <PackagePath>Assets\Wights.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\WildBoar.png">
+      <PackagePath>Assets\WildBoar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Wolf.png">
+      <PackagePath>Assets\Wolf.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\woodland.png">
+      <PackagePath>Assets\woodland.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\worker.png">
+      <PackagePath>Assets\worker.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\wraith.png">
+      <PackagePath>Assets\wraith.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Wyvern.png">
+      <PackagePath>Assets\Wyvern.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\ekhidna.jpg">
+      <PackagePath>Assets\ekhidna.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\logo.jpg">
+      <PackagePath>Assets\logo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Assets\sandcrab.jpg">
+      <PackagePath>Assets\sandcrab.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x64\Release\Bestiary.xr.xml">
+      <PackagePath>Bestiary.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x64\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.2.3\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
+      <Name>Microsoft.NET.Native.Framework.2.2</Name>
+      <Version>2.2.27405.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.2, MinVersion = 2.2.27405.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.2.3\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.native.sharedlibrary\2.2.3\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
+      <Name>Microsoft.NET.Native.Framework.2.2</Name>
+      <Version>2.2.27405.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.2, MinVersion = 2.2.27405.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.native.sharedlibrary\2.2.3\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm64.microsoft.net.native.sharedlibrary\2.2.3\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
+      <Name>Microsoft.NET.Native.Framework.2.2</Name>
+      <Version>2.2.27405.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.2, MinVersion = 2.2.27405.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm64.microsoft.net.native.sharedlibrary\2.2.3\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.native.sharedlibrary\2.2.3\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
+      <Name>Microsoft.NET.Native.Framework.2.2</Name>
+      <Version>2.2.27405.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.2, MinVersion = 2.2.27405.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.native.sharedlibrary\2.2.3\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.compiler\2.2.3\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.2.2.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.2</Name>
+      <Version>2.2.27328.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.2, MinVersion = 2.2.27328.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.compiler\2.2.3\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.native.compiler\2.2.3\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.2.2.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.2</Name>
+      <Version>2.2.27328.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.2, MinVersion = 2.2.27328.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.native.compiler\2.2.3\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm64.microsoft.net.native.compiler\2.2.3\build\..\tools\Runtime\arm64\Microsoft.NET.Native.Runtime.2.2.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.2</Name>
+      <Version>2.2.27328.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.2, MinVersion = 2.2.27328.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm64.microsoft.net.native.compiler\2.2.3\build\..\tools\Runtime\arm64\Microsoft.NET.Native.Runtime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.native.compiler\2.2.3\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.2.2.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.2</Name>
+      <Version>2.2.27328.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.2, MinVersion = 2.2.27328.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.native.compiler\2.2.3\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM64\Microsoft.VCLibs.ARM64.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

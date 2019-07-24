@@ -27,13 +27,29 @@ namespace Bestiary
         public EntryInformation()
         {
             this.InitializeComponent();
-            var path = Path.GetFullPath(EntriesDone.SelectedEntry.ImagePath);
-            BitmapImage bitmap = new BitmapImage();
-            bitmap.UriSource = new Uri(@""+path, UriKind.Relative);
-            img_entry.Source = bitmap;
-            img_entry.Opacity = 0.40;
-            img_entry.MaxWidth = 500;
-            img_entry.MaxHeight = 500;
+
+
+            //I'll leave this code here as a reminder of what did not worked for me when trying to access to the relative path of an image from the Assets folder.
+
+            //var path = EntriesDone.SelectedEntry.ImagePath;
+            //BitmapImage bitmap = new BitmapImage();           
+            //  bitmap.UriSource = new Uri(@"ms - appx:///"+path);
+
+            //THIS WORKED!!! 
+
+            try
+            {
+                ImageSource result = new BitmapImage(new Uri("ms-appx:///"+EntriesDone.SelectedEntry.ImagePath));
+
+                img_entry.Source = result;
+                img_entry.Opacity = 0.40;
+                img_entry.MaxWidth = 500;
+                img_entry.MaxHeight = 500;
+            }
+            catch (Exception)
+            {
+                txt_Name.FontSize=2;
+            }
 
             txt_Name.Text = EntriesDone.SelectedEntry.Name;
 

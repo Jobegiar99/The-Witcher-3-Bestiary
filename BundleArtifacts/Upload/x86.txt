@@ -1,0 +1,2 @@
+MainPackage=C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\Upload\Bestiary_1.0.0.0_x86.msix
+SymbolPackage=C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\Upload\Bestiary_1.0.0.0\Bestiary_1.0.0.0_x86.appxsym

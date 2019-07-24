@@ -1,0 +1,798 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="60136Jobegiar99.TheWitcher3Bestiary" version="1.0" primary="true">
+		<Qualifiers>
+			<AlternateForm>UNPLATED</AlternateForm>
+			<Scale>200</Scale>
+			<TargetSize>256,16,24,32,48</TargetSize>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/App.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Bestiary.xr.xml" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Bestiary.xr.xml">
+				<Candidate type="Path">
+					<Value>Bestiary.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="EntryInformation.xbf" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/EntryInformation.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/MainPage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="SelectedEntryMenu.xbf" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/SelectedEntryMenu.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="abaya.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/abaya.png">
+					<Candidate type="Path">
+						<Value>Assets\abaya.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="alghoul.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/alghoul.png">
+					<Candidate type="Path">
+						<Value>Assets\alghoul.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="alp.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/alp.png">
+					<Candidate type="Path">
+						<Value>Assets\alp.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="alpha.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/alpha.png">
+					<Candidate type="Path">
+						<Value>Assets\alpha.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="apiarian.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/apiarian.png">
+					<Candidate type="Path">
+						<Value>Assets\apiarian.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="arachasae.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/arachasae.png">
+					<Candidate type="Path">
+						<Value>Assets\arachasae.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="arachnomorphs.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/arachnomorphs.png">
+					<Candidate type="Path">
+						<Value>Assets\arachnomorphs.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Archespore.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Archespore.png">
+					<Candidate type="Path">
+						<Value>Assets\Archespore.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ArmoredAra.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/ArmoredAra.png">
+					<Candidate type="Path">
+						<Value>Assets\ArmoredAra.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Background.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Background.png">
+					<Candidate type="Path">
+						<Value>Assets\Background.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="banshe.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/banshe.png">
+					<Candidate type="Path">
+						<Value>Assets\banshe.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="barghest.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/barghest.png">
+					<Candidate type="Path">
+						<Value>Assets\barghest.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Basilisk.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Basilisk.png">
+					<Candidate type="Path">
+						<Value>Assets\Basilisk.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Bear.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Bear.png">
+					<Candidate type="Path">
+						<Value>Assets\Bear.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Berserker.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Berserker.png">
+					<Candidate type="Path">
+						<Value>Assets\Berserker.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Bianco.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Bianco.png">
+					<Candidate type="Path">
+						<Value>Assets\Bianco.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="BigBadWolf.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/BigBadWolf.png">
+					<Candidate type="Path">
+						<Value>Assets\BigBadWolf.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="botchling.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/botchling.png">
+					<Candidate type="Path">
+						<Value>Assets\botchling.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="bruxae.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/bruxae.png">
+					<Candidate type="Path">
+						<Value>Assets\bruxae.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="caretaker.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/caretaker.png">
+					<Candidate type="Path">
+						<Value>Assets\caretaker.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="chort.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/chort.png">
+					<Candidate type="Path">
+						<Value>Assets\chort.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="CloudGiant.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/CloudGiant.png">
+					<Candidate type="Path">
+						<Value>Assets\CloudGiant.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Cockatrice.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Cockatrice.png">
+					<Candidate type="Path">
+						<Value>Assets\Cockatrice.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="crones.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/crones.png">
+					<Candidate type="Path">
+						<Value>Assets\crones.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Cyclopses.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Cyclopses.png">
+					<Candidate type="Path">
+						<Value>Assets\Cyclopses.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="daphne.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/daphne.png">
+					<Candidate type="Path">
+						<Value>Assets\daphne.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="devil.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/devil.png">
+					<Candidate type="Path">
+						<Value>Assets\devil.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="devourer.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/devourer.png">
+					<Candidate type="Path">
+						<Value>Assets\devourer.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Djinn.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Djinn.png">
+					<Candidate type="Path">
+						<Value>Assets\Djinn.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Dog.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Dog.png">
+					<Candidate type="Path">
+						<Value>Assets\Dog.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="doppler.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/doppler.png">
+					<Candidate type="Path">
+						<Value>Assets\doppler.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Dracolyzard.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Dracolyzard.png">
+					<Candidate type="Path">
+						<Value>Assets\Dracolyzard.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="drones.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/drones.png">
+					<Candidate type="Path">
+						<Value>Assets\drones.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Drowdead.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Drowdead.png">
+					<Candidate type="Path">
+						<Value>Assets\Drowdead.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="drowner.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/drowner.png">
+					<Candidate type="Path">
+						<Value>Assets\drowner.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Earth.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Earth.png">
+					<Candidate type="Path">
+						<Value>Assets\Earth.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ekhidna.jpg" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/ekhidna.jpg">
+					<Candidate type="Path">
+						<Value>Assets\ekhidna.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ekimma.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/ekimma.png">
+					<Candidate type="Path">
+						<Value>Assets\ekimma.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="emperor.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/emperor.png">
+					<Candidate type="Path">
+						<Value>Assets\emperor.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="eretein.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/eretein.png">
+					<Candidate type="Path">
+						<Value>Assets\eretein.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Erynias.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Erynias.png">
+					<Candidate type="Path">
+						<Value>Assets\Erynias.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Ethereal.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Ethereal.png">
+					<Candidate type="Path">
+						<Value>Assets\Ethereal.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="fiend.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/fiend.png">
+					<Candidate type="Path">
+						<Value>Assets\fiend.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="fire.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/fire.png">
+					<Candidate type="Path">
+						<Value>Assets\fire.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="fleder.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/fleder.png">
+					<Candidate type="Path">
+						<Value>Assets\fleder.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="foglet.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/foglet.png">
+					<Candidate type="Path">
+						<Value>Assets\foglet.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Forktail.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Forktail.png">
+					<Candidate type="Path">
+						<Value>Assets\Forktail.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="fugas.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/fugas.png">
+					<Candidate type="Path">
+						<Value>Assets\fugas.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Fyresdal.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Fyresdal.png">
+					<Candidate type="Path">
+						<Value>Assets\Fyresdal.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="gael.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/gael.png">
+					<Candidate type="Path">
+						<Value>Assets\gael.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="gargo.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/gargo.png">
+					<Candidate type="Path">
+						<Value>Assets\gargo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="garkain.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/garkain.png">
+					<Candidate type="Path">
+						<Value>Assets\garkain.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ghoul.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/ghoul.png">
+					<Candidate type="Path">
+						<Value>Assets\ghoul.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="GiantCentipede.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/GiantCentipede.png">
+					<Candidate type="Path">
+						<Value>Assets\GiantCentipede.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="godling.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/godling.png">
+					<Candidate type="Path">
+						<Value>Assets\godling.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Golem.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Golem.png">
+					<Candidate type="Path">
+						<Value>Assets\Golem.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Golyat.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Golyat.png">
+					<Candidate type="Path">
+						<Value>Assets\Golyat.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Grags.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Grags.png">
+					<Candidate type="Path">
+						<Value>Assets\Grags.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Griffin.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Griffin.png">
+					<Candidate type="Path">
+						<Value>Assets\Griffin.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="grottore.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/grottore.png">
+					<Candidate type="Path">
+						<Value>Assets\grottore.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Hagubman.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Hagubman.png">
+					<Candidate type="Path">
+						<Value>Assets\Hagubman.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Harpy.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Harpy.png">
+					<Candidate type="Path">
+						<Value>Assets\Harpy.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Harrisi.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Harrisi.png">
+					<Candidate type="Path">
+						<Value>Assets\Harrisi.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="higher.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/higher.png">
+					<Candidate type="Path">
+						<Value>Assets\higher.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Howler.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Howler.png">
+					<Candidate type="Path">
+						<Value>Assets\Howler.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="hunt.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/hunt.png">
+					<Candidate type="Path">
+						<Value>Assets\hunt.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="hym.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/hym.png">
+					<Candidate type="Path">
+						<Value>Assets\hym.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ice.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/ice.png">
+					<Candidate type="Path">
+						<Value>Assets\ice.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="IceGiant.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/IceGiant.png">
+					<Candidate type="Path">
+						<Value>Assets\IceGiant.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="icetroll.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/icetroll.png">
+					<Candidate type="Path">
+						<Value>Assets\icetroll.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Ignituus.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Ignituus.png">
+					<Candidate type="Path">
+						<Value>Assets\Ignituus.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="imp.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/imp.png">
+					<Candidate type="Path">
+						<Value>Assets\imp.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="jenny.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/jenny.png">
+					<Candidate type="Path">
+						<Value>Assets\jenny.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="katakan.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/katakan.png">
+					<Candidate type="Path">
+						<Value>Assets\katakan.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Kernun.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Kernun.png">
+					<Candidate type="Path">
+						<Value>Assets\Kernun.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="kikiWa.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/kikiWa.png">
+					<Candidate type="Path">
+						<Value>Assets\kikiWa.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="kikiWo.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/kikiWo.png">
+					<Candidate type="Path">
+						<Value>Assets\kikiWo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="lady.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/lady.png">
+					<Candidate type="Path">
+						<Value>Assets\lady.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LargeTile.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/LargeTile.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\LargeTile.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="leshen.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/leshen.png">
+					<Candidate type="Path">
+						<Value>Assets\leshen.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LockScreenLogo.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/LockScreenLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\LockScreenLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="logo.jpg" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/logo.jpg">
+					<Candidate type="Path">
+						<Value>Assets\logo.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="logo.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/logo.png">
+					<Candidate type="Path">
+						<Value>Assets\logo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Longlocks.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Longlocks.png">
+					<Candidate type="Path">
+						<Value>Assets\Longlocks.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Lubberkin.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Lubberkin.png">
+					<Candidate type="Path">
+						<Value>Assets\Lubberkin.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Melusine.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Melusine.png">
+					<Candidate type="Path">
+						<Value>Assets\Melusine.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="moreau.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/moreau.png">
+					<Candidate type="Path">
+						<Value>Assets\moreau.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="morvudd.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/morvudd.png">
+					<Candidate type="Path">
+						<Value>Assets\morvudd.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Mourntart.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Mourntart.png">
+					<Candidate type="Path">
+						<Value>Assets\Mourntart.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="mucknixer.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/mucknixer.png">
+					<Candidate type="Path">
+						<Value>Assets\mucknixer.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Nekker.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Nekker.png">
+					<Candidate type="Path">
+						<Value>Assets\Nekker.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="nightwrath.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/nightwrath.png">
+					<Candidate type="Path">
+						<Value>Assets\nightwrath.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="noon.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/noon.png">
+					<Candidate type="Path">
+						<Value>Assets\noon.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Opinicus.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Opinicus.png">
+					<Candidate type="Path">
+						<Value>Assets\Opinicus.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="paint.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/paint.png">
+					<Candidate type="Path">
+						<Value>Assets\paint.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="PaleWidow.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/PaleWidow.png">
+					<Candidate type="Path">
+						<Value>Assets\PaleWidow.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="penitent.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/penitent.png">
+					<Candidate type="Path">
+						<Value>Assets\penitent.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Phanter.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Phanter.png">
+					<Candidate type="Path">
+						<Value>Assets\Phanter.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Pixies.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Pixies.png">
+					<Candidate type="Path">
+						<Value>Assets\Pixies.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="plague.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/plague.png">
+					<Candidate type="Path">
+						<Value>Assets\plague.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Protofleder.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Protofleder.png">
+					<Candidate type="Path">
+						<Value>Assets\Protofleder.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="RockTroll.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/RockTroll.png">
+					<Candidate type="Path">
+						<Value>Assets\RockTroll.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="rotfiend.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/rotfiend.png">
+					<Candidate type="Path">
+						<Value>Assets\rotfiend.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="royal.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/royal.png">
+					<Candidate type="Path">
+						<Value>Assets\royal.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="salma.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/salma.png">
+					<Candidate type="Path">
+						<Value>Assets\salma.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="sandcrab.jpg" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/sandcrab.jpg">
+					<Candidate type="Path">
+						<Value>Assets\sandcrab.jpg</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Sarasti.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Sarasti.png">
+					<Candidate type="Path">
+						<Value>Assets\Sarasti.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="scurvers.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/scurvers.png">
+					<Candidate type="Path">
+						<Value>Assets\scurvers.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="shaelmaar.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/shaelmaar.png">
+					<Candidate type="Path">
+						<Value>Assets\shaelmaar.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Shrieker.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Shrieker.png">
+					<Candidate type="Path">
+						<Value>Assets\Shrieker.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Silver.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Silver.png">
+					<Candidate type="Path">
+						<Value>Assets\Silver.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Siren.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Siren.png">
+					<Candidate type="Path">
+						<Value>Assets\Siren.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Slyzard.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Slyzard.png">
+					<Candidate type="Path">
+						<Value>Assets\Slyzard.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallTile.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/SmallTile.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SmallTile.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Spotted Wight.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Spotted Wight.png">
+					<Candidate type="Path">
+						<Value>Assets\Spotted Wight.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="spriggan.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/spriggan.png">
+					<Candidate type="Path">
+						<Value>Assets\spriggan.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square150x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Square44x44Logo.png">
+					<Candidate qualifiers="TargetSize-48, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-48" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-32" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-32.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-24, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-24" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-24.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Succubus.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Succubus.png">
+					<Candidate type="Path">
+						<Value>Assets\Succubus.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="sylvan.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/sylvan.png">
+					<Candidate type="Path">
+						<Value>Assets\sylvan.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="TheBeastOfBeau.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/TheBeastOfBeau.png">
+					<Candidate type="Path">
+						<Value>Assets\TheBeastOfBeau.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Therazane.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Therazane.png">
+					<Candidate type="Path">
+						<Value>Assets\Therazane.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ThreePigs.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/ThreePigs.png">
+					<Candidate type="Path">
+						<Value>Assets\ThreePigs.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Toad.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Toad.png">
+					<Candidate type="Path">
+						<Value>Assets\Toad.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="tufo.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/tufo.png">
+					<Candidate type="Path">
+						<Value>Assets\tufo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ulfhedinn.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/ulfhedinn.png">
+					<Candidate type="Path">
+						<Value>Assets\ulfhedinn.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="umbra.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/umbra.png">
+					<Candidate type="Path">
+						<Value>Assets\umbra.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="venochasae.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/venochasae.png">
+					<Candidate type="Path">
+						<Value>Assets\venochasae.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="warrior.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/warrior.png">
+					<Candidate type="Path">
+						<Value>Assets\warrior.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="WaterHag.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/WaterHag.png">
+					<Candidate type="Path">
+						<Value>Assets\WaterHag.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Werewolf.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Werewolf.png">
+					<Candidate type="Path">
+						<Value>Assets\Werewolf.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="wham.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/wham.png">
+					<Candidate type="Path">
+						<Value>Assets\wham.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="wickedwitch.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/wickedwitch.png">
+					<Candidate type="Path">
+						<Value>Assets\wickedwitch.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Wide310x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wights.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Wights.png">
+					<Candidate type="Path">
+						<Value>Assets\Wights.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="WildBoar.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/WildBoar.png">
+					<Candidate type="Path">
+						<Value>Assets\WildBoar.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wolf.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Wolf.png">
+					<Candidate type="Path">
+						<Value>Assets\Wolf.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="woodland.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/woodland.png">
+					<Candidate type="Path">
+						<Value>Assets\woodland.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="worker.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/worker.png">
+					<Candidate type="Path">
+						<Value>Assets\worker.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="wraith.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/wraith.png">
+					<Candidate type="Path">
+						<Value>Assets\wraith.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wyvern.png" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Assets/Wyvern.png">
+					<Candidate type="Path">
+						<Value>Assets\Wyvern.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Properties">
+				<NamedResource name="Default.rd.xml" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/Properties/Default.rd.xml">
+					<Candidate type="Path">
+						<Value>Properties\Default.rd.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WinMetadata">
+				<NamedResource name="Windows.winmd" uri="ms-resource://60136Jobegiar99.TheWitcher3Bestiary/Files/WinMetadata/Windows.winmd">
+					<Candidate type="Path">
+						<Value>WinMetadata\Windows.winmd</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>
