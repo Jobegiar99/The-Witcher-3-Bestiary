@@ -13,6 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using Bestiary.Classes;
+using Windows.UI.ViewManagement;
 
 // The Blank Page item template is documented at https://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -27,6 +28,7 @@ namespace Bestiary
 
         public MainPage()
         {
+            ApplicationView.PreferredLaunchWindowingMode = ApplicationViewWindowingMode.Maximized;
 
             /*Entry[] Beasts = new Entry[8];
             Entry[] CursedOnes = new Entry[7];
@@ -74,7 +76,7 @@ namespace Bestiary
                         , "Bear Fat, Bear Hide, Raw Meat, and White Bear Hide"
                         , "Velen, Skellige, White Orchard, and Toussaint"
                         , "Beast Oil, and Quen"
-                        , "Assets\\Bear.png");
+                        , "Assets/Bear.png");
 
                     //Phanter
                     EntriesDone.Beasts[1] = new Entry(

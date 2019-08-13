@@ -1,0 +1,730 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-IB4FHFU</Machine>
+    <WindowsUser>Bernardo</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>7c12562b-1f99-4829-aad3-aab1fa88e31e</PackageIdentityName>
+    <PackageIdentityPublisher>CN=8FB54101-10ED-4C2C-B400-6933484D8716</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\obj\x86\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\abaya.png">
+      <PackagePath>Assets\abaya.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\alghoul.png">
+      <PackagePath>Assets\alghoul.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\alp.png">
+      <PackagePath>Assets\alp.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\alpha.png">
+      <PackagePath>Assets\alpha.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\apiarian.png">
+      <PackagePath>Assets\apiarian.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\arachasae.png">
+      <PackagePath>Assets\arachasae.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\arachnomorphs.png">
+      <PackagePath>Assets\arachnomorphs.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Archespore.png">
+      <PackagePath>Assets\Archespore.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\ArmoredAra.png">
+      <PackagePath>Assets\ArmoredAra.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Background.png">
+      <PackagePath>Assets\Background.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\banshe.png">
+      <PackagePath>Assets\banshe.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\barghest.png">
+      <PackagePath>Assets\barghest.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Basilisk.png">
+      <PackagePath>Assets\Basilisk.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Bear.png">
+      <PackagePath>Assets\Bear.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Berserker.png">
+      <PackagePath>Assets\Berserker.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Bianco.png">
+      <PackagePath>Assets\Bianco.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\BigBadWolf.png">
+      <PackagePath>Assets\BigBadWolf.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\botchling.png">
+      <PackagePath>Assets\botchling.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\bruxae.png">
+      <PackagePath>Assets\bruxae.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\caretaker.png">
+      <PackagePath>Assets\caretaker.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\chort.png">
+      <PackagePath>Assets\chort.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\CloudGiant.png">
+      <PackagePath>Assets\CloudGiant.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Cockatrice.png">
+      <PackagePath>Assets\Cockatrice.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\crones.png">
+      <PackagePath>Assets\crones.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Cyclopses.png">
+      <PackagePath>Assets\Cyclopses.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\daphne.png">
+      <PackagePath>Assets\daphne.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\devil.png">
+      <PackagePath>Assets\devil.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\devourer.png">
+      <PackagePath>Assets\devourer.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Djinn.png">
+      <PackagePath>Assets\Djinn.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Dog.png">
+      <PackagePath>Assets\Dog.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\doppler.png">
+      <PackagePath>Assets\doppler.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Dracolyzard.png">
+      <PackagePath>Assets\Dracolyzard.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\drones.png">
+      <PackagePath>Assets\drones.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Drowdead.png">
+      <PackagePath>Assets\Drowdead.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\drowner.png">
+      <PackagePath>Assets\drowner.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Earth.png">
+      <PackagePath>Assets\Earth.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\ekhidna.jpg">
+      <PackagePath>Assets\ekhidna.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\ekimma.png">
+      <PackagePath>Assets\ekimma.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\emperor.png">
+      <PackagePath>Assets\emperor.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\eretein.png">
+      <PackagePath>Assets\eretein.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Erynias.png">
+      <PackagePath>Assets\Erynias.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Ethereal.png">
+      <PackagePath>Assets\Ethereal.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\fiend.png">
+      <PackagePath>Assets\fiend.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\fire.png">
+      <PackagePath>Assets\fire.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\fleder.png">
+      <PackagePath>Assets\fleder.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\foglet.png">
+      <PackagePath>Assets\foglet.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Forktail.png">
+      <PackagePath>Assets\Forktail.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\fugas.png">
+      <PackagePath>Assets\fugas.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Fyresdal.png">
+      <PackagePath>Assets\Fyresdal.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\gael.png">
+      <PackagePath>Assets\gael.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\gargo.png">
+      <PackagePath>Assets\gargo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\garkain.png">
+      <PackagePath>Assets\garkain.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\ghoul.png">
+      <PackagePath>Assets\ghoul.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\GiantCentipede.png">
+      <PackagePath>Assets\GiantCentipede.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\godling.png">
+      <PackagePath>Assets\godling.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Golem.png">
+      <PackagePath>Assets\Golem.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Golyat.png">
+      <PackagePath>Assets\Golyat.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Grags.png">
+      <PackagePath>Assets\Grags.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Griffin.png">
+      <PackagePath>Assets\Griffin.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\grottore.png">
+      <PackagePath>Assets\grottore.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Hagubman.png">
+      <PackagePath>Assets\Hagubman.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Harpy.png">
+      <PackagePath>Assets\Harpy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Harrisi.png">
+      <PackagePath>Assets\Harrisi.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\higher.png">
+      <PackagePath>Assets\higher.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Howler.png">
+      <PackagePath>Assets\Howler.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\hunt.png">
+      <PackagePath>Assets\hunt.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\hym.png">
+      <PackagePath>Assets\hym.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\ice.png">
+      <PackagePath>Assets\ice.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\IceGiant.png">
+      <PackagePath>Assets\IceGiant.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\icetroll.png">
+      <PackagePath>Assets\icetroll.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Ignituus.png">
+      <PackagePath>Assets\Ignituus.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\imp.png">
+      <PackagePath>Assets\imp.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\jenny.png">
+      <PackagePath>Assets\jenny.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\katakan.png">
+      <PackagePath>Assets\katakan.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Kernun.png">
+      <PackagePath>Assets\Kernun.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\kikiWa.png">
+      <PackagePath>Assets\kikiWa.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\kikiWo.png">
+      <PackagePath>Assets\kikiWo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\lady.png">
+      <PackagePath>Assets\lady.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\LargeTile.scale-125.png">
+      <PackagePath>Assets\LargeTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\LargeTile.scale-150.png">
+      <PackagePath>Assets\LargeTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\leshen.png">
+      <PackagePath>Assets\leshen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\logo.jpg">
+      <PackagePath>Assets\logo.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\logo.png">
+      <PackagePath>Assets\logo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Longlocks.png">
+      <PackagePath>Assets\Longlocks.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Lubberkin.png">
+      <PackagePath>Assets\Lubberkin.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Melusine.png">
+      <PackagePath>Assets\Melusine.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\moreau.png">
+      <PackagePath>Assets\moreau.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\morvudd.png">
+      <PackagePath>Assets\morvudd.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Mourntart.png">
+      <PackagePath>Assets\Mourntart.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\mucknixer.png">
+      <PackagePath>Assets\mucknixer.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Nekker.png">
+      <PackagePath>Assets\Nekker.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\nightwrath.png">
+      <PackagePath>Assets\nightwrath.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\noon.png">
+      <PackagePath>Assets\noon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Opinicus.png">
+      <PackagePath>Assets\Opinicus.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\paint.png">
+      <PackagePath>Assets\paint.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\PaleWidow.png">
+      <PackagePath>Assets\PaleWidow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\penitent.png">
+      <PackagePath>Assets\penitent.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Phanter.png">
+      <PackagePath>Assets\Phanter.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Pixies.png">
+      <PackagePath>Assets\Pixies.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\plague.png">
+      <PackagePath>Assets\plague.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Protofleder.png">
+      <PackagePath>Assets\Protofleder.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\RockTroll.png">
+      <PackagePath>Assets\RockTroll.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\rotfiend.png">
+      <PackagePath>Assets\rotfiend.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\royal.png">
+      <PackagePath>Assets\royal.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\salma.png">
+      <PackagePath>Assets\salma.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\sandcrab.jpg">
+      <PackagePath>Assets\sandcrab.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Sarasti.png">
+      <PackagePath>Assets\Sarasti.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\scurvers.png">
+      <PackagePath>Assets\scurvers.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\shaelmaar.png">
+      <PackagePath>Assets\shaelmaar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Shrieker.png">
+      <PackagePath>Assets\Shrieker.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Silver.png">
+      <PackagePath>Assets\Silver.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Siren.png">
+      <PackagePath>Assets\Siren.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Slyzard.png">
+      <PackagePath>Assets\Slyzard.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\SmallTile.scale-125.png">
+      <PackagePath>Assets\SmallTile.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\SmallTile.scale-150.png">
+      <PackagePath>Assets\SmallTile.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Spotted Wight.png">
+      <PackagePath>Assets\Spotted Wight.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\spriggan.png">
+      <PackagePath>Assets\spriggan.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-125.png">
+      <PackagePath>Assets\Square150x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-150.png">
+      <PackagePath>Assets\Square150x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-125.png">
+      <PackagePath>Assets\Square44x44Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-150.png">
+      <PackagePath>Assets\Square44x44Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-32.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-32.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\StoreLogo.scale-125.png">
+      <PackagePath>Assets\StoreLogo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\StoreLogo.scale-150.png">
+      <PackagePath>Assets\StoreLogo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Succubus.png">
+      <PackagePath>Assets\Succubus.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\sylvan.png">
+      <PackagePath>Assets\sylvan.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\TheBeastOfBeau.png">
+      <PackagePath>Assets\TheBeastOfBeau.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Therazane.png">
+      <PackagePath>Assets\Therazane.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\ThreePigs.png">
+      <PackagePath>Assets\ThreePigs.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Toad.png">
+      <PackagePath>Assets\Toad.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\tufo.png">
+      <PackagePath>Assets\tufo.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\ulfhedinn.png">
+      <PackagePath>Assets\ulfhedinn.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\umbra.png">
+      <PackagePath>Assets\umbra.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\venochasae.png">
+      <PackagePath>Assets\venochasae.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\warrior.png">
+      <PackagePath>Assets\warrior.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\WaterHag.png">
+      <PackagePath>Assets\WaterHag.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Werewolf.png">
+      <PackagePath>Assets\Werewolf.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\wham.png">
+      <PackagePath>Assets\wham.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\wickedwitch.png">
+      <PackagePath>Assets\wickedwitch.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-125.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-150.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Wights.png">
+      <PackagePath>Assets\Wights.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\WildBoar.png">
+      <PackagePath>Assets\WildBoar.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Wolf.png">
+      <PackagePath>Assets\Wolf.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\woodland.png">
+      <PackagePath>Assets\woodland.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\worker.png">
+      <PackagePath>Assets\worker.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\wraith.png">
+      <PackagePath>Assets\wraith.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Assets\Wyvern.png">
+      <PackagePath>Assets\Wyvern.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Bestiary.dll">
+      <PackagePath>Bestiary.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Bestiary.exe">
+      <PackagePath>Bestiary.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\Bestiary.pdb">
+      <PackagePath>Bestiary.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Bernardo\Documents\PersonalProjects\Coding\Bestiary\bin\x86\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.2.3\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
+      <Name>Microsoft.NET.Native.Framework.2.2</Name>
+      <Version>2.2.27405.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.2, MinVersion = 2.2.27405.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.2.3\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.native.sharedlibrary\2.2.3\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
+      <Name>Microsoft.NET.Native.Framework.2.2</Name>
+      <Version>2.2.27405.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.2, MinVersion = 2.2.27405.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.native.sharedlibrary\2.2.3\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm64.microsoft.net.native.sharedlibrary\2.2.3\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
+      <Name>Microsoft.NET.Native.Framework.2.2</Name>
+      <Version>2.2.27405.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.2, MinVersion = 2.2.27405.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm64.microsoft.net.native.sharedlibrary\2.2.3\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.native.sharedlibrary\2.2.3\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx">
+      <Name>Microsoft.NET.Native.Framework.2.2</Name>
+      <Version>2.2.27405.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.2, MinVersion = 2.2.27405.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.native.sharedlibrary\2.2.3\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.compiler\2.2.3\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.2.2.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.2</Name>
+      <Version>2.2.27328.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.2, MinVersion = 2.2.27328.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.net.native.compiler\2.2.3\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.native.compiler\2.2.3\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.2.2.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.2</Name>
+      <Version>2.2.27328.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.2, MinVersion = 2.2.27328.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.net.native.compiler\2.2.3\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm64.microsoft.net.native.compiler\2.2.3\build\..\tools\Runtime\arm64\Microsoft.NET.Native.Runtime.2.2.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.2</Name>
+      <Version>2.2.27328.0</Version>
+      <Architecture>arm64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.2, MinVersion = 2.2.27328.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm64.microsoft.net.native.compiler\2.2.3\build\..\tools\Runtime\arm64\Microsoft.NET.Native.Runtime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.native.compiler\2.2.3\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.2.2.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.2</Name>
+      <Version>2.2.27328.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.2, MinVersion = 2.2.27328.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-arm.microsoft.net.native.compiler\2.2.3\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM64\Microsoft.VCLibs.ARM64.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>
